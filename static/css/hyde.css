@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -65,7 +65,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 15rem;
+    width: 18rem;
     text-align: left;
   }
 }
@@ -80,7 +80,7 @@ html {
   color: #fff;
   margin-top: 0;
   font-family: "Work Sans", serif;
-  font-size: 1.25rem;
+  font-size: 2.25rem;
 }
 
 /* Sidebar nav */
@@ -129,14 +129,14 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .content {
     max-width: 38rem;
-    margin-left: 25rem;
+    margin-left: 20rem;
     margin-right: 2rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 30;
+    margin-left: 22rem;
     margin-right: 4rem;
   }
 }
@@ -188,11 +188,11 @@ a.sidebar-nav-item:focus {
 
 /* Orange */
 .theme-base-09 .sidebar {
-  background-color: #d28445;
+  background-color: #F92648;
 }
 .theme-base-09 .content a,
 .theme-base-09 .related-posts li a:hover {
-  color: #d28445;
+  color: #F92648;
 }
 
 /* Yellow */
