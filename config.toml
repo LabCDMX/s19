@@ -1,0 +1,12 @@
+baseURL = "http://iniciativas19.labcd.mx/"
+languageCode = "en-us"
+title = "Iniciativas 19"
+theme = "hyde"
+
+[params]
+  themeColor = "theme-base-09"
+  description = "Fondo para la promocion de contenidos de la CDMX"
+  author = "Edgar Robles"
+  [taxonomies]
+    tag = "tags"
+    category = "categories"
