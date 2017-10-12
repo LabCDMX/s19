@@ -1,8 +1,15 @@
 {{ define "main" -}}
 <div class="post">
+
   <h1>{{ .Title }}</h1>
-  <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+  {{ if .Params.head_image }}
+   <img src="{{ .Params.head_image }}" alt="">
+  {{ end }}
+    <span class="post-date"> Propuesta presentada por {{ .Params.author }} </span>
+
   {{ .Content }}
+    <h3> Conoce mas de la propuesta en <a href="{{ .Params.sitio }}"> {{ .Title }}</a></h3>
+
 </div>
 
 {{ if .Site.DisqusShortname -}}

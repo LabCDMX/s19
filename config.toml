@@ -1,7 +1,22 @@
 baseURL = "http://iniciativas19.labcd.mx/"
-languageCode = "en-us"
+languageCode = "mx-es"
 title = "Iniciativas 19"
 theme = "hyde"
+
+[[menu.main]]
+    name = "Fondo Iniciativas19"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -110
+    identifier = "about"
+    url = "/fondo/"
+
+[[menu.main]]
+    name = "Iniciativas"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -110
+    identifier = "Iniciativas"
+    url = "/iniciativas/"
+
 
 [params]
   themeColor = "theme-base-09"

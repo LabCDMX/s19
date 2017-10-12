@@ -3,7 +3,10 @@ title: "Fondo"
 date: 2017-10-09T16:46:26-05:00
 draft: true
 author: "Edgar Robles"
-menu: 'main'
+img-site: 
 ---
 
-Fondo iniciativas 19 es un programa desarrollado por el Laboratorio para la ciudad con apoyo de diferentes grupos y estructuras de gobierno yada yada yada.
+# ¿Te gustaría mejorar tu iniciativa?
+El Fondo #Iniciativas19 es un monto económico para aquellas iniciativas que busquen mejorar su funcionamiento para replicarse en situaciones de emergencia  desarrollo a mediano y largo plazo.
+
+**jurado**

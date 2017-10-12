@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ .Date }}
+title: "Donadora Actúa Por México"
+date: 2017-10-12T01:47:56-05:00
 draft: true
 author: "Edgar Robles"
 propone: "Anonimo"
