@@ -2,6 +2,7 @@ baseURL = "http://iniciativas19.labcd.mx/"
 languageCode = "mx-es"
 title = " Iniciativas 19"
 theme = "hyde"
+subtitle = "Ciudad Creativa y resiliente"
 
 [[menu.main]]
     name = "Fondo"
@@ -20,7 +21,7 @@ theme = "hyde"
 
 [params]
   themeColor = "theme-base-09"
-  description = "Fondo para la promocion de contenidos de la CDMX"
+  description = "Ciudad Creativa y Resiliente"
   author = "Edgar Robles"
   [taxonomies]
     tag = "tags"
