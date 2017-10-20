@@ -6,7 +6,8 @@ author: "Edgar Robles"
 propone: "Anonimo"
 participa: ""
 head_image: false
-sitio: ""
+sitio: "http://t.me/sismocdmx "
 facebook: ""
-twitter: ""
+twitter: "@Brigadas19S"
 ---
+Voluntarios organizados vía Telegram.

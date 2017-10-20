@@ -10,3 +10,4 @@ sitio: ""
 facebook: ""
 twitter: ""
 ---
+Recaudación de fondos para realizar proyectos de vivienda a través de micochinito.com. Este proyecto reúne arquitectos e ingenieros. 

@@ -1,12 +1,12 @@
 ---
 title: "Ayudar a México"
 date: 2017-10-12T01:47:56-05:00
-draft: true
-author: "Edgar Robles"
+draft: false
+author: ""
 propone: "Anonimo"
 participa: ""
 head_image: false
-sitio: ""
+sitio: "http://comoayudar.mx/"
 facebook: ""
 twitter: ""
 ---
