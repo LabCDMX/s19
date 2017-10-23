@@ -6,7 +6,8 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: ""
+sitio: "http://viviendaemergente.com/"
 facebook: ""
 twitter: ""
 ---
+Iniciativa que busca financiar colectivamente la producción de 15 viviendas para brindar refugio temporal a damnificados.

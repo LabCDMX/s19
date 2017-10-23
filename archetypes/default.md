@@ -1,7 +1,7 @@
 ---
-title: "Mi Edificio"
-date: 2017-10-23T17:11:23-05:00
-draft: false
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
+date: {{ .Date }}
+draft: true
 author: ""
 propone: "LabCDMX"
 participa: ""

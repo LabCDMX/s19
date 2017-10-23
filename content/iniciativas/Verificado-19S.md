@@ -6,7 +6,8 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: ""
+sitio: "http://www.verificado19s.org/"
 facebook: ""
-twitter: ""
+twitter: "Verificado19S"
 ---
+Plataforma digital que verifica y organiza información para hacer más eficiente la respuesta ciudadana el tras sismo.

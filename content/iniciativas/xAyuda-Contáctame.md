@@ -6,7 +6,8 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: ""
+sitio: "http://xayudacontactame.rykardo.net/"
 facebook: ""
-twitter: ""
+twitter: "CodeandoMéxico"
 ---
+Sitio que reúne contactos de apoyo emocional, asistencia legal, refugios gratuitos, materiales de rescate, transporte, entre otros.  

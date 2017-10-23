@@ -34,6 +34,7 @@
 
 html {
   font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  background-color: #FDFDE4;
 }
 @media (min-width: 48em) {
   html {
@@ -275,6 +276,11 @@ a.sidebar-nav-item:focus {
 
   height: 100vh;
 }
+
+.head-img {
+  height: 80vh;
+}
+
 .big-text {
   font-size: 5rem;
 }
@@ -292,10 +298,14 @@ a.sidebar-nav-item:focus {
 }
 
 button {
+  border: none;
   background-color: #F92648;
   width: 10rem;
   height: 3rem;
+  border-radius: 10px;
 }
-button a {
-  color: #202020;
+
+button, a {
+  font-size: 1rem;
+  color: #FDFDE4;
 }
