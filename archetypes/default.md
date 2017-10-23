@@ -9,4 +9,6 @@ head_image: false
 sitio: ""
 facebook: ""
 twitter: ""
+correo: ""
+telefono: ""
 ---

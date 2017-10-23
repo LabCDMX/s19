@@ -1,8 +1,8 @@
 ---
 title: "Cadena Humana "
 date: 2017-10-12T01:47:56-05:00
-author: "Edgar Robles"
-propone: "Anonimo"
+author: "LabCDMX"
+propone: "LabCDMX"
 participa: ""
 head_image: false
 sitio: "http://cadenahumana.mx/"

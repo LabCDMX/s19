@@ -1,8 +1,8 @@
 ---
 title: "Brigadas Cultturales MX "
 date: 2017-10-12T01:47:56-05:00
-author: "Edgar Robles"
-propone: "Anonimo"
+author: "LabCDMX"
+propone: ""
 participa: ""
 head_image: false
 sitio: ""

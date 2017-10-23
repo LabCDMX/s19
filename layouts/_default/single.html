@@ -5,11 +5,14 @@
   {{ if .Params.head_image }}
    <img src="{{ .Params.head_image }}" alt="">
   {{ end }}
-    <span class="post-date"> Propuesta presentada por {{ .Params.author }} </span>
+    <span class="post-date"> Propuesta presentada por {{ .Params.propone }} </span>
 
   {{ .Content }}
-    <h3> Conoce mas de la propuesta en <a href="{{ .Params.sitio }}"> {{ .Title }}</a></h3>
-
+  <h1>Contacto</h1>
+    <a href="{{ .Params.sitio }}"><button>  {{ .Title }}</button></a>
+    {{ if .Params.twitter }}
+    <a href="twitter.com/{{ .Params.twitter }}"><button>  @ {{ .Params.twitter }}</button></a>
+    {{ end }}
 </div>
 
 {{ if .Site.DisqusShortname -}}
