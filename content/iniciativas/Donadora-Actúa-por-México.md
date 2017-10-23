@@ -1,5 +1,5 @@
 ---
-title: "Donadora Actúa Por México"
+title: "Donadora / Actúa Por México"
 date: 2017-10-12T01:47:56-05:00
 draft: true
 author: "LabCDMX"

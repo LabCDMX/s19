@@ -68,7 +68,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 20rem;
+    width: 18rem;
   }
 }
 
@@ -136,8 +136,8 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 15rem;
-    margin-left: 30rem;
+    max-width: 100rem;
+    margin-left: 25rem;
     margin-right: 2rem;
   }
 }
@@ -289,4 +289,13 @@ a.sidebar-nav-item:focus {
   padding-right: .8rem;
   margin-left:  auto;
   margin-right: auto;
+}
+
+button {
+  background-color: #F92648;
+  width: 10rem;
+  height: 3rem;
+}
+button a {
+  color: #202020;
 }

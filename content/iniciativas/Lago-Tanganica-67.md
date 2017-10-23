@@ -6,7 +6,8 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: ""
+sitio: "http://www.lagotanganica67.mx/"
 facebook: ""
-twitter: ""
+twitter: "LagoTanganica67‏"
 ---
+Iniciativa de ciudadanos creativos y solidarios, capacitados para coordinar el apoyo y las donaciones que se destinen a los damnificados del sismo del 19 de septiembre de 2017.
