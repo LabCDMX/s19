@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "https://docs.google.com/forms/d/e/1FAIpQLSd0UiTfm8hH_aozbfR1UEjls4e1RplXkhbsnvXvQIEOFxYt-Q/viewform"
+sitio: "docs.google.com/forms/d/e/1FAIpQLSd0UiTfm8hH_aozbfR1UEjls4e1RplXkhbsnvXvQIEOFxYt-Q/viewform"
 facebook: ""
 twitter: ""
 ---

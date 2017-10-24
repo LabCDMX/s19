@@ -5,7 +5,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "http://handcd.com/fuerza-mexico/"
+sitio: "handcd.com/fuerza-mexico/"
 facebook: ""
 twitter: ""
 correo: "proyectos@handcd.com"

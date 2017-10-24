@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "http://www.verificado19s.org/"
+sitio: "www.verificado19s.org/"
 facebook: ""
 twitter: "Verificado19S"
 ---

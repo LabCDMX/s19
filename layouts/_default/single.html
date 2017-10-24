@@ -1,18 +1,52 @@
 {{ define "main" -}}
 <div class="post">
 
-  <h1>{{ .Title }}</h1>
-  {{ if .Params.head_image }}
-   <img src="{{ .Params.head_image }}" alt="">
-  {{ end }}
+  <h1 class="red">{{ .Title }}</h1>
+  {{ if eq .Params.propone "LabCDMX"}} {{ else }}
     <span class="post-date"> Propuesta presentada por {{ .Params.propone }} </span>
-
-  {{ .Content }}
-  <h1>Contacto</h1>
-    <a href="{{ .Params.sitio }}"><button> Web </button></a>
-    {{ if .Params.twitter }}
-    <a href="twitter.com/{{ .Params.twitter }}"><button>  @ {{ .Params.twitter }}</button></a>
     {{ end }}
+    <!--
+    *
+    *
+    *
+    * Botones y vinculos de interes
+    *
+    *
+    *
+    -->
+    {{ if .Params.head_image }}
+     <img src="{{ .Params.head_image }}" alt="">
+    {{ end }}
+      <!-- <h1>Contacto</h1> -->
+    {{ if .Params.sitio }}
+    <a href="http://{{ .Params.sitio }}">
+      <button class="boxshadow">
+        <i class="fa fa-globe"></i>
+        {{ .Title }}
+      </button>
+    </a>
+    {{ end }}
+    {{ if .Params.twitter }}
+    <a href="http://www.twitter.com/{{ .Params.twitter }}">
+      <button class="boxshadow">
+        <i class="fa fa-twitter" ></i>
+        {{ .Params.twitter }}
+       </button>
+     </a>
+    {{ end }}
+
+
+<!--
+*
+*
+*
+* Contenido
+*
+*
+*
+-->
+  {{ .Content }}
+
 </div>
 
 {{ if .Site.DisqusShortname -}}

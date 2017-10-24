@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "https://www.google.com/maps/d/u/1/viewer?ll=20.05725289846885%2C-99.45550813300315&hl=es&z=8&mid=1izw6o7LuOTZslQFL-aRNlaXdVHc"
+sitio: "www.google.com/maps/d/u/1/viewer?ll=20.05725289846885%2C-99.45550813300315&hl=es&z=8&mid=1izw6o7LuOTZslQFL-aRNlaXdVHc"
 facebook: ""
 twitter: "TrabajadorxsenriesgoMX"
 ---

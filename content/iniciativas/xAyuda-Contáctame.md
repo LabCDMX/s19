@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "http://xayudacontactame.rykardo.net/"
+sitio: "xayudacontactame.rykardo.net/"
 facebook: ""
 twitter: "CodeandoMéxico"
 ---

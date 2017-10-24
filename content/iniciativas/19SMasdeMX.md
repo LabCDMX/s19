@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "Laboratorio para la Ciudad"
 participa: ""
 head_image: false
-sitio: "http://19s.masdemx.com"
+sitio: "19s.masdemx.com"
 facebook: ""
 twitter: ""
 hashtag: "#19SMX"

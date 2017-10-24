@@ -5,7 +5,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "http://bit.ly/2wSvh11"
+sitio: "bit.ly/2wSvh11"
 facebook: ""
 twitter: "Hogar19Mx"
 ---

@@ -6,7 +6,7 @@ author: ""
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "http://comoayudar.mx/"
+sitio: "comoayudar.mx/"
 facebook: ""
 twitter: ""
 ---

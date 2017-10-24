@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "https://www.micasaestu.casa/"
+sitio: "www.micasaestu.casa/"
 facebook: ""
 twitter: ""
 ---

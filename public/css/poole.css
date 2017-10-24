@@ -234,6 +234,7 @@ tbody tr:nth-child(odd) th {
 .lead {
   font-size: 1.25rem;
   font-weight: 400;
+  line-height: 110%
 }
 
 

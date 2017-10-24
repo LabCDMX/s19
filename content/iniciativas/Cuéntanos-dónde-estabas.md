@@ -5,7 +5,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "https://cuentanosdondeestabas.wordpress.com/"
+sitio: "cuentanosdondeestabas.wordpress.com/"
 facebook: ""
 twitter: "milkshakeblue"
 contacto: "cuentanosdondeestabas@gmail.com"

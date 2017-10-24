@@ -1,12 +1,12 @@
 ---
-title: "Brigadas Cultturales MX "
+title: "Brigadas Culturales MX"
 date: 2017-10-12T01:47:56-05:00
 author: "LabCDMX"
 propone: ""
 participa: ""
 head_image: false
 sitio: ""
-facebook: "https://www.facebook.com/brigadasculturalesmx/"
+facebook: "www.facebook.com/brigadasculturalesmx/"
 twitter: ""
 direccion: "Progreso 30, San Lucas, Coyoacán"
 telefono: "53364759"

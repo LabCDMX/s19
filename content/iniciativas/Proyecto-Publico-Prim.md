@@ -1,5 +1,5 @@
 ---
-title: "Proyecto Público Prim "
+title: "Proyecto Público Prim"
 date: 2017-10-12T01:47:57-05:00
 draft: true
 author: "LabCDMX"

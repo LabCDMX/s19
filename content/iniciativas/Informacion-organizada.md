@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "http://informacionorganizada.mx"
+sitio: "informacionorganizada.mx"
 facebook: ""
 twitter: ""
 ---

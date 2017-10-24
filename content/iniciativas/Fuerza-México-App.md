@@ -5,7 +5,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "https://play.google.com/store/apps/details?id=com.coders.fuerzamexico&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+sitio: "play.google.com/store/apps/details?id=com.coders.fuerzamexico&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
 facebook: ""
 twitter: "CodeandoMéxico"
 ---

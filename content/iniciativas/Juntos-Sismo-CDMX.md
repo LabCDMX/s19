@@ -7,6 +7,6 @@ propone: "LabCDMX"
 participa: ""
 head_image: false
 sitio: ""
-facebook: "https://www.facebook.com/juntossismocdmx"
+facebook: "www.facebook.com/juntossismocdmx"
 twitter: "juntossismocdmx"
 ---

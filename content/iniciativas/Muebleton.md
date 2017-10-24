@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "http://www.muebleton.mx/"
+sitio: "www.muebleton.mx/"
 facebook: ""
 twitter: "MuebletonMexico"
 ---

@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "http://brigada-digital.com/"
+sitio: "brigada-digital.com/"
 facebook: ""
 twitter: "gofundme"
 ---

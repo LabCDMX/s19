@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "http://t.me/sismocdmx "
+sitio: "t.me/sismocdmx "
 facebook: ""
 twitter: "Brigadas19S"
 ---

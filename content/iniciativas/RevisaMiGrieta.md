@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "https://codersmexico.github.io/grieta-landing/"
+sitio: "codersmexico.github.io/grieta-landing/"
 facebook: ""
 twitter: "@RevisaMiGrieta "
 ---

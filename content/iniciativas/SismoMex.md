@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "https://www.sismomex.com/"
+sitio: "www.sismomex.com"
 facebook: ""
 twitter: "sismomex"
 correo: "info@sismomex.com"

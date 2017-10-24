@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "http://www.lagotanganica67.mx/"
+sitio: "www.lagotanganica67.mx/"
 facebook: ""
 twitter: "LagoTanganica67‏"
 ---

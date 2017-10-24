@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "https://donadora.mx/actuopormexico?ref=bh"
+sitio: "donadora.mx/actuopormexico?ref=bh"
 facebook: ""
 twitter: ""
 correo: "hola@donadora.mx"

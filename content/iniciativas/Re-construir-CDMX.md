@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "https://medium.com/@ReconstruirMX/reconstruir-m%C3%A9xico-e4da8bf3f699"
+sitio: "medium.com/@ReconstruirMX/reconstruir-m%C3%A9xico-e4da8bf3f699"
 facebook: ""
 twitter: "ReconstruirMX"
 ---

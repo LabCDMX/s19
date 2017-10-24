@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "http://viviendaemergente.com/"
+sitio: "viviendaemergente.com/"
 facebook: ""
 twitter: ""
 ---

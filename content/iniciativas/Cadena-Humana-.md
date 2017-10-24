@@ -5,7 +5,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "http://cadenahumana.mx/"
+sitio: "cadenahumana.mx/"
 facebook: ""
 twitter: ""
 ---

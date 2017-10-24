@@ -6,9 +6,9 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "http://micasaestucasamexico.com/"
+sitio: "micasaestucasamexico.com/"
 facebook: ""
 twitter: ""
 ---
 
-Sitio web para encontrar u ofrecer hogar temporal gratuito. 
+Sitio web para encontrar u ofrecer hogar temporal gratuito.

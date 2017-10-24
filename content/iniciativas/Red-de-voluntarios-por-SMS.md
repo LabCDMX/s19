@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "https://sismomx-sms.herokuapp.com/"
+sitio: "sismomx-sms.herokuapp.com/"
 facebook: ""
 twitter: "CodeandoMéxico"
 ---

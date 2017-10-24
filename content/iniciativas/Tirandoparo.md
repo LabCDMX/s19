@@ -6,7 +6,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "http://tirandoparo.mx/"
+sitio: "tirandoparo.mx"
 facebook: ""
 twitter: ""
 ---

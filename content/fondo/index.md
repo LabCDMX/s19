@@ -3,7 +3,7 @@ title: "Fondo"
 date: 2017-10-09T16:46:26-05:00
 draft: true
 author: "Edgar Robles"
-img-site: 
+img-site:
 ---
 
 # ¿Te gustaría mejorar tu iniciativa?
