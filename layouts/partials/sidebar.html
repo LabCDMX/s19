@@ -9,9 +9,9 @@
 </div>
   <div class="container sidebar-sticky">
     <ul class="sidebar-nav">
-      <li><a href="{{ .Site.BaseURL }}">Intro</a> </li>
+      <!-- <li><a href="{{ .Site.BaseURL }}">Intro</a> </li> -->
       {{ range .Site.Menus.main -}}
-        <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+        <li><a href="{{.URL}}">{{ .Pre }} {{ .Name }} </a></li>
       {{- end }}
     </ul>
 

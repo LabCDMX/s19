@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entrevistas on  Iniciativas 19</title>
+    <link>http://iniciativas19.labcd.mx/entrevistas/</link>
+    <description>Recent content in Entrevistas on  Iniciativas 19</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>mx-es</language>
+    <lastBuildDate>Wed, 25 Oct 2017 09:56:08 -0500</lastBuildDate>
+    
+	<atom:link href="http://iniciativas19.labcd.mx/entrevistas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>01</title>
+      <link>http://iniciativas19.labcd.mx/entrevistas/01/</link>
+      <pubDate>Wed, 25 Oct 2017 09:56:08 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/entrevistas/01/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,7 +1,8 @@
 ---
 title: "Juntos Sismo CDMX"
+titulo: "Juntos Sismo CDMX"
 date: 2017-10-12T01:47:57-05:00
-draft: false
+draft: true
 author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""

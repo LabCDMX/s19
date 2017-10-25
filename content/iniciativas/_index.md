@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .TranslationBaseName '-' ' '| title }}"
-date: {{ .Date }}
+title: Iniciativas Recibidas.
+date: 2017-10-25T10:05:57-05:00
 draft: true
 author: ""
 propone: "LabCDMX"
