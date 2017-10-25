@@ -61,7 +61,7 @@ body {
 @media (min-width: 48em) {
   body {
     display: grid;
-    grid-template-columns: 2fr repeat(8, 1fr);
+    grid-template-columns: 1fr repeat(8, 1fr);
     grid-template-rows: auto;
     grid-gap: 0;
     justify-items: stretch;
@@ -244,6 +244,7 @@ a.sidebar-nav-item:focus {
 *
 */
 /*text*/
+
 h1{
   letter-spacing: -1px;
 }
@@ -258,13 +259,14 @@ h1{
 }
 @media (min-width: 48em) {
   .big-text {
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 95%;
+    margin-bottom: 1.5em
   }
 }
 @media (min-width: 64em) {
   .big-text {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
 .red {
@@ -321,7 +323,8 @@ h1{
 a button  {
   letter-spacing: 1.2px;
   font-size: .9rem;
-  color: #F92648;
+  text-align: left;
+  color: #FCFDF3;
 }
 a:hover,
 a:focus,
@@ -332,19 +335,24 @@ li a:focus  {
 
 button {
   border: none;
-  padding: 1em 3em;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-  border-radius: 5px;
+  padding: .8em 2.2em;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  background-color: #F92648;
+  width: 100%
 }
-
+button .direccion {
+  text-align: left;
+  font-size: 1rem;
+  color: #FCFDF3;
+}
 .boxshadow {
   box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: opacity 1s linear;
 }
 
 .boxshadow:hover {
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  transition: opacity 0.3s ease-in-out;
   opacity: 1;
 }
 
@@ -362,7 +370,7 @@ button {
 
 /*posts*/
 .post {
-  grid-column: span 2;
+  grid-column: 2 span 3;
 }
 .post p, h1 {
   font-size: 3rem;
@@ -370,6 +378,12 @@ button {
 }
 .post-title a{
   color: #F92648;
+}
+
+.contacto {
+  grid-row: 3;
+  grid-column: 1 span 2;
+
 }
 /*images*/
 .head-img {

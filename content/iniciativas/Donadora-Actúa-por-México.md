@@ -9,7 +9,7 @@ head_image: false
 sitio: "donadora.mx/actuopormexico?ref=bh"
 facebook: ""
 twitter: ""
-correo: "hola@donadora.mx"
+correo: "mailto:hola@donadora.mx"
 telefono: "5552072268"
 ---
 Plataforma que permite el desarrollo de campañas de donación a favor de los afectados por el sismo del 19 de septiembre de 2017.

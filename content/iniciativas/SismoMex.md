@@ -9,6 +9,6 @@ head_image: false
 sitio: "www.sismomex.com"
 facebook: ""
 twitter: "sismomex"
-correo: "info@sismomex.com"
+correo: "mailto:info@sismomex.com"
 ---
 Proyecto voluntario que se actualiza constantemente por un grupo de jóvenes mexicanos con el fin de difundir información útil.

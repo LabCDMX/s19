@@ -8,7 +8,7 @@ head_image: false
 sitio: "handcd.com/fuerza-mexico/"
 facebook: ""
 twitter: ""
-correo: "proyectos@handcd.com"
+correo: "mailto:proyectos@handcd.com"
 telefono: "10000654"
 ---
 Brigadas para la evaluación de edificios, la planificación de nuevas viviendas para los afectados, mobiliario de bajo costo y consultorías gratuitas.

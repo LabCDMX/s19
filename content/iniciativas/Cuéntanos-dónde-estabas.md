@@ -8,6 +8,6 @@ head_image: false
 sitio: "cuentanosdondeestabas.wordpress.com/"
 facebook: ""
 twitter: "milkshakeblue"
-contacto: "cuentanosdondeestabas@gmail.com"
+contacto: "mailto:cuentanosdondeestabas@gmail.com"
 ---
 Blog de historias sobre el terremoto que sucedió en la Ciudad de México, Estado de México, Puebla y Morelos el 19 de septiembre de 2017.
