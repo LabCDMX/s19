@@ -76,10 +76,10 @@
     
     <item>
       <title>XAyuda Contáctame</title>
-      <link>http://iniciativas19.labcd.mx/iniciativas/xayuda-cont%C3%A1ctame/</link>
+      <link>http://iniciativas19.labcd.mx/iniciativas/xayuda-conta%CC%81ctame/</link>
       <pubDate>Thu, 12 Oct 2017 01:47:58 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/iniciativas/xayuda-cont%C3%A1ctame/</guid>
+      <guid>http://iniciativas19.labcd.mx/iniciativas/xayuda-conta%CC%81ctame/</guid>
       <description>Sitio que reúne contactos de apoyo emocional, asistencia legal, refugios gratuitos, materiales de rescate, transporte, entre otros.</description>
     </item>
     
@@ -90,6 +90,15 @@
       
       <guid>http://iniciativas19.labcd.mx/iniciativas/reactivatueconomia/</guid>
       <description>Iniciativa del mapa colaborativo #Sismx donde los ciudadanos pueden añadir establecimientos que apoyaron durante las emergencias del sismo mediante un formulario.</description>
+    </item>
+    
+    <item>
+      <title>Juguetes Y Libros Por México</title>
+      <link>http://iniciativas19.labcd.mx/iniciativas/juguetes-y-libros-por-me%CC%81xico/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/iniciativas/juguetes-y-libros-por-me%CC%81xico/</guid>
+      <description>Brigada que convoca a cuentacuentos, payasos, actores, artistas plásticos, maquillistas, músicos y artistas que ayuden a alegrar a los niños en zonas de desastre.</description>
     </item>
     
     <item>
@@ -283,6 +292,15 @@
     
     <item>
       <title>Cuéntanos Dónde Estabas</title>
+      <link>http://iniciativas19.labcd.mx/iniciativas/cue%CC%81ntanos-do%CC%81nde-estabas/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/iniciativas/cue%CC%81ntanos-do%CC%81nde-estabas/</guid>
+      <description>Blog de historias sobre el terremoto que sucedió en la Ciudad de México, Estado de México, Puebla y Morelos el 19 de septiembre de 2017.</description>
+    </item>
+    
+    <item>
+      <title>Cuéntanos Dónde Estabas</title>
       <link>http://iniciativas19.labcd.mx/iniciativas/cu%C3%A9ntanos-d%C3%B3nde-estabas/</link>
       <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
       
@@ -291,11 +309,20 @@
     </item>
     
     <item>
-      <title>Fuerza México App</title>
-      <link>http://iniciativas19.labcd.mx/iniciativas/fuerza-m%C3%A9xico-app/</link>
+      <title>Donadora / Actúa Por México</title>
+      <link>http://iniciativas19.labcd.mx/iniciativas/donadora-act%C3%BAa-por-m%C3%A9xico/</link>
       <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/iniciativas/fuerza-m%C3%A9xico-app/</guid>
+      <guid>http://iniciativas19.labcd.mx/iniciativas/donadora-act%C3%BAa-por-m%C3%A9xico/</guid>
+      <description>Plataforma que permite el desarrollo de campañas de donación a favor de los afectados por el sismo del 19 de septiembre de 2017.</description>
+    </item>
+    
+    <item>
+      <title>Fuerza México App</title>
+      <link>http://iniciativas19.labcd.mx/iniciativas/fuerza-me%CC%81xico-app/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/iniciativas/fuerza-me%CC%81xico-app/</guid>
       <description>Aplicación móvil gratuita de colaboración para la captura de puntos afectados por los sismos del 2017.</description>
     </item>
     
