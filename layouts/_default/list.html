@@ -1,28 +1,38 @@
 {{ define "main" -}}
+<!-- titulo -->
 <div class="headings">
   {{ with .Site.GetPage "section" "iniciativas"}}
   <h1 class="big-text"> {{ .Title }}</h1>
   {{ end }}
+
+  <!-- contanido del post -->
 </div>
 <ul class="posts container content">
   {{ range .Data.Pages -}}
   <div class="post">
     <h2 class="post-title">
-      <!-- iconitos y mamadas -->
+
+      <!-- iconitos , y tituol -->
+        <!-- twitter -->
       {{ if .Params.twitter}}
       <a href="http://www.twitter.com/{{ .Params.twitter }}">
         <i class="fa fa-twitter"></i>
       </a>
       {{ end }}
+      <!-- sitio -->
       {{ if .Params.sitio}}
       <a href="http://{{ .Params.sitio }}">
         <i class="fa fa-globe"></i>
       </a>
       {{ end }}
+
+      <!-- titulo -->
       <a href="{{ .Permalink }}">
         {{ .Title }}
       </a>
     </h2>
+
+
     <!-- {{ if .Params.propone }}
     <span class="post-date">  propone {{ .Params.propone }}</span>
     {{ end }} -->

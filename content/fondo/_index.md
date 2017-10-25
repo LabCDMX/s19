@@ -10,3 +10,4 @@ img-site:
 El Fondo #Iniciativas19 es un monto económico para aquellas iniciativas que busquen mejorar su funcionamiento para replicarse en situaciones de emergencia  desarrollo a mediano y largo plazo.
 
 **jurado**
+dlalalalal

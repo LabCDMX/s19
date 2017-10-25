@@ -1,12 +1,13 @@
 ---
 title: "Voces De Ciudad"
 date: 2017-10-12T01:47:58-05:00
-draft: true
+draft: false
 author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: ""
+sitio: "voces.wikipoliticacd.mx/"
 facebook: ""
 twitter: ""
 ---
+Espacio creado para construir la historia colectiva del sismo del 19 de septiembre de 2017.

@@ -6,7 +6,9 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: ""
-facebook: ""
+sitio: minandoxmexico.org/
+facebook: www.facebook.com/minandoxmexico/
 twitter: ""
+correo:  info@minandoxmexico.org
 ---
+Grupo de programadores que ayudan a recaudar fondos para las víctimas del sismo con criptomonedas.

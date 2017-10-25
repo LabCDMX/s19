@@ -11,24 +11,24 @@ subtitle = "Ciudad Creativa y resiliente"
 #     identifier = "about"
 #     url = "/fondo/"
 
-[[menu.main]]
-    name = "Videos"
-    weight = 90
-    identifier = "Videos"
-    url = "/videos/"
-
-[[menu.main]]
-    name = "Historias"
-    weight = 100
-    identifier = "Historias"
-    url = "/historias/"
+# [[menu.main]]
+#     name = "Videos"
+#     weight = 90
+#     identifier = "Videos"
+#     url = "/videos/"
+#
+# [[menu.main]]
+#     name = "Historias"
+#     weight = 100
+#     identifier = "Historias"
+#     url = "/historias/"
 
 [[menu.main]]
     name = "Iniciativas "
     weight = -110
-    identifier = "Iniciativas 12"
+    identifier = "Iniciativas 19"
     url = "/iniciativas/"
-    pre = "<i class='fa fa-heart'></i>"
+    # pre = "<i class='fa fa-heart'></i>"
 
 
 [params]

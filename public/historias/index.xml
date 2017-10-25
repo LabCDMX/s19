@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Historias on  Iniciativas 19</title>
+    <link>http://iniciativas19.labcd.mx/historias/</link>
+    <description>Recent content in Historias on  Iniciativas 19</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>mx-es</language>
+    <lastBuildDate>Thu, 12 Oct 2017 01:47:56 -0500</lastBuildDate>
+    
+	<atom:link href="http://iniciativas19.labcd.mx/historias/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Acopio en Bici</title>
+      <link>http://iniciativas19.labcd.mx/historias/acopio-en-bici/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/historias/acopio-en-bici/</guid>
+      <description>Red de ciclistas en la CDMX para canalizar donativos en especie a los centros de acopio de manera gratuita y voluntaria.</description>
+    </item>
+    
+    <item>
+      <title>Ayudar a México</title>
+      <link>http://iniciativas19.labcd.mx/historias/ayudar-a-m%C3%A9xico/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/historias/ayudar-a-m%C3%A9xico/</guid>
+      <description>Plataforma de encuentro Sitio web para encontrar diferentes formas de ayudar a los afectados y rescatistas del sismo del 7 y 19 de Septiembre.</description>
+    </item>
+    
+    <item>
+      <title>Brigada Digital</title>
+      <link>http://iniciativas19.labcd.mx/historias/brigada-digital/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/historias/brigada-digital/</guid>
+      <description>Sitio web que recopila la información más importante generada en Twitter en torno al sismo.</description>
+    </item>
+    
+    <item>
+      <title>Brigada Lavandería</title>
+      <link>http://iniciativas19.labcd.mx/historias/brigada-lavanderia/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/historias/brigada-lavanderia/</guid>
+      <description>Iniciativa que organiza brigadas para lavar la ropa de las personas que habitan albergues en la CDMX.</description>
+    </item>
+    
+    <item>
+      <title>Brigadas Culturales MX</title>
+      <link>http://iniciativas19.labcd.mx/historias/brigadas-culturales-mx/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/historias/brigadas-culturales-mx/</guid>
+      <description>Iniciativa en la que artistas de circo, danza, teatro, cuenta cuentos, titiriteros, músicos y artistas plásticos visitan un albergue, acompañados por un experto en pedagogía.</description>
+    </item>
+    
+    <item>
+      <title>19S Más de MX</title>
+      <link>http://iniciativas19.labcd.mx/historias/19smasdemx/</link>
+      <pubDate>Thu, 12 Oct 2017 00:33:23 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/historias/19smasdemx/</guid>
+      <description>Plataforma para conectar a los que pueden ayudar con quien necesita ayuda.</description>
+    </item>
+    
+  </channel>
+</rss>

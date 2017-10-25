@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://iniciativas19.labcd.mx/iniciativas/brigada-artistica-feminista/</loc>
+    <lastmod>2017-10-25T12:19:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iniciativas19.labcd.mx/videos/test/</loc>
+    <lastmod>2017-10-25T11:20:11-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iniciativas19.labcd.mx/iniciativas/mi-edificio/</loc>
     <lastmod>2017-10-23T17:11:23-05:00</lastmod>
   </url>
@@ -23,7 +33,17 @@
   </url>
   
   <url>
+    <loc>http://iniciativas19.labcd.mx/iniciativas/voces-de-ciudad/</loc>
+    <lastmod>2017-10-12T01:47:58-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iniciativas19.labcd.mx/iniciativas/reactivatueconomia/</loc>
+    <lastmod>2017-10-12T01:47:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iniciativas19.labcd.mx/iniciativas/manos-a-la-obra-sismo/</loc>
     <lastmod>2017-10-12T01:47:57-05:00</lastmod>
   </url>
   
@@ -68,7 +88,17 @@
   </url>
   
   <url>
+    <loc>http://iniciativas19.labcd.mx/historias/acopio-en-bici/</loc>
+    <lastmod>2017-10-12T01:47:56-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iniciativas19.labcd.mx/iniciativas/acopio-en-bici/</loc>
+    <lastmod>2017-10-12T01:47:56-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iniciativas19.labcd.mx/historias/ayudar-a-m%C3%A9xico/</loc>
     <lastmod>2017-10-12T01:47:56-05:00</lastmod>
   </url>
   
@@ -78,12 +108,27 @@
   </url>
   
   <url>
+    <loc>http://iniciativas19.labcd.mx/historias/brigada-digital/</loc>
+    <lastmod>2017-10-12T01:47:56-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iniciativas19.labcd.mx/iniciativas/brigada-digital/</loc>
     <lastmod>2017-10-12T01:47:56-05:00</lastmod>
   </url>
   
   <url>
+    <loc>http://iniciativas19.labcd.mx/historias/brigada-lavanderia/</loc>
+    <lastmod>2017-10-12T01:47:56-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iniciativas19.labcd.mx/iniciativas/brigada-lavanderia/</loc>
+    <lastmod>2017-10-12T01:47:56-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iniciativas19.labcd.mx/historias/brigadas-culturales-mx/</loc>
     <lastmod>2017-10-12T01:47:56-05:00</lastmod>
   </url>
   
@@ -123,13 +168,18 @@
   </url>
   
   <url>
+    <loc>http://iniciativas19.labcd.mx/historias/19smasdemx/</loc>
+    <lastmod>2017-10-12T00:33:23-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iniciativas19.labcd.mx/iniciativas/19smasdemx/</loc>
     <lastmod>2017-10-12T00:33:23-05:00</lastmod>
   </url>
   
   <url>
     <loc>http://iniciativas19.labcd.mx/</loc>
-    <lastmod>2017-10-23T17:11:23-05:00</lastmod>
+    <lastmod>2017-10-25T12:19:51-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -139,13 +189,25 @@
   </url>
   
   <url>
+    <loc>http://iniciativas19.labcd.mx/historias/</loc>
+    <lastmod>2017-10-12T01:47:56-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://iniciativas19.labcd.mx/iniciativas/</loc>
-    <lastmod>2017-10-23T17:11:23-05:00</lastmod>
+    <lastmod>2017-10-25T12:19:51-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://iniciativas19.labcd.mx/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iniciativas19.labcd.mx/videos/</loc>
+    <lastmod>2017-10-25T11:20:11-05:00</lastmod>
     <priority>0</priority>
   </url>
   

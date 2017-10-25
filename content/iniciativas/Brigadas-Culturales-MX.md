@@ -9,6 +9,6 @@ sitio: ""
 facebook: "www.facebook.com/brigadasculturalesmx/"
 twitter: ""
 direccion: "Progreso 30, San Lucas, Coyoacán"
-telefono: "53364759"
+telefono: 53364759
 ---
 Iniciativa en la que artistas de circo, danza, teatro, cuenta cuentos, titiriteros, músicos y artistas plásticos visitan un albergue, acompañados por un experto en pedagogía.

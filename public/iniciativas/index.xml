@@ -6,10 +6,19 @@
     <description>Recent content in Iniciativas on  Iniciativas 19</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>mx-es</language>
-    <lastBuildDate>Mon, 23 Oct 2017 17:11:23 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 25 Oct 2017 12:19:51 -0500</lastBuildDate>
     
 	<atom:link href="http://iniciativas19.labcd.mx/iniciativas/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Brigada Artistica Feminista</title>
+      <link>http://iniciativas19.labcd.mx/iniciativas/brigada-artistica-feminista/</link>
+      <pubDate>Wed, 25 Oct 2017 12:19:51 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/iniciativas/brigada-artistica-feminista/</guid>
+      <description>Iniciativa que reúne a mujeres teatreras, músicas, pintoras, talleristas, bailarinas, cuentacuentos y bordadoras para ayudar a niñas y niños afectados por el sismo.</description>
+    </item>
     
     <item>
       <title>Mi Edificio (Mexicanos contra la corrupcion)</title>
@@ -48,12 +57,30 @@
     </item>
     
     <item>
+      <title>Voces De Ciudad</title>
+      <link>http://iniciativas19.labcd.mx/iniciativas/voces-de-ciudad/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:58 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/iniciativas/voces-de-ciudad/</guid>
+      <description>Espacio creado para construir la historia colectiva del sismo del 19 de septiembre de 2017.</description>
+    </item>
+    
+    <item>
       <title>#ReactivaTuEconomía</title>
       <link>http://iniciativas19.labcd.mx/iniciativas/reactivatueconomia/</link>
       <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
       
       <guid>http://iniciativas19.labcd.mx/iniciativas/reactivatueconomia/</guid>
       <description>Iniciativa del mapa colaborativo #Sismx donde los ciudadanos pueden añadir establecimientos que apoyaron durante las emergencias del sismo mediante un formulario.</description>
+    </item>
+    
+    <item>
+      <title>Manos a La Obra Sismo</title>
+      <link>http://iniciativas19.labcd.mx/iniciativas/manos-a-la-obra-sismo/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/iniciativas/manos-a-la-obra-sismo/</guid>
+      <description>Equipo de planeadores urbanos, arquitectos, programadores, físicos, químicos que dan seguimiento a urgencias de la CDMX ocasionadas por el sismo a través de esfuerzos de captura, software, comprobación, seguimiento y coordinación de ayuda.</description>
     </item>
     
     <item>
