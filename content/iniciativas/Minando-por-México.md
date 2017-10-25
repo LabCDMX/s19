@@ -9,6 +9,6 @@ head_image: false
 sitio: minandoxmexico.org/
 facebook: www.facebook.com/minandoxmexico/
 twitter: ""
-correo:  info@minandoxmexico.org
+correo:  mailto:info@minandoxmexico.org
 ---
 Grupo de programadores que ayudan a recaudar fondos para las víctimas del sismo con criptomonedas.

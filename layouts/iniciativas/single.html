@@ -1,0 +1,108 @@
+{{ define "main" -}}
+<h1 class="big-text headings red">{{ .Title }}</h1>
+
+{{ if eq .Params.propone "LabCDMX"}} {{ else }}
+<span class="post-date"> Propuesta presentada por {{ .Params.propone }} </span>
+{{ end }}
+<!--
+*
+*
+*
+* Botones y vinculos de interes
+*
+*
+*
+
+
+<!-- <h1>Contacto</h1> -->
+<div class="contacto ">
+  <!-- sitio web disponible -->
+  {{ if .Params.sitio }}
+  <a href="http://{{ .Params.sitio }}">
+    <button class="boxshadow">
+      <i class="fa fa-globe"></i>
+      Web
+    </button>
+  </a>
+  {{ end }}
+
+  <!-- Twitter Disponible -->
+
+  {{ if .Params.twitter }}
+  <a href="http://www.twitter.com/{{ .Params.twitter }}">
+    <button class="boxshadow">
+      <i class="fa fa-twitter" ></i>
+      {{ .Params.twitter }}
+    </button>
+  </a>
+  {{ end }}
+
+  <!-- Facebook Disponible -->
+
+  {{ if .Params.facebook }}
+  <a href="http://{{ .Params.facebook }}">
+    <button class="boxshadow">
+      <i class="fa fa-facebook" ></i>
+      {{ .Title }}
+    </button>
+  </a>
+  {{ end }}
+
+
+  <!-- correos disponibles -->
+
+
+  {{ if .Params.correo }}
+  <a href="{{ .Params.correo }}">
+    <button class="boxshadow">
+      <i class="fa fa-envelope" ></i>
+      e-mail
+    </button>
+  </a>
+  {{ end }}
+
+  <!-- telefono disponible -->
+
+  {{ if .Params.telefono }}
+  <a href="tel:{{ .Params.telefono }}">
+    <button class="boxshadow">
+      <i class="fa fa-phone" ></i>
+      {{ .Params.telefono }}
+    </button>
+  </a>
+  {{ end }}
+
+
+  <!-- direccion disponible -->
+
+  {{ if .Params.direccion }}
+    <button class="boxshadow">
+      <p class="direccion">
+        {{ .Params.direccion }}
+      </p class="direccion">
+    </button>
+
+  {{ end }}
+
+</div>
+
+
+<!--
+*
+*
+*
+* Contenido
+*
+*
+*
+-->
+<div class="post container content">
+  {{ .Content }}
+
+</div>
+
+{{ if .Site.DisqusShortname -}}
+<h2>Comments</h2>
+{{ template "_internal/disqus.html" . }}
+{{- end }}
+{{- end }}

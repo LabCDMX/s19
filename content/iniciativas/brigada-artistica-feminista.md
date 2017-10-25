@@ -6,10 +6,10 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: "Gabriela Bernal"
 head_image: false
-sitio: "www.facebook.com/groups/355260854916341/"
-facebook: ""
+sitio: ""
+facebook: "www.facebook.com/groups/355260854916341/"
 twitter: ""
-correo: "brigadartefem@gmail.com"
+correo: mailto:brigadartefem@gmail.com
 telefono: ""
 ---
 Iniciativa que reúne a mujeres teatreras, músicas, pintoras, talleristas, bailarinas, cuentacuentos y bordadoras para ayudar a niñas y niños afectados por el sismo.
