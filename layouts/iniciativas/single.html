@@ -4,6 +4,22 @@
 {{ if eq .Params.propone "LabCDMX"}} {{ else }}
 <span class="post-date"> Propuesta presentada por {{ .Params.propone }} </span>
 {{ end }}
+
+
+
+<!--
+*
+*
+*
+* Contenido
+*
+*
+*
+-->
+<div class="post container content">
+  {{ .Content }}
+
+</div>
 <!--
 *
 *
@@ -85,22 +101,6 @@
   {{ end }}
 
 </div>
-
-
-<!--
-*
-*
-*
-* Contenido
-*
-*
-*
--->
-<div class="post container content">
-  {{ .Content }}
-
-</div>
-
 {{ if .Site.DisqusShortname -}}
 <h2>Comments</h2>
 {{ template "_internal/disqus.html" . }}

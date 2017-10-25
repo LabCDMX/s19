@@ -253,6 +253,9 @@ h1{
   width: 9rem;
   align-self: center;
 }
+.logos img {
+  max-width: 10rem;
+}
 
 .big-text {
   font-size: 3em;
@@ -373,9 +376,16 @@ button .direccion {
   grid-column: 2 span 3;
 }
 .post p, h1 {
-  font-size: 3rem;
+  font-size: 1rem;
   line-height: 130%
 }
+@media (min-width:48rem){
+  .post p, h1 {
+    font-size: 3rem;
+    line-height: 110%
+  }
+}
+
 .post-title a{
   color: #F92648;
 }
