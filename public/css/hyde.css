@@ -61,9 +61,9 @@ body {
 @media (min-width: 48em) {
   body {
     display: grid;
-    grid-template-columns: 1fr repeat(8, 1fr);
+    grid-template-columns: 2fr repeat(8, 1fr);
     grid-template-rows: auto;
-    grid-gap: 0;
+    grid-gap: 20px;
     justify-items: stretch;
   }
 }
@@ -78,32 +78,46 @@ body {
 
 .sidebar {
   text-align: center;
-  align-content: center;
   padding: 1rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #F92648;
   text-align: left;
+
   /*just for the heck of it*/
+
   height: 4em;
   overflow: hidden;
-  transition: height .5s ease;
+  transition: height .5s , grid-template-columns .5s cubic-bezier(.46,.03,.52,.96);
 }
 .sidebar:hover {
   height: 100vh
 }
 @media (min-width: 48em) {
   .sidebar {
+    padding: 0;
     grid-column: 1 /-1;
     grid-row: 1;
+    /* css grids inside */
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 2fr repeat(8, 1fr);
+    grid-template-rows: 4rem auto;
   }
   .sidebar:hover {
-    height: 40vh
+    height: 40vh;
+
   }
 }
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  color: #FCFDF3;
+  font-size: .7em;
+  line-height: 1.2;
+}
+.sidebar a:hover {
+    color: #FCFDF3;
 }
 
 /* About section */
@@ -130,24 +144,22 @@ a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
-.sidebar-nav-item.active {
-  font-weight: bold;
-}
 
 /* Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
  * contents to the bottom of the sidebar in tablets and up.
  */
-
+.sidebar-sticky a:hover {
+    text-decoration: underline;
+    opacity: 0.3;
+}
 @media (min-width: 48em) {
-  /*.sidebar-sticky {
-    position: fixed;
-    right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
+.sidebar-sticky {
+    grid-column: 5 / 7;
+    grid-row: 2;
   }
-  .sidebar-top {
+    /*.sidebar-top {
     position:fixed;
     right: 1rem;
     top: 1rem;
@@ -164,7 +176,7 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding: 4em .8em
+  padding: 1em .8em
 }
 
 @media (min-width: 48em) {
@@ -250,26 +262,33 @@ h1{
 }
 
 .logos {
-  width: 9rem;
-  align-self: center;
+  width: 8rem;
+  padding-top: 1rem;
+}
+@media (min-width:48rem) {
+  .logos{
+    grid-column: 2/4;
+    grid-row: 1;
+  }
 }
 .logos img {
-  max-width: 10rem;
+  max-width: 9rem;
 }
 
 .big-text {
-  font-size: 3em;
+  font-size: 2em;
+  padding-bottom: 3rem
 }
 @media (min-width: 48em) {
   .big-text {
-    font-size: 4rem;
+    font-size: 3.5rem;
     line-height: 95%;
-    padding-bottom: 3rem
+
   }
 }
 @media (min-width: 64em) {
   .big-text {
-    font-size: 5rem;
+    font-size: 4.2rem;
   }
 }
 .red {
@@ -288,13 +307,15 @@ h1{
 .container {
 }
 .headings{
-  min-height: 30vh;
+  min-height: 120%;
+  margin: 1rem 1rem;
 }
 @media (min-width: 48em) {
   .headings {
+    margin: 0;
     min-height: 40vh;
     grid-row: 2;
-    grid-column: 2/8;
+    grid-column: 2/9;
   }
   .container {
     display: grid;
@@ -311,7 +332,7 @@ h1{
 }
 @media (min-width: 64em) {
   .headings {
-    grid-column: 2/7;
+    grid-column: 2/8;
   }
   .container {
     grid-column: 3 / 8;
@@ -325,10 +346,20 @@ h1{
 /*links*/
 a button  {
   letter-spacing: 1.2px;
-  font-size: .9rem;
+  font-size: .7em;
   text-align: left;
   color: #FCFDF3;
 }
+
+@media (min-width:48em) {
+  a button  {
+    letter-spacing: 1.2px;
+    font-size: .7em;
+    text-align: left;
+    color: #FCFDF3;
+  }
+}
+
 a:hover,
 a:focus,
 li a:hover,
@@ -351,7 +382,7 @@ button .direccion {
 }
 .boxshadow {
   box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-  transition: opacity 1s linear;
+  transition: opacity 1s cubic-bezier(.46,.03,.52,.96);
 }
 
 .boxshadow:hover {
@@ -372,16 +403,21 @@ button .direccion {
 */
 
 /*posts*/
+.contexts { /*son los textos chicos a lo largo de los posts*/
+  color: #F92648;
+  line-height: 200%;
+  border-bottom: 2px solid ;
+}
 .post {
   grid-column: 2 span 3;
 }
 .post p, h1 {
-  font-size: 1rem;
+  font-size: .8rem;
   line-height: 130%
 }
 @media (min-width:48rem){
   .post p, h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 110%
   }
 }
@@ -392,7 +428,7 @@ button .direccion {
 
 .contacto {
   grid-row: 3;
-  grid-column: 1 span 2;
+  grid-column: 2 / 3;
 
 }
 /*images*/
@@ -422,4 +458,21 @@ button .direccion {
 /*Video*/
 .video {
   min-height: 50vh;
+}
+
+/*sidebar*/
+.lead {
+  grid-column: 2 /4;
+  grid-row: 2;
+}
+
+.hide-me {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s , visibility 1s cubic-bezier(.46,.03,.52,.96);
+}
+.sidebar:hover .hide-me {
+  visibility: visible;
+  opacity: 1;
+    transition: opacity 0.5s , visibility 1s cubic-bezier(.46,.03,.52,.96);
 }
