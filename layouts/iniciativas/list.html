@@ -13,6 +13,11 @@
       <!--
       🚨 Revisa si hay links a contactos, cuales, y como los agrega como iconos al principio del post.🚨
       -->
+      {{ if .Params.vimeo}}
+      <a href="http://vimeo.com/{{ .Params.vimeo }}">
+        <i class="fa fa-vimeo"></i>
+      </a>
+      {{ end }}
       {{ if .Params.facebook}}
       <a href="http://{{ .Params.facebook }}">
         <i class="fa fa-facebook"></i>

@@ -9,5 +9,6 @@ head_image: false
 sitio: "voces.wikipoliticacd.mx/"
 facebook: ""
 twitter: ""
+vimeo: /239870756
 ---
 Espacio creado para construir la historia colectiva del sismo del 19 de septiembre de 2017.

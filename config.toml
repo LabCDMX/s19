@@ -5,31 +5,41 @@ theme = "hyde"
 subtitle = "Ciudad Creativa y resiliente"
 
 [[menu.main]]
-    name = "Fondo"
-    pre = "<i class='fa fa-heart'></i>"
-    weight = -110
-    identifier = "about"
-    url = "/fondo/"
+    name = "Inicio"
+    weight = -180
+    identifier = "inicio"
+    url = "/"
 
+# [[menu.main]]
+#     name = "Fondo"
+#     weight = -110
+#     identifier = "about"
+#     url = "/fondo/"
+#
 [[menu.main]]
     name = "Videos"
     weight = 90
     identifier = "Videos"
     url = "/videos/"
-#
-[[menu.main]]
-    name = "Historias"
-    weight = 100
-    identifier = "Historias"
-    url = "/historias/"
+# #
+# [[menu.main]]
+#     name = "Historias"
+#     weight = 100
+#     identifier = "Historias"
+#     url = "/historias/"
 
 [[menu.main]]
     name = "Listado de iniciativas "
-    weight = -110
+    weight = -140
     identifier = "Iniciativas 19"
     url = "/iniciativas/"
     # pre = "<i class='fa fa-heart'></i>"
 
+# [[menu.main]]
+#     name = "Co-work"
+#     weight = 100
+#     identifier = "Co-work"
+#     url = "/co-work/"
 
 [params]
   themeColor = "theme-base-09"

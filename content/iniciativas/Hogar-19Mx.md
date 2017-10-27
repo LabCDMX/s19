@@ -8,5 +8,6 @@ head_image: false
 sitio: "bit.ly/2wSvh11"
 facebook: ""
 twitter: "Hogar19Mx"
+vimeo: /239020912
 ---
 Mapa colaborativo para encontrar departamentos en renta solidaria en la Ciudad de México.

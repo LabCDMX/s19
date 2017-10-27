@@ -1,12 +1,28 @@
 {{ define "main" -}}
 <div class="headings">
-  <h1 class="big-text"> VIDEOS RECOPILADOS</h1>
+  <h1 class="big-text"> Videos e historias que hemos encontrado.</h1>
+  <p class="contexts"> Propuestas</p>
+
 </div>
+<!-- contenido de los post -->
 <ul class="posts container content">
+  <!--  ciclo for que llena los posts-->
   {{ range .Data.Pages -}}
-  <div class="post content container">
+  <div class="post">
     <h2 class="post-title">
-      <!-- iconitos y mamadas -->
+      <!--
+      🚨 Revisa si hay links a contactos, cuales, y como los agrega como iconos al principio del post.🚨
+      -->
+      {{ if .Params.vimeo}}
+      <a href="http://vimeo.com/{{ .Params.vimeo }}">
+        <i class="fa fa-vimeo"></i>
+      </a>
+      {{ end }}
+      {{ if .Params.facebook}}
+      <a href="http://{{ .Params.facebook }}">
+        <i class="fa fa-facebook"></i>
+      </a>
+      {{ end }}
       {{ if .Params.twitter}}
       <a href="http://www.twitter.com/{{ .Params.twitter }}">
         <i class="fa fa-twitter"></i>
@@ -17,19 +33,25 @@
         <i class="fa fa-globe"></i>
       </a>
       {{ end }}
+      {{ if .Params.correo}}
+        <a href="{{ .Params.correo }}">
+          <i class="fa fa-envelope" ></i>
+        </a>
+      {{ end }}
+      {{ if .Params.telefono}}
+        <a href="tel:{{ .Params.telefono }}">
+          <i class="fa fa-phone" ></i>
+        </a>
+      {{ end }}
+      <!-- titulo del proyecto -->
       <a href="{{ .Permalink }}">
         {{ .Title }}
       </a>
     </h2>
-    <!-- {{ if .Params.propone }}
-    <span class="post-date">  propone {{ .Params.propone }}</span>
-    {{ end }} -->
-
-
-    {{ .Summary }}
-    {{ if .Truncated }}
-    <div class="read-more-link">
-      <a href="{{ .RelPermalink }}">Read More…</a>
+    {{ if .Params.vimeo }}
+    <div class="video-list fit ">
+      <iframe width="100%" height="100%" src="https://player.vimeo.com/video{{  .Params.vimeo}}?byline=0&portrait=0" frameborder="0" allowfullscreen>
+      </iframe>
     </div>
     {{ end }}
   </div>

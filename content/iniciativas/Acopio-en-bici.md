@@ -9,5 +9,6 @@ head_image: false
 sitio: ""
 facebook: ""
 twitter: "AcopioEnBici"
+vimeo: /238487120
 ---
 Red de ciclistas en la CDMX para canalizar donativos en especie a los centros de acopio de manera gratuita y voluntaria.
