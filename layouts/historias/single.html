@@ -1,0 +1,70 @@
+{{ define "main" -}}
+<div class=" headings">
+  <h1 class="big-text  red">
+    {{ .Title }}
+  </h1>
+    <p class="contexts"> por {{ .Params.author }}</p>
+</div>
+
+  {{ if .Params.head_image }}
+  <div class="hero">
+    <img src="{{ .Params.head_image }}" alt="">
+  </div>
+  {{ end }}
+<div class="historia container content">
+
+
+  {{ if eq .Params.propone "LabCDMX"}} {{ else }}
+    <span class="post-date"> Propuesta presentada por {{ .Params.propone }} </span>
+    {{ end }}
+    <!--
+    *
+    *
+    *
+    * Botones y vinculos de interes
+    *
+    *
+    *
+    -->
+
+      <!-- <h1>Contacto</h1> -->
+
+    <div class="content">
+      {{ if .Params.sitio }}
+
+    <a href="http://{{ .Params.sitio }}">
+      <button class="boxshadow">
+        <i class="fa fa-globe"></i>
+        Web
+      </button>
+    </a>
+    {{ end }}
+    {{ if .Params.twitter }}
+    <a href="http://www.twitter.com/{{ .Params.twitter }}">
+      <button class="boxshadow">
+        <i class="fa fa-twitter" ></i>
+        {{ .Params.twitter }}
+       </button>
+     </a>
+    {{ end }}
+        </div>
+
+
+<!--
+*
+*
+*
+* Contenido
+*
+*
+*
+-->
+  {{ .Content }}
+
+</div>
+
+{{ if .Site.DisqusShortname -}}
+<h2>Comments</h2>
+{{ template "_internal/disqus.html" . }}
+{{- end }}
+{{- end }}

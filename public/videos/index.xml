@@ -6,18 +6,72 @@
     <description>Recent content in Videos on  Iniciativas 19</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>mx-es</language>
-    <lastBuildDate>Wed, 25 Oct 2017 11:20:11 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 12 Oct 2017 01:47:58 -0500</lastBuildDate>
     
 	<atom:link href="http://iniciativas19.labcd.mx/videos/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test</title>
-      <link>http://iniciativas19.labcd.mx/videos/test/</link>
-      <pubDate>Wed, 25 Oct 2017 11:20:11 -0500</pubDate>
+      <title>Voces De Ciudad</title>
+      <link>http://iniciativas19.labcd.mx/videos/voces-de-ciudad/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:58 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/videos/test/</guid>
-      <description></description>
+      <guid>http://iniciativas19.labcd.mx/videos/voces-de-ciudad/</guid>
+      <description>Espacio creado para construir la historia colectiva del sismo del 19 de septiembre de 2017.</description>
+    </item>
+    
+    <item>
+      <title>Mascotas Sismo</title>
+      <link>http://iniciativas19.labcd.mx/videos/mascotas-sismo/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/videos/mascotas-sismo/</guid>
+      <description>Iniciativa para reportar animales y encontrar extraviados durante el sismo. También indica cuáles albergues animales y veterinarios hay disponibles en la CDMX.</description>
+    </item>
+    
+    <item>
+      <title>Minando Por México</title>
+      <link>http://iniciativas19.labcd.mx/videos/minando-por-mexico/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/videos/minando-por-mexico/</guid>
+      <description>Grupo de programadores que ayudan a recaudar fondos para las víctimas del sismo con criptomonedas.</description>
+    </item>
+    
+    <item>
+      <title>Muebletón México </title>
+      <link>http://iniciativas19.labcd.mx/videos/muebleton/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/videos/muebleton/</guid>
+      <description>Iniciativa que busca reunir a posibles donantes de muebles con aquellos que tengan que reconstruir su patrimonio desde cero.</description>
+    </item>
+    
+    <item>
+      <title>Salva Tu Casa</title>
+      <link>http://iniciativas19.labcd.mx/videos/salva-tu-casa/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/videos/salva-tu-casa/</guid>
+      <description>Plataforma colaborativa que contacta a arquitectos e ingenieros con ciudadanos afectados por el sismo del 19 de septembre de 2017.</description>
+    </item>
+    
+    <item>
+      <title>Acopio en Bici</title>
+      <link>http://iniciativas19.labcd.mx/videos/acopio-en-bici/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/videos/acopio-en-bici/</guid>
+      <description>Red de ciclistas en la CDMX para canalizar donativos en especie a los centros de acopio de manera gratuita y voluntaria.</description>
+    </item>
+    
+    <item>
+      <title>Hogar 19Mx</title>
+      <link>http://iniciativas19.labcd.mx/videos/hogar-19s/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/videos/hogar-19s/</guid>
+      <description>Mapa colaborativo para encontrar departamentos en renta solidaria en la Ciudad de México.</description>
     </item>
     
   </channel>

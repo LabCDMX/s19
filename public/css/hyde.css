@@ -333,14 +333,14 @@ h1{
 @media (min-width: 48em) {
   .headings {
     margin: 0;
-    min-height: 40vh;
+    min-height: 30vh;
     grid-row: 2;
     grid-column: 2/9;
   }
   .container {
     display: grid;
     grid-column: 3 / 9;
-    grid-row: 3;
+    grid-row: 4;
     padding: 0;
   }
   .container-2 {
@@ -355,10 +355,10 @@ h1{
     grid-column: 2/8;
   }
   .container {
-    grid-column: 3 / 8;
+    grid-column: 4 / 8;
   }
   .container-2 {
-    grid-column: 3 / 8;
+    grid-column: 4 / 8;
   }
 }
 
@@ -445,10 +445,11 @@ button .direccion {
   line-height: 200%;
   border-bottom: 2px solid ;
 }
-.post {
+.post, .post-grid {
   grid-column: 2 span 3;
 }
-.post p, h1 {
+.post p, h1,
+.post-grid p {
   font-size: .8rem;
   line-height: 130%
 }
@@ -457,14 +458,40 @@ button .direccion {
     font-size: 2rem;
     line-height: 110%
   }
+  .post-grid {
+    grid-column: 1/-1;
+    grid-row: 3;
+    padding: 20px;
+
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr)
+  }
+  .post-grid .post-title{
+    min-height: 4rem;
+  }
 }
 
+@media (min-width:64em) {
+  .post-grid{
+    grid-template-columns: repeat(3, 1fr)
+  }
+  .post-grid .post-title{
+    min-height: 8rem;
+  }
+}
+@media (min-width:80em) {
+  .post-grid{
+    grid-template-columns: repeat(4, 1fr)
+  }
+}
 .post-title a{
   color: #F92648;
+
 }
 
 .contacto {
-  grid-row: 3;
+  grid-row: 4;
   grid-column: 2 / 3;
 
 }
@@ -478,8 +505,9 @@ button .direccion {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-height: 50vh;
   overflow: hidden;
+  background-color: black;
+  min-height: 10vh;
 }
 @media (min-width:48em) {
   .hero, .wide {
@@ -493,10 +521,30 @@ button .direccion {
   }
 }
 /*Video*/
-.video {
-  min-height: 50vh;
+.video, .video-list {
+  height: 100%;
+  background-color: black;
+  margin-bottom: 3rem;
 }
-
+@media (min-width:24em) {
+  .video {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
+  .video-list{
+    max-height: 300px
+  }
+}
+@media (min-width:48em) {
+  .video {
+    min-height: 50vh;
+    background-color: black;
+  }
+  .video-list{
+    max-height: 600px
+  }
+}
 /*sidebar*/
 .lead {
   padding-top: .5rem;

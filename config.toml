@@ -17,16 +17,17 @@ subtitle = "Ciudad Creativa y resiliente"
 #     url = "/fondo/"
 #
 [[menu.main]]
+    name = "Nuestas Historias"
+    weight = -110
+    identifier = "historias"
+    url = "/historias/"
+
+[[menu.main]]
     name = "Videos"
     weight = 90
     identifier = "Videos"
     url = "/videos/"
 # #
-# [[menu.main]]
-#     name = "Historias"
-#     weight = 100
-#     identifier = "Historias"
-#     url = "/historias/"
 
 [[menu.main]]
     name = "Listado de iniciativas "
