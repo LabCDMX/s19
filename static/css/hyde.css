@@ -92,7 +92,7 @@ body {
 .sidebar:hover,
 .sidebar:active,
 .sidebar:focus {
-  height: 100vh
+  height: 80vh
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -112,7 +112,7 @@ body {
   .sidebar:hover,
   .sidebar:active,
   .sidebar:focus {
-    height: 40vh;
+    height: 60vh;
 
   }
 }
@@ -165,6 +165,10 @@ a.sidebar-nav-item:focus {
 .sidebar-sticky {
     grid-column: 4 / 6;
     grid-row: 2;
+  }
+  .sidebar-form {
+    grid-column: 2/8;
+    grid-row: 3;
   }
     /*.sidebar-top {
     position:fixed;
@@ -404,7 +408,11 @@ button .direccion {
   box-shadow: 0 1px 2px rgba(0,0,0,0.15);
   transition: opacity 1s cubic-bezier(.46,.03,.52,.96);
 }
-
+.button2{
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+}
 .boxshadow:hover {
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   opacity: 1;
