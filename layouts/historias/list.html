@@ -1,6 +1,6 @@
 {{ define "main" -}}
 <div class="headings">
-  <h1 class="big-text"> Historias y entrevistas del 19s.</h1>
+  <h1 class="big-text"> Videos y entrevistas del 19s.</h1>
   <p class="contexts"> Entrevistas</p>
 </div>
 <!-- contenido de los post -->
@@ -45,9 +45,12 @@
       </a>
       <!-- imagen del proyecto --> </h2>
     <!-- imagen principal -->
-    <a href="{{ .Permalink }}">
-      <img src="{{ .Params.head_image }}" alt="{{ .Title }}">
-    </a>
+    <div class="align-end">
+      <a href="{{ .Permalink }}">
+        <img src="{{ .Params.head_image }}" alt="{{ .Title }}">
+      </a>
+    </div>
+
   </div>
     {{ end }}
   {{- end }}
@@ -57,6 +60,7 @@
 </div>
     <!-- para videos -->
 <ul class="post-grid content">
+
   {{ range .Data.Pages -}}
     {{ if .Params.vimeo}}
   <div class="post">
@@ -105,5 +109,4 @@
     {{ end }}
   {{- end }}
 </ul>
-ul
 {{- end }}

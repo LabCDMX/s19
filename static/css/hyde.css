@@ -316,6 +316,9 @@ h1{
 .row-2 {
   grid-row: 2;
 }
+.align-end {
+  align-self: end;
+}
 @media (min-widht:48em) {
   .row-1 {
     grid-row: 1;
@@ -458,8 +461,7 @@ button .direccion {
     line-height: 110%
   }
   .post-grid {
-    grid-column: 1/-1;
-    padding: 20px;
+    grid-column: 2/-2;
 
     display: grid;
     grid-gap: 20px;
@@ -472,10 +474,12 @@ button .direccion {
 
 @media (min-width:64em) {
   .post-grid{
+      grid-column: 2/-3;
     /*grid-template-columns: repeat(3, 1fr)*/
   }
   .post-grid .post-title{
     min-height: 5rem;
+
   }
 }
 @media (min-width:80em) {
@@ -531,7 +535,7 @@ button .direccion {
     background-color: black;
   }
   .video-list{
-    height: 20em;
+    height: 15em;
     max-height: 600px;
   }
 }
@@ -541,7 +545,8 @@ button .direccion {
     background-color: black;
   }
   .video-list{
-    /*max-height: 600px*/
+    height: 10em;
+    max-height: 600px;
   }
 }
 @media (min-width:64em) {
