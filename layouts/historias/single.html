@@ -86,7 +86,14 @@
     </button>
   </a>
   {{ end }}
-
+  {{ if .Params.instagram }}
+  <a href="http://www.instagram.com/{{ .Params.instagram }}">
+    <button class="boxshadow">
+      <i class="fa fa-instagram" ></i>
+      <!-- {{ .Params.instagram }} -->
+    </button>
+  </a>
+  {{ end }}
   <!-- Facebook Disponible -->
 
   {{ if .Params.facebook }}
@@ -117,7 +124,6 @@
   <a href="tel:{{ .Params.telefono }}">
     <button class="boxshadow">
       <i class="fa fa-phone" ></i>
-      {{ .Params.telefono }}
     </button>
   </a>
   {{ end }}

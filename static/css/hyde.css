@@ -593,3 +593,8 @@ button {
   opacity: 1;
     transition: opacity 0.5s , visibility 1s cubic-bezier(.46,.03,.52,.96);
 }
+
+a {
+  color: #F72647;
+  text-decoration: none;
+}
