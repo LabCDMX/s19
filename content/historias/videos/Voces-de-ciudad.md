@@ -9,7 +9,6 @@ head_image: false
 sitio: "voces.wikipoliticacd.mx/"
 facebook: ""
 twitter: ""
-vimeo: /239870756
 video_image: false  #a proporcion 16:9 de preferencia
 vimeo: /239870756  #necesita ser codigo de origen de youtube (el chiquito)
 

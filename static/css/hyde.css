@@ -333,8 +333,7 @@ h1{
 @media (min-width: 48em) {
   .headings {
     margin: 0;
-    min-height: 30vh;
-    grid-row: 2;
+    min-height: 10vh;
     grid-column: 2/9;
   }
   .container {
@@ -460,7 +459,6 @@ button .direccion {
   }
   .post-grid {
     grid-column: 1/-1;
-    grid-row: 3;
     padding: 20px;
 
     display: grid;
@@ -474,15 +472,15 @@ button .direccion {
 
 @media (min-width:64em) {
   .post-grid{
-    grid-template-columns: repeat(3, 1fr)
+    /*grid-template-columns: repeat(3, 1fr)*/
   }
   .post-grid .post-title{
-    min-height: 8rem;
+    min-height: 5rem;
   }
 }
 @media (min-width:80em) {
   .post-grid{
-    grid-template-columns: repeat(4, 1fr)
+    grid-template-columns: repeat(3, 1fr)
   }
 }
 .post-title a{
@@ -524,7 +522,7 @@ button .direccion {
 .video, .video-list {
   height: 100%;
   background-color: black;
-  margin-bottom: 3rem;
+  border-radius: 5px;
 }
 @media (min-width:24em) {
   .video {
@@ -533,7 +531,8 @@ button .direccion {
     background-color: black;
   }
   .video-list{
-    max-height: 300px
+    height: 20em;
+    max-height: 600px;
   }
 }
 @media (min-width:48em) {
@@ -542,7 +541,16 @@ button .direccion {
     background-color: black;
   }
   .video-list{
-    max-height: 600px
+    /*max-height: 600px*/
+  }
+}
+@media (min-width:64em) {
+  .video {
+    min-height: 50vh;
+    background-color: black;
+  }
+  .video-list{
+    /*height: 100%;*/
   }
 }
 /*sidebar*/
