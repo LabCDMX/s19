@@ -8,6 +8,6 @@ participa: ""
 head_image: false
 sitio: "brigada-digital.com/"
 facebook: ""
-twitter: #"gofundme"
+twitter: "SISMOBrigada"
 ---
 Sitio web que recopila la información más importante generada en Twitter en torno al sismo.

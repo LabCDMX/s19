@@ -9,5 +9,6 @@ head_image: false
 sitio: "tirandoparo.mx"
 facebook: ""
 twitter: ""
+hashtag: "TirandoParo"
 ---
 Plataforma con recomendaciones para difundir información y aprovechar redes sociales en casos de emergencia.

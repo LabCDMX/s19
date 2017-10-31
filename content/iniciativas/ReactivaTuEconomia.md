@@ -9,5 +9,6 @@ head_image: false
 sitio: "docs.google.com/forms/d/e/1FAIpQLSd0UiTfm8hH_aozbfR1UEjls4e1RplXkhbsnvXvQIEOFxYt-Q/viewform"
 facebook: ""
 twitter: ""
+hashtag: "#ReactivaTuEconomía "
 ---
 Iniciativa del mapa colaborativo #Sismx donde los  ciudadanos pueden añadir establecimientos que apoyaron durante las emergencias del sismo mediante un formulario.

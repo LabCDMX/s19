@@ -15,32 +15,40 @@
       -->
       {{ if .Params.vimeo}}
       <a href="http://vimeo.com/{{ .Params.vimeo }}">
-        <i class="fa fa-vimeo"></i>
+        <i class="fa fa-vimeo" aria-hidden="true"></i>
       </a>
       {{ end }}
+
       {{ if .Params.facebook}}
       <a href="http://{{ .Params.facebook }}">
-        <i class="fa fa-facebook"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
       </a>
       {{ end }}
+
+      {{ if .Params.instagram}}
+      <a href="http://instagram.com/{{ .Params.instagram }}">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a>
+      {{ end }}
+
       {{ if .Params.twitter}}
       <a href="http://www.twitter.com/{{ .Params.twitter }}">
-        <i class="fa fa-twitter"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
       </a>
       {{ end }}
       {{ if .Params.sitio}}
       <a href="http://{{ .Params.sitio }}">
-        <i class="fa fa-globe"></i>
+        <i class="fa fa-globe" aria-hidden="true"></i>
       </a>
       {{ end }}
       {{ if .Params.correo}}
         <a href="{{ .Params.correo }}">
-          <i class="fa fa-envelope" ></i>
+          <i class="fa fa-envelope"  aria-hidden="true"></i>
         </a>
       {{ end }}
       {{ if .Params.telefono}}
         <a href="tel:{{ .Params.telefono }}">
-          <i class="fa fa-phone" ></i>
+          <i class="fa fa-phone"  aria-hidden="true"></i>
         </a>
       {{ end }}
       <!-- titulo del proyecto -->

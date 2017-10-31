@@ -8,6 +8,6 @@ participa: ""
 head_image: false
 sitio: "codersmexico.github.io/grieta-landing/"
 facebook: ""
-twitter: "@RevisaMiGrieta "
+twitter: "RevisaMiGrieta "
 ---
 Arquitectos e ingenieros voluntarios generan recomendaciones de seguridad a inmuebles por medio del hastag #RevisaMiGrieta en Twitter.

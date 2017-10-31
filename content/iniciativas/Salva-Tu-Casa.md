@@ -7,7 +7,8 @@ propone: "LabCDMX"
 participa: ""
 head_image: false
 sitio: "www.salvatucasa.mx"
-facebook: ""
-twitter: "salvatucasa"
+facebook: "www.facebook.com/SalvaTuCasaMx  "
+twitter: "salvatucasamx"
+instagram: "salvatucasamx"
 ---
 Plataforma colaborativa que contacta a arquitectos e ingenieros con ciudadanos afectados por el sismo del 19 de septembre de 2017.
