@@ -1,6 +1,6 @@
 {{ define "main" -}}
 <div class=" headings">
-  <p class="contexts"> Nombre</p>
+
   <h1 class="big-text  red">
     {{ .Title }}
   </h1>
@@ -23,10 +23,13 @@
     </iframe>
   </div>
   {{ end }}
+
 <div class="historia container content">
-  {{ if eq .Params.propone "LabCDMX"}} {{ else }}
-    <span class="post-date"> Propuesta presentada por {{ .Params.propone }} </span>
-    {{ end }}
+  {{ if .Params.numeralia }}
+    <p class="contexts"> Historia </p>
+    {{ else }}
+    <p class="contexts"> Propuesta </p>
+  {{ end }}
     <!--
     *
     *
@@ -53,8 +56,17 @@
   {{ .Content }}
 
 </div>
-<div class="contacto ">
+<div class="contacto content">
   <!-- sitio web disponible -->
+  {{ if .Params.numeralia }}
+    <p class="contexts"> Datos </p>
+    {{ range .Params.numeralia}}
+      <p class="numeralia">
+        {{ . }}
+      </p>
+    {{ end }}
+  {{end}}
+  <p class="contexts"> </p>
   {{ if .Params.sitio }}
   <a href="http://{{ .Params.sitio }}">
     <button class="boxshadow">
