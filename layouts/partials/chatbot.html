@@ -7,7 +7,7 @@
 <!-- Tipo de formulario   -->
 
 <!-- Nombres -->
-<fieldset>
+<div>
   <label for="firstname">
     Hola! Gracias por tu interés en Iniciativas 19. Dinos cmo te llamas
   </label>
@@ -17,9 +17,9 @@
     name="firstname"
     id="firstname"
     cf-input-placeholder="Solo tu primer nombre"
-  >
-</fieldset>
-<fieldset>
+    >
+</div>
+<div>
   <label for="lastname">
     ¿Cómo te appellidas?
   </label>
@@ -28,21 +28,20 @@
     cf-questions="  ¿Cuál es tu apilldo, {firstname}? || ¿Cómo te apellidas, {firstname} ?"
     name="lastname"
     id="lastname"
-    cf-input-placeholder="pueden ser uno o dos apellidos"
-  >
-</fieldset>
+    cf-input-placeholder="pueden ser uno o dos apellidos">
+</div>
 
-<fieldset cf-questions="  Perfecto {firstname}. Ahora dinos que operacion te gustaria realziar 🤔 || ¿Qué operacion deseas realizar, {firstname} ?">
+<div cf-questions="  Perfecto {firstname}. Ahora dinos que operacion te gustaria realziar 🤔 || ¿Qué operacion deseas realizar, {firstname} ?">
   <input type="radio" name="cfc-path" value="a" id="path-a">
   <label for="path-a">Recomendar a una iniciativa para participar por el Fondo Iniciativas 19.</label>
   <input type="radio" name="cfc-path" value="b" id="path-b">
   <label for="path-b">Registrarte para obtener el Fondo Iniciativas 19</label>
   <input type="radio" name="cfc-path" value="b" id="path-c">
   <label for="path-c">Registrarte para obtener un espacio de trabajo gratis durante 3 meses.</label>
-</fieldset>
+</div>
 
 <!--🚨  path a 🚨 -->
-<fieldset >
+<div >
   <input
     cf-questions="Cual es tu correo electronico, {firstname}?"
     pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
@@ -50,12 +49,11 @@
     type="email"
     id="e-mail"
     name="email"
-    cf-conditional-cfc-path="a"
-  >
-</fieldset>
+    cf-conditional-cfc-path="a">
+</div>
 
 
-<fieldset>
+<div>
   <label for="nombre-iniciativa">
     Nombre de la iniciativa
   </label>
@@ -64,11 +62,8 @@
     id="nombre-iniciativa"
     cf-questions=" Perfecto && ¿Cómo se llama la iniciativa que quieres recomendar?"
     cf-input-placeholder=" Solo texto plz."
-    cf-conditional-cfc-path="a"
-  >
-</fieldset>
-
-
+    cf-conditional-cfc-path="a">
+</div>
 
 <select  cf-questions=" Genial && oye && Donde podemos encontralos?"     cf-input-placeholder=" Solo una via de contacto. Nosotros les haremos saber que ya estan registrados :)." cf-conditional-cfc-path="a">
 <option value="facebook"> Facebook</option>
@@ -78,7 +73,7 @@
 <option value="correo-electronico"> correo electronico</option>
 </select>
 
-<fieldset>
+<div>
   <label for="contacto-iniciativa">
     Cual es el contacto de la iniciativa
   </label>
@@ -88,29 +83,20 @@
     id="contacto-iniciativa"
     cf-questions="¿y cual es?"
     cf-input-placeholder="Escribelo como tu lo conozocas. nosotros los buscamos"
-    cf-conditional-cfc-path="a"
-  >
-</fieldset>
+    cf-conditional-cfc-path="a">
+</div>
 
-<fieldset>
+<div>
   <input
     cf-questions="Eso sería todo && Quieres mandar la información ya {firstname}? && Solo necesitas escribir 'enviar'"
-    pattern="^[E,e]nviar"
+    pattern="[E,e]nviar"
     cf-conditional-cfc-path="a"
     cf-input-placeholder="SI lo deseas, puedes cambiar tus respuestas anteriores."
     name="end"
     type="text"
     id="end"
-</fieldset>
-
-
-<!-- ruta b -->
-
-
-<!-- ruta c -->
-
-
-
+    >
+</div>
 
 </form>
 </div>
