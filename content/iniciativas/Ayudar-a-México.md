@@ -11,4 +11,4 @@ facebook: ""
 twitter: ""
 correo: "mailto:comoayudarmx@gmail.com"
 ---
-Plataforma de encuentro Sitio web para encontrar diferentes formas de ayudar a los afectados y rescatistas del sismo del 7 y 19 de Septiembre.
+Sitio web para encontrar diferentes formas de ayudar a los afectados y rescatistas del sismo del 7 y 19 de Septiembre.

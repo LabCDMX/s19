@@ -9,10 +9,9 @@ propuesta: "Brigada Lavandería"
 numeralia:
   [
   'Integrantes: 260',
-  'Asistencia durante el día del sismo',
-  'Tiempo : 14 horas',
-  'Distancia: 250Km',
-  'Peso de los transportes: 50 -120 Kg por viaje',
+  'Tiempo promedio de ayuda el 19 S: 14 horas',
+  'Distancias recorridas por día durante el temblor: 250 km',
+  'Peso de ayuda transportada: de 25 a 120 kilos por viaje'
   ]
 
 participa: ""
@@ -34,6 +33,8 @@ Para Fernando García, las acciones de ayuda a damnificados por el sismo empezar
 Acopio en Bici surgió un poco como una respuesta sustentable a situaciones de urgencia.  «Ya teníamos un grupo de Whatsapp, donde lo que hacíamos desde el sismo del 7 de septiembre era recolectar todos los víveres de la gente que no podía desplazarse a dejarlos en algún albergue o centro de acopio. Desde entonces lo que decidimos es ir por ellos a sus domicilios u oficinas y los entregamos en su nombre en algún centro de acopio», cuenta. En la mañana del 8 de septiembre alguien propuso crear una red de ciclistas que viajara a Oaxaca. Tras una reunión rápida (tres horas bastaron para articular a unas cuarenta personas) pensaron en hacer una rodada para trasladar víveres. Se necesitaron mochilas, alforjas, triciclos y bicis de carga. Acopio en Bici fungió como una prótesis para todos aquellos ciudadanos que no podían desplazarse. Una de las frases que adoptó el grupo es «Les ayudamos a ayudar».
 
 Para los días posteriores al 19 de septiembre, los ciclistas, articulados desde casi dos semanas antes, ya sabían qué era lo que tenían que hacer, dado que se encontraban particularmente sensibles en las labores de asistencia. Para entonces ya eran más de 250 voluntarios en Whatsapp. Esto se tradujo en una palabra: saturación. Debido a esto, abrieron un canal en la app Zello para tener una mejor organización, lo cual agilizó su comunicación. Esta es una enseñanza que les dejó el sismo: las tecnologías análogas se vieron mermadas ante la velocidad del internet. «Cuando abrimos el canal de Zello, todo se volvió muy dinámico porque los ciclistas recibían notificaciones enseguida: casi al mismo tiempo que iban rodando recibían la asignación para recoger cosas o entregarlas. En general logramos tener una comunicación bastante efectiva pesar de que éramos muy poca gente coordinando las acciones», dice.
+
+![Brigada](http://iniciativas19.labcd.mx/img/ACOPIO2.jpg)
 
 Mientras en las noticias se informaba de estructuras caídas, colonias sin luz eléctrica o agua, la red ciclista se comunicaba telefónicamente al tiempo que transportaba herramientas, material de curación, víveres. Entre los integrantes de Acopio en Bici había paramédicos certificados que se unieron incluso a la Cruz Roja para intervenir directamente en las zonas de desastre. La labor fue ardua. Fernando durmió hasta las 4 de la mañana del 20 de septiembre después de rodar 250 kilómetros, distancia promedio que recorrió cada brigadista. Cargó en su mochila entre 25 a 30 kilos por viaje. Se levantó dos horas más tarde para continuar ayudando. Lo mismo hicieron otros compañeros que pese a sus limitaciones (hubo quien transportó hasta 120 kilos) lograron llevar los encargos a donde se requerían.
 

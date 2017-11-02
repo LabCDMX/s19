@@ -9,9 +9,10 @@ propuesta: "Brigada Lavandería"
 numeralia:
   [
   'Integrantes: 5',
-  'Delegacion: Benito Juárez',
-  'Voluntarios: 452',
-  'Toneladas de ropa lavada: 1.5.',
+  'Centros de acopio en los que trabajaron: Centro Universitario Mexicano y Deportivo Benito Juárez',
+  'Delegaciones en donde actuaron: Benito Juárez',
+  'Voluntarios que reunieron: 452',
+  'Toneladas de ropa que lavaron: 1.5 toneladas',
   ]
 participa: ""
 head_image: "http://iniciativas19.labcd.mx/img/LAVANDERIA-PORTADA.jpg"

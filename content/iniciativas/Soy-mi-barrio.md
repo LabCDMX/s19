@@ -11,4 +11,4 @@ facebook: ""
 twitter: ""
 instagram: "soymibarrio"
 ---
-Cuenta de Instagram, que a través de imágenes e historias, concientizar a los vecinos sobre reactivar negocios de las zonas afectadas, como las colonias Roma, Condesa y Del Valle.
+Cuenta de Instagram, que a través de imágenes e historias, concientiza a los vecinos sobre reactivar negocios de las zonas afectadas, como las colonias Roma, Condesa y Del Valle.

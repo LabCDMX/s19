@@ -9,11 +9,11 @@ propuesta: "Mascotas Sismo"
 numeralia:
   [
   'Integrantes: 1',
-  'Mascotas Extraviadas: 305',
-  'De las cuales: 419 reunidas con su familia',
-  'Perros: 1%',
-  'Gatos: 19%',
-  'Aves: menos del 1%'
+  '305 mascotas extraviadas',
+  '452 vivas y 419 reunidas con su familia',
+  'Del total, 78% fueron perros y 19% gatos',
+  '1% aves',
+  '22 animales fallecidos'
   ]
 participa: ""
 head_image: "http://iniciativas19.labcd.mx/img/MASCOTAS-PORTADA.jpg"
@@ -39,3 +39,4 @@ A casi un mes del sismo, siguen fluyendo historias en donde ellos salen en prime
 Regresando a aquel 19 de septiembre, no pocos casos revelaron la falta de sensibilidad y el cinismo con el que se desenvuelven algunos los habitantes de la CDMX. Dice Nelly: «Hubo un caso que, creo, nos indignó mucho a todos. Se perdió una pastor alemán. El caso se agravó cuando supimos que se trataba de una perra guía, o sea, el soporte, la vista, de una persona. La familia estaba ofreciendo 35 mil pesos de recompensa. La persona que la encontró pedía 70 mil. Al final, la policía intervino para que no se pagara el rescate». Tales situaciones incentivan a Nelly a extender las actividades de Mascotas Sismo más allá de lo coyuntural. La idea no es esperar a que ocurra otra catástrofe para reactivar la iniciativa, sino continuarla a través de voluntarios y gente entusiasta de ayudar a formas de vida no humanas. El tramo aún es largo, pero esperanzador. Así lo cree.
 
 ¿Puede un sismo ser un recordatorio para replantear nuestra relación con ellos? Es una oportunidad espléndida para revisitar el discurso dominante con el que se trata al animal.
+![Cuentanos Donde Estabas](http://iniciativas19.labcd.mx/img/MASCOTAS2.jpg)
