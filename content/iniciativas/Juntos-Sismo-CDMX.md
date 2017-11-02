@@ -11,3 +11,4 @@ sitio: ""
 facebook: "www.facebook.com/juntossismocdmx"
 twitter: "juntossismocdmx"
 ---
+Análisis de información de fuentes primarias sobre necesidades en zonas afectadas para canalizarlas con centros de acopio verificados, transportistas y brigadistas.
