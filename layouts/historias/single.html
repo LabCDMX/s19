@@ -7,7 +7,7 @@
   {{ if .Params.author}}
     <p class="contexts"> por {{ .Params.author }}</p>
   {{ else }}
-    <p class="contexts"> propuesta</p>
+    <p class="contexts"> </p>
   {{ end }}
 
 </div>
@@ -28,7 +28,7 @@
   {{ if .Params.numeralia }}
     <p class="contexts"> Historia </p>
     {{ else }}
-    <p class="contexts"> Propuesta </p>
+    <p class="contexts">  </p>
   {{ end }}
     <!--
     *
@@ -59,7 +59,7 @@
 <div class="contacto content">
   <!-- sitio web disponible -->
   {{ if .Params.numeralia }}
-    <p class="contexts"> Datos </p>
+    <p class="contexts">  </p>
     {{ range .Params.numeralia}}
       <p class="numeralia">
         {{ . }}
