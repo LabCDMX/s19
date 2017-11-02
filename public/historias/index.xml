@@ -6,10 +6,19 @@
     <description>Recent content in Historias on  Iniciativas 19</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>mx-es</language>
-    <lastBuildDate>Fri, 27 Oct 2017 13:56:58 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 02 Nov 2017 12:16:33 -0600</lastBuildDate>
     
 	<atom:link href="http://iniciativas19.labcd.mx/historias/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sonidistas Unidos por México</title>
+      <link>http://iniciativas19.labcd.mx/historias/videos/sonidistas/</link>
+      <pubDate>Thu, 02 Nov 2017 12:16:33 -0600</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/historias/videos/sonidistas/</guid>
+      <description>Grupo de expertos en audio para cine y televisión que se enfocó en buscar señales de vida en edificios derruidos con ayuda de micrófonos y con la ubicación de los sonidos que emitían los sobrevivientes.</description>
+    </item>
     
     <item>
       <title>Cuéntanos dónde estabas: narrar para sanar</title>
@@ -55,6 +64,15 @@
       
       <guid>http://iniciativas19.labcd.mx/historias/videos/voces-de-ciudad/</guid>
       <description>Espacio creado para construir la historia colectiva del sismo del 19 de septiembre de 2017.</description>
+    </item>
+    
+    <item>
+      <title>Mapeo Humanitario Mapillary</title>
+      <link>http://iniciativas19.labcd.mx/historias/videos/mapeo-humanitario-mapillary/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/historias/videos/mapeo-humanitario-mapillary/</guid>
+      <description>Mapeo humanitario para Chiapas, Oaxaca, Puebla, Edomex y CDMX que registra los daños que ocasionaron los sismos del 7 y 19 de septiembre con un teléfono inteligente y la app Mapillary.</description>
     </item>
     
     <item>
