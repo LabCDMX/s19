@@ -10,7 +10,7 @@
 <ul class="posts container content">
   <!--  ciclo for que llena los posts-->
   {{ range .Data.Pages -}}
-  <div class="post">
+  <div class="post boxshadow">
     <h2 class="post-title">
       <!--
       🚨 Revisa si hay links a contactos, cuales, y como los agrega como iconos al principio del post.🚨
@@ -63,8 +63,8 @@
         {{ .Title }}
       </a>
     </h2>
+    <p>    {{ .Summary }}</p>
 
-    {{ .Summary }}
     {{ if .Truncated }}
     <div class="read-more-link">
       <a href="{{ .RelPermalink }}">Read More…</a>

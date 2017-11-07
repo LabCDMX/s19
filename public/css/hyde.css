@@ -181,17 +181,17 @@ a.sidebar-nav-item:focus {
  * Align the contents of the site above the proper threshold with some margin-fu
  * with a 25%-wide `.sidebar`.
  */
-
+.historia{
+    margin-bottom: 5rem;
+}
 .content {
-  padding: 1em .8em
+  padding: 2em 1.3em
 }
-
-@media (min-width: 48em) {
-  .content {
-    padding: 0;
-  }
-
+.content p{
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
+@media (min-width: 48em) {.content {padding: 0;}}
 
 
 /*
@@ -266,11 +266,13 @@ h1{
 .logos {
   width: 8rem;
   padding-top: 1rem;
+  margin-bottom: 1rem;
 }
 @media (min-width:48rem) {
   .logos{
     grid-column: 2/4;
     grid-row: 1;
+    margin-left: none;
   }
 }
 .logos img {
@@ -284,8 +286,6 @@ h1{
 @media (min-width: 48em) {
   .big-text {
     font-size: 3.5rem;
-    line-height: 95%;
-
   }
 }
 @media (min-width: 64em) {
@@ -399,13 +399,13 @@ button {
   color: #F72647;
 }
 .boxshadow {
-  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-  transition: opacity 1s cubic-bezier(.46,.03,.52,.96);
+  box-shadow: 1 1px 5px rgba(0,0,0,0.15);
+    transition:  box-shadow .3s cubic-bezier(.46,.03,.52,.96);
 }
 
 .boxshadow:hover {
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  opacity: 1;
+      transition:  box-shadow .5s cubic-bezier(.46,.03,.52,.96);
 }
 
 /*limiters*/
@@ -443,17 +443,28 @@ button {
   line-height: 200%;
   border-bottom: 2px solid ;
 }
+.post{
+    padding: .8rem .8rem .8rem .8rem;
+    border-radius: 5px;
+}
+.post h3 {
+    padding: 1rem
+}
+.post:hover{
+
+}
+
 .post, .post-grid {
   grid-column: 2 span 3;
 }
-.post p, h1,
+.post p,
 .post-grid p {
   font-size: .8rem;
   line-height: 130%
 }
 @media (min-width:48rem){
   .post p, h1 {
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 110%
   }
   .post-grid {
@@ -461,24 +472,24 @@ button {
 
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr)
+    grid-template-columns: repeat(1, 1fr)
   }
   .post-grid .post-title{
-    min-height: 4rem;
+    min-height: 2rem;
   }
 }
 
 @media (min-width:64em) {
   .post-grid{
       grid-column: 2/-3;
-    /*grid-template-columns: repeat(3, 1fr)*/
+    grid-template-columns: repeat(2, 1fr)
   }
   .post-grid .post-title{
-    min-height: 5rem;
+    min-height: 2rem;
 
   }
 }
-@media (min-width:80em) {
+@media (min-width:220em) {
   .post-grid{
     grid-template-columns: repeat(3, 1fr)
   }
@@ -540,39 +551,45 @@ button {
 }
 /*Video*/
 .video, .video-list {
-  height: 100%;
-  background-color: black;
-  border-radius: 5px;
+    width: 100%;
+    background-color: black;
+    border-radius: 5px 5px 0 0;
+          height: 11em;
 }
+
 @media (min-width:24em) {
   .video {
-    height: 100%;
     width: 100%;
     background-color: black;
   }
   .video-list{
-    height: 15em;
-    max-height: 600px;
+      height: 19em;
   }
 }
 @media (min-width:48em) {
   .video {
+
     min-height: 50vh;
     background-color: black;
   }
   .video-list{
-    height: 10em;
+     height: 20rem;
     max-height: 600px;
+    transition: height .5s ease;
   }
 }
 @media (min-width:64em) {
   .video {
-    min-height: 50vh;
     background-color: black;
   }
   .video-list{
+      height: 13rem;
     /*height: 100%;*/
   }
+}
+@media (min-height:80em) {
+    .video-list{
+    }
 }
 /*sidebar*/
 .lead {
@@ -597,4 +614,22 @@ button {
 a {
   color: #F72647;
   text-decoration: none;
+}
+
+
+
+.hamburguer {
+position: absolute;
+right: 2rem;
+top: 2.5rem;
+}
+@media (min-width: 48em) {
+    .hamburguer {
+        position: inherit;
+        visibility: none;
+        display: none;
+        grid-column: -3;
+        align-self: center;
+        justify-self: center;
+    }
 }
