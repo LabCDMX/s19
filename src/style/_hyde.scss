@@ -14,10 +14,7 @@
  */
 
 
-
-
-
-        /*
+/*
          * Contents
          *
          * Global resets
@@ -26,12 +23,9 @@
          * Reverse layout
          * Themes
          * Custom changes
-         */e
+         */
 
-
-
-
-
+e
 /*
  * Global resets
  *
@@ -39,34 +33,36 @@
  */
 
 html {
-  font-family: "Work Sans", Helvetica, Arial, sans-serif;
-  background-color: #FCFDF3;
+    font-family: "Work Sans", Helvetica, Arial, sans-serif;
+    background-color: #FCFDF3;
 }
 
 @media (min-width: 48em) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
+
 @media (min-width: 58em) {
-  html {
-    font-size: 20px;
-  }
+    html {
+        font-size: 20px;
+    }
 }
 
 body {
-  background-color: #FCFDF3;
+    background-color: #FCFDF3;
 }
 
 @media (min-width: 48em) {
-  body {
-    display: grid;
-    grid-template-columns: 2fr repeat(8, 1fr);
-    grid-template-rows: auto;
-    grid-gap: 20px;
-    justify-items: stretch;
-  }
+    body {
+        display: grid;
+        grid-template-columns: 2fr repeat(8, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 20px;
+        justify-items: stretch;
+    }
 }
+
 
 /*
  * Sidebar
@@ -77,106 +73,106 @@ body {
  */
 
 .sidebar {
-  text-align: center;
-  padding: 1rem 1rem;
-  color: #FCFDF3;
-  background-color: #F92648;
-  text-align: left;
-
-  /*just for the heck of it*/
-
-  height: 4em;
-  overflow: hidden;
-  transition: height .5s , grid-template-columns .5s cubic-bezier(.46,.03,.52,.96);
+    text-align: center;
+    padding: 1rem 1rem;
+    color: #FCFDF3;
+    background-color: #F92648;
+    text-align: left;
+    /*just for the heck of it*/
+    height: 4em;
+    overflow: hidden;
+    transition: height .5s, grid-template-columns .5s cubic-bezier(.46, .03, .52, .96);
 }
+
 .sidebar:hover,
 .sidebar:active,
 .sidebar:focus {
-  height: 80vh
+    height: 80vh
 }
+
 @media (min-width: 48em) {
-  .sidebar {
-    padding: 0;
-    grid-column: 1 /-1;
-    grid-row: 1;
-
-    /* css grids inside */
-    display: grid;
-    grid-gap: 20px;
-    align-items: flex-start;
-    justify-content: flex-start;
-
-    grid-template-columns: 2fr repeat(8, 1fr);
-    grid-template-rows: 4rem auto;
-  }
-  .sidebar:hover,
-  .sidebar:active,
-  .sidebar:focus {
-    height: 60vh;
-
-  }
+    .sidebar {
+        padding: 0;
+        grid-column: 1 /-1;
+        grid-row: 1;
+        /* css grids inside */
+        display: grid;
+        grid-gap: 20px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        grid-template-columns: 2fr repeat(8, 1fr);
+        grid-template-rows: 4rem auto;
+    }
+    .sidebar:hover,
+    .sidebar:active,
+    .sidebar:focus {
+        height: 60vh;
+    }
 }
+
 
 /* Sidebar links */
+
 .sidebar a {
-  color: #FCFDF3;
-  font-size: .7em;
-  line-height: 1.2;
+    color: #FCFDF3;
+    font-size: .7em;
+    line-height: 1.2;
 }
+
 .sidebar a:hover {
     color: #FCFDF3;
 }
 
+
 /* About section */
+
 .sidebar-about h1 {
-  color: #fff;
-  margin-top: 0;
-  font-size: 2.25rem;
-}
-.sidebar-about h3 {
-  color: #fff;
-  margin-top: 0;
-  font-size: 1.5rem;
+    color: #fff;
+    margin-top: 0;
+    font-size: 2.25rem;
 }
 
+.sidebar-about h3 {
+    color: #fff;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+
 /* Sidebar nav */
+
 .sidebar-nav {
-  padding-left: 0;
-  list-style: none;
+    padding-left: 0;
+    list-style: none;
 }
+
 .sidebar-nav-item {
-  display: block;
+    display: block;
 }
+
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+    text-decoration: underline;
 }
+
 
 /* Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
  * contents to the bottom of the sidebar in tablets and up.
  */
+
 .sidebar-sticky a:hover {
     text-decoration: underline;
     opacity: 0.3;
 }
-@media (min-width: 48em) {
-.sidebar-sticky {
-    grid-column: 4 / 6;
-    grid-row: 2;
-  }
-  .sidebar-form {
-    grid-column: 2/8;
-    grid-row: 3;
-  }
-    /*.sidebar-top {
-    position:fixed;
-    right: 1rem;
-    top: 1rem;
-    left: 1rem;
-  }*/
 
+@media (min-width: 48em) {
+    .sidebar-sticky {
+        grid-column: 4 / 6;
+        grid-row: 2;
+    }
+    .sidebar-form {}
 }
 
 
@@ -187,19 +183,17 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding: 1em .8em
+    padding: 1em .8em
 }
 
 @media (min-width: 48em) {
-  .content {
-    padding: 0;
-  }
-
+    .content {
+        padding: 0;
+    }
 }
 
 @media (min-width: 64em) {
-  .content {
-  }
+    .content {}
 }
 
 
@@ -210,23 +204,22 @@ a.sidebar-nav-item:focus {
  */
 
 @media (min-width: 48em) {
-  .layout-reverse .sidebar {
-    left: auto;
-    right: 0;
-  }
-  .layout-reverse .content {
-    margin-left: 2rem;
-    margin-right: 20rem;
-  }
+    .layout-reverse .sidebar {
+        left: auto;
+        right: 0;
+    }
+    .layout-reverse .content {
+        margin-left: 2rem;
+        margin-right: 20rem;
+    }
 }
 
 @media (min-width: 64em) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 22rem;
-  }
+    .layout-reverse .content {
+        margin-left: 4rem;
+        margin-right: 22rem;
+    }
 }
-
 
 
 /*
@@ -236,29 +229,27 @@ a.sidebar-nav-item:focus {
  * within blog posts. To use, add the class of your choosing to the `body`.
  */
 
+
 /* Base16 (http://chriskempson.github.io/base16/#default) */
 
+
 /* Red */
-.theme-base-08 .sidebar {
-  background-color: #ac4142;
-}
-.theme-base-08 .content a,
-.theme-base-08 .related-posts li a:hover {
-  color: #ac4142;
-}
+
 
 /* Orange */
+
 .theme-base-09 .sidebar {
-  background-color: #F92648;
-}
-.theme-base-09 .content a,
-.theme-base-09 .related-posts {
-  color: #F92648;
-}
-.theme-base-09 .content .container{
-  background-color: #F9F9EF;
+    background-color: #F92648;
 }
 
+.theme-base-09 .content a,
+.theme-base-09 .related-posts {
+    color: #F92648;
+}
+
+.theme-base-09 .content .container {
+    background-color: #F9F9EF;
+}
 
 
 /* Custom changes
@@ -266,45 +257,52 @@ a.sidebar-nav-item:focus {
 *added after the fact.
 *
 */
+
+
 /*text*/
 
-h1{
-  letter-spacing: -1px;
+h1 {
+    letter-spacing: -1px;
 }
 
 .logos {
-  width: 8rem;
-  padding-top: 1rem;
+    width: 8rem;
+    padding-top: 1rem;
 }
+
 @media (min-width:48rem) {
-  .logos{
-    grid-column: 2/4;
-    grid-row: 1;
-  }
+    .logos {
+        grid-column: 2/4;
+        grid-row: 1;
+    }
 }
+
 .logos img {
-  max-width: 9rem;
+    max-width: 9rem;
 }
 
 .big-text {
-  font-size: 2em;
-  padding-bottom: 3rem
+    font-size: 2em;
+    padding-bottom: 3rem
 }
-@media (min-width: 48em) {
-  .big-text {
-    font-size: 3.5rem;
-    line-height: 95%;
 
-  }
+@media (min-width: 48em) {
+    .big-text {
+        font-size: 3.5rem;
+        line-height: 95%;
+    }
 }
+
 @media (min-width: 64em) {
-  .big-text {
-    font-size: 4.2rem;
-  }
+    .big-text {
+        font-size: 4.2rem;
+    }
 }
+
 .red {
-  color: #F92648 ;
+    color: #F92648;
 }
+
 
 /*
   ⚾️  STRUCTURE
@@ -313,125 +311,139 @@ h1{
   ⚾️  3. limiters
   ⚾️
 */
+
 .hr-white {
-  border-top: 2px solid #FCFDF3;
-  margin-bottom: 1rem;
+    border-top: 2px solid #FCFDF3;
+    margin-bottom: 1rem;
 }
+
 .row-2 {
-  grid-row: 2;
+    grid-row: 2;
 }
+
 @media (min-widht:48em) {
-  .row-1 {
-    grid-row: 1;
-  }
-  .row-2 {
-    grid-row: 2;
-  }
+    .row-1 {
+        grid-row: 1;
+    }
+    .row-2 {
+        grid-row: 2;
+    }
 }
-.container {
+
+.container {}
+
+.headings {
+    min-height: 120%;
+    margin: 1rem 1rem;
 }
-.headings{
-  min-height: 120%;
-  margin: 1rem 1rem;
-}
+
 @media (min-width: 48em) {
-  .headings {
-    margin: 0;
-    min-height: 30vh;
-    grid-row: 2;
-    grid-column: 2/9;
-  }
-  .container {
-    display: grid;
-    grid-column: 3 / 9;
-    grid-row: 4;
-    padding: 0;
-  }
-  .container-2 {
-    display: grid;
-    grid-column: 3 / 9;
-    grid-row: 4;
-    padding: 0;
-  }
+    .headings {
+        margin: 0;
+        min-height: 30vh;
+        grid-row: 2;
+        grid-column: 2/9;
+    }
+    .container {
+        display: grid;
+        grid-column: 3 / 9;
+        grid-row: 4;
+        padding: 0;
+    }
+    .container-2 {
+        display: grid;
+        grid-column: 3 / 9;
+        grid-row: 4;
+        padding: 0;
+    }
 }
+
 @media (min-width: 64em) {
-  .headings {
-    grid-column: 2/8;
-  }
-  .container {
-    grid-column: 4 / 8;
-  }
-  .container-2 {
-    grid-column: 4 / 8;
-  }
+    .headings {
+        grid-column: 2/8;
+    }
+    .container {
+        grid-column: 4 / 8;
+    }
+    .container-2 {
+        grid-column: 4 / 8;
+    }
 }
 
 
 /*links*/
-a button  {
-  letter-spacing: 1.2px;
-  font-size: .7em;
-  text-align: left;
-  color: #FCFDF3;
-}
 
-@media (min-width:48em) {
-  a button  {
+a button {
     letter-spacing: 1.2px;
     font-size: .7em;
     text-align: left;
     color: #FCFDF3;
-  }
+}
+
+@media (min-width:48em) {
+    a button {
+        letter-spacing: 1.2px;
+        font-size: .7em;
+        text-align: left;
+        color: #FCFDF3;
+    }
 }
 
 a:hover,
 a:focus,
 li a:hover,
-li a:focus  {
-  color: #313131;
+li a:focus {
+    color: #313131;
 }
 
 button {
-  border: none;
-  padding: .8em 2.2em;
-  margin-top: 1px;
-  margin-bottom: 1px;
-  background-color: #F92648;
-  width: 100%
+    border: none;
+    padding: .8em 2.2em;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: #F92648;
+    width: 100%
 }
+
 button .direccion {
-  text-align: left;
-  font-size: 1rem;
-  color: #FCFDF3;
+    text-align: left;
+    font-size: 1rem;
+    color: #FCFDF3;
 }
+
 .boxshadow {
-  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-  transition: opacity 1s cubic-bezier(.46,.03,.52,.96);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: opacity 1s cubic-bezier(.46, .03, .52, .96);
 }
-.button2{
-  height: 3em;
-  width: 3em;
-  border-radius: 50%;
+
+.button2 {
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
 }
+
 .boxshadow:hover {
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  opacity: 1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 1;
 }
+
 
 /*limiters*/
 
 .fit {
-  width: auto;
+    width: auto;
 }
+
 @media (min-width:48em) {
-  .fit{
-    grid-column: 2 / 9
-  }
+    .fit {
+        grid-column: 2 / 9
+    }
 }
+
 @media (min-width:64em) {
-  .fit{
-    grid-column: 2 / 8
-  }
+    .fit {
+        grid-column: 2 / 8
+    }
 }
 
 
@@ -447,128 +459,129 @@ button .direccion {
 🏀  pero no se mete en temas de estilos .
 */
 
-/*posts*/
-.contexts { /*son los textos chicos a lo largo de los posts*/
-  color: #F92648;
-  line-height: 200%;
-  border-bottom: 2px solid ;
-}
-.post, .post-grid {
-  grid-column: 2 span 3;
-}
-.post p, h1,
-.post-grid p {
-  font-size: .8rem;
-  line-height: 130%
-}
-@media (min-width:48rem){
-  .post p, h1 {
-    font-size: 2rem;
-    line-height: 110%
-  }
-  .post-grid {
-    grid-column: 1/-1;
-    grid-row: 3;
-    padding: 20px;
 
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr)
-  }
-  .post-grid .post-title{
-    min-height: 4rem;
-  }
+/*posts*/
+
+.contexts {
+    /*son los textos chicos a lo largo de los posts*/
+    color: #F92648;
+    line-height: 200%;
+    border-bottom: 2px solid;
+}
+
+.post,
+.post-grid {
+    grid-column: 2 span 3;
+}
+
+.post p,
+h1,
+.post-grid p {
+    font-size: .8rem;
+    line-height: 130%
+}
+
+@media (min-width:48rem) {
+    .post p,
+    h1 {
+        font-size: 2rem;
+        line-height: 110%
+    }
+    .post-grid {
+        grid-column: 1/-1;
+        grid-row: 3;
+        padding: 20px;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(2, 1fr)
+    }
+    .post-grid .post-title {
+        min-height: 4rem;
+    }
 }
 
 @media (min-width:64em) {
-  .post-grid{
-    grid-template-columns: repeat(3, 1fr)
-  }
-  .post-grid .post-title{
-    min-height: 8rem;
-  }
+    .post-grid {
+        grid-template-columns: repeat(3, 1fr)
+    }
+    .post-grid .post-title {
+        min-height: 8rem;
+    }
 }
-@media (min-width:80em) {
-  .post-grid{
-    grid-template-columns: repeat(4, 1fr)
-  }
-}
-.post-title a{
-  color: #F92648;
 
+@media (min-width:80em) {
+    .post-grid {
+        grid-template-columns: repeat(4, 1fr)
+    }
+}
+
+.post-title a {
+    color: #F92648;
 }
 
 .contacto {
-  grid-row: 4;
-  grid-column: 2 / 3;
-
+    grid-row: 4;
+    grid-column: 2 / 3;
 }
+
+
 /*images*/
+
 .head-img {
-  height: 80vh;
+    height: 80vh;
 }
 
-.hero, .wide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  overflow: hidden;
-  background-color: black;
-  min-height: 10vh;
-}
-@media (min-width:48em) {
-  .hero, .wide {
-      grid-column: 1 / -1;
-      grid-row: 3
-  }
-
-  .hero img, .wide img {
+.hero,
+.wide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    margin: auto;
-  }
+    overflow: hidden;
+    background-color: black;
+    min-height: 10vh;
 }
+
+@media (min-width:48em) {
+    .hero,
+    .wide {
+        grid-column: 1 / -1;
+        grid-row: 3
+    }
+    .hero img,
+    .wide img {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
 /*Video*/
-.video, .video-list {
-  height: 100%;
-  background-color: black;
-  margin-bottom: 3rem;
-}
-@media (min-width:24em) {
-  .video {
+
+.video,
+.video-list {
     height: 100%;
-    width: 100%;
     background-color: black;
-  }
-  .video-list{
-    max-height: 300px
-  }
-}
-@media (min-width:48em) {
-  .video {
-    min-height: 50vh;
-    background-color: black;
-  }
-  .video-list{
-    max-height: 600px
-  }
-}
-/*sidebar*/
-.lead {
-  padding-top: .5rem;
-  grid-column: 2 /4;
-  grid-row: 2;
+    margin-bottom: 3rem;
 }
 
-.hide-me {
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.5s , visibility 1s cubic-bezier(.46,.03,.52,.96);
+@media (min-width:24em) {
+    .video {
+        height: 100%;
+        width: 100%;
+        background-color: black;
+    }
+    .video-list {
+        max-height: 300px
+    }
 }
-.sidebar:hover .hide-me,
-.sidebar:active .hide-me,
-.sidebar:focus .hide-me {
-  visibility: visible;
-  opacity: 1;
-    transition: opacity 0.5s , visibility 1s cubic-bezier(.46,.03,.52,.96);
+
+@media (min-width:48em) {
+    .video {
+        min-height: 50vh;
+        background-color: black;
+    }
+    .video-list {
+        max-height: 600px
+    }
 }

@@ -1,0 +1,21 @@
+/*sidebar*/
+
+.lead {
+    padding-top: .5rem;
+    grid-column: 2 /4;
+    grid-row: 2;
+}
+
+.hide-me {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s, visibility 1s cubic-bezier(.46, .03, .52, .96);
+}
+
+.sidebar:hover .hide-me,
+.sidebar:active .hide-me,
+.sidebar:focus .hide-me {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s, visibility 1s cubic-bezier(.46, .03, .52, .96);
+}

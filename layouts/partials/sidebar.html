@@ -1,27 +1,25 @@
 <div class="sidebar">
-  <div class="logos">
-    <a href="{{ .Site.BaseURL }}">
-      <img  src="{{ .Site.BaseURL }}img/logo-w.png" alt=" iniciativas19">
-    </a>
+    <div class="logos">
+        <a href="{{ .Site.BaseURL }}">
+            <img src="{{ .Site.BaseURL }}img/logo-w.png" alt=" iniciativas19">
+        </a>
 
 
-  </div>
-  <p class="lead hide-me hr-white">
-    {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
-  </p>
-
-  <div class="sidebar-sticky hide-me hr-white">
-    {{ range .Site.Menus.main -}}
-    <div class="sidebar-nav">
-      <a href="{{.URL}}">{{ .Pre }} {{ .Name }} </a>
     </div>
-    {{- end }}
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfUxMUY8ZLtFQCfy5NVOUoZjWac1YPgqMLQv49QtU18b3k4Ww/viewform?vc=0&c=0&w=1"> <p><i class="fa fa-comments"></i> Propón tu iniciativa</p></a>
-    <!-- <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}</p> -->
-  </div>
-  <div id="cf-form" style="height:300px;visibility:hidden;overflow:hidden" class="sidebar-form hide-me hr-white"> 
-    <a href="#">Propon tu iniciativa</a>
-    {{ partial "chatbot.html" . }}
-  </div>
+    <p class="lead hide-me hr-white">
+        {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
+    </p>
+
+    <div class="sidebar-sticky hide-me hr-white">
+        {{ range .Site.Menus.main -}}
+        <div class="sidebar-nav">
+            <a href="{{.URL}}">{{ .Pre }} {{ .Name }} </a>
+        </div>
+        {{- end }}
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfUxMUY8ZLtFQCfy5NVOUoZjWac1YPgqMLQv49QtU18b3k4Ww/viewform?vc=0&c=0&w=1">
+            <p><i class="fa fa-comments"></i> Propón tu iniciativa</p>
+        </a>
+        <!-- <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}</p> -->
+    </div>
 </div>
 </div>

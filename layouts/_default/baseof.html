@@ -1,8 +1,8 @@
 {{ partial "head.html" . }}
-  <body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
-  {{ partial "sidebar.html" . }}
-  {{ block "main" . -}}{{- end }}
 
-    {{ template "_internal/google_analytics_async.html" . }}
-  </body>
+<body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
+    {{ partial "sidebar.html" . }} {{ block "main" . -}}{{- end }} {{ template "_internal/google_analytics_async.html" . }}
+</body>
+{{ partial "chatbot.html" . }}
+
 </html>
