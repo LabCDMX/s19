@@ -6,45 +6,63 @@
     <description>Recent content on  Iniciativas 19</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>mx-es</language>
-    <lastBuildDate>Fri, 27 Oct 2017 13:56:58 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 02 Nov 2017 12:16:33 -0600</lastBuildDate>
     
 	<atom:link href="http://iniciativas19.labcd.mx/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Sonidistas Unidos por México</title>
+      <link>http://iniciativas19.labcd.mx/historias/videos/sonidistas/</link>
+      <pubDate>Thu, 02 Nov 2017 12:16:33 -0600</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/historias/videos/sonidistas/</guid>
+      <description>Grupo de expertos en audio para cine y televisión que se enfocó en buscar señales de vida en edificios derruidos con ayuda de micrófonos y con la ubicación de los sonidos que emitían los sobrevivientes.</description>
+    </item>
+    
+    <item>
+      <title>Sonidistas Unidos por México</title>
+      <link>http://iniciativas19.labcd.mx/iniciativas/sonidistas/</link>
+      <pubDate>Thu, 02 Nov 2017 12:16:33 -0600</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/iniciativas/sonidistas/</guid>
+      <description>Grupo de expertos en audio para cine y televisión que se enfocó en buscar señales de vida en edificios derruidos con ayuda de micrófonos y con la ubicación de los sonidos que emitían los sobrevivientes.</description>
+    </item>
+    
+    <item>
       <title>Cuéntanos dónde estabas: narrar para sanar</title>
-      <link>http://iniciativas19.labcd.mx/historias/cuentanos/</link>
+      <link>http://iniciativas19.labcd.mx/historias/entrevistas/cuentanos/</link>
       <pubDate>Fri, 27 Oct 2017 13:56:58 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/historias/cuentanos/</guid>
+      <guid>http://iniciativas19.labcd.mx/historias/entrevistas/cuentanos/</guid>
       <description>Primero el ruido, luego la zozobra. Gente volcada sobre las escaleras, saliendo de sus edificios con lo que puede; alguien prefiere cargar consigo su laptop, otros llevan a sus mascotas. Tiembla duro. Cada quien asimila el trauma de forma particular. Monserrat, por ejemplo, la pasó muy mal. Con su bebé en brazos, cogió su bolso en busca de su otro hijo. El kínder parecía más lejos de lo que acostumbra recorrer.</description>
     </item>
     
     <item>
       <title>El animal que también somos nosotros. Mascotas Sismo</title>
-      <link>http://iniciativas19.labcd.mx/historias/mascotas/</link>
+      <link>http://iniciativas19.labcd.mx/historias/entrevistas/mascotas/</link>
       <pubDate>Fri, 27 Oct 2017 13:56:47 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/historias/mascotas/</guid>
+      <guid>http://iniciativas19.labcd.mx/historias/entrevistas/mascotas/</guid>
       <description>Nelly aprendió a decir gato antes que mamá o agua. De adulta, aún gusta de convivir con animales. Ahora tiene tres mininos que la acompañan desde hace siete años en casa, en la Ciudad de México. También tiene un perro. Ellos fueron los primeros seres en los que pensó cuando se encontraba en San Miguel de Allende. Camino a casa, en la carretera, se acumularon los watsap, las llamadas: «Empezaron a llegar los mensajes de toda la familia, de amigos, preguntando «¿estás bien?</description>
     </item>
     
     <item>
       <title>Brigada Lavandería</title>
-      <link>http://iniciativas19.labcd.mx/historias/brigada/</link>
+      <link>http://iniciativas19.labcd.mx/historias/entrevistas/brigada/</link>
       <pubDate>Fri, 27 Oct 2017 13:56:36 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/historias/brigada/</guid>
+      <guid>http://iniciativas19.labcd.mx/historias/entrevistas/brigada/</guid>
       <description>«La ropa te ayuda a contar la historia de una persona» Brigada Lavandería
  La mujer sonríe. Su pose es ligera, contagia alegría. Las prendas que porta, de un verde brillante, contrastan con el producto que anuncia: jamón libre de conservadores, sin nitritos ni fosfatos. El espectacular es lo primero que uno ve al voltear a la ventana. Es de noche. Nos encontramos en un cuarto piso, el departamento de Karen.</description>
     </item>
     
     <item>
       <title>«Necesitamos una reconciliación vial»: Acopio en Bici</title>
-      <link>http://iniciativas19.labcd.mx/historias/acopio/</link>
+      <link>http://iniciativas19.labcd.mx/historias/entrevistas/acopio/</link>
       <pubDate>Fri, 27 Oct 2017 13:47:23 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/historias/acopio/</guid>
+      <guid>http://iniciativas19.labcd.mx/historias/entrevistas/acopio/</guid>
       <description>Para Fernando García, las acciones de ayuda a damnificados por el sismo empezaron once días antes del 19 de septiembre. Él, ciclista de cepa, se había reunido con otros colegas de rodada para ayudar a gente dañada por el otro sismo, el del 7 de septiembre, que quedó opacado por el que dañó a la Ciudad de México. Se encontraban en un callejón cuando los edificios empezaron a moverse; las fachadas se descarapelaron.</description>
     </item>
     
@@ -58,7 +76,7 @@
     </item>
     
     <item>
-      <title>Mi Edificio (Mexicanos contra la corrupcion)</title>
+      <title>Mi Edificio (Mexicanos contra la corrupción)</title>
       <link>http://iniciativas19.labcd.mx/iniciativas/mi-edificio/</link>
       <pubDate>Mon, 23 Oct 2017 17:11:23 -0500</pubDate>
       
@@ -103,20 +121,38 @@
     </item>
     
     <item>
-      <title>Voces De Ciudad</title>
-      <link>http://iniciativas19.labcd.mx/iniciativas/voces-de-ciudad/</link>
+      <title>Verificado 19S</title>
+      <link>http://iniciativas19.labcd.mx/iniciativas/verificado-19s/</link>
       <pubDate>Thu, 12 Oct 2017 01:47:58 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/iniciativas/voces-de-ciudad/</guid>
+      <guid>http://iniciativas19.labcd.mx/iniciativas/verificado-19s/</guid>
+      <description>Plataforma digital que verifica y organiza información para hacer más eficiente la respuesta ciudadana el tras sismo.</description>
+    </item>
+    
+    <item>
+      <title>Vivienda Emergente</title>
+      <link>http://iniciativas19.labcd.mx/iniciativas/vivienda-emergente/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:58 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/iniciativas/vivienda-emergente/</guid>
+      <description>Iniciativa que busca financiar colectivamente la producción de 15 viviendas para brindar refugio temporal a damnificados.</description>
+    </item>
+    
+    <item>
+      <title>Voces De Ciudad</title>
+      <link>http://iniciativas19.labcd.mx/historias/videos/voces-de-ciudad/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:58 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/historias/videos/voces-de-ciudad/</guid>
       <description>Espacio creado para construir la historia colectiva del sismo del 19 de septiembre de 2017.</description>
     </item>
     
     <item>
       <title>Voces De Ciudad</title>
-      <link>http://iniciativas19.labcd.mx/videos/voces-de-ciudad/</link>
+      <link>http://iniciativas19.labcd.mx/iniciativas/voces-de-ciudad/</link>
       <pubDate>Thu, 12 Oct 2017 01:47:58 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/videos/voces-de-ciudad/</guid>
+      <guid>http://iniciativas19.labcd.mx/iniciativas/voces-de-ciudad/</guid>
       <description>Espacio creado para construir la historia colectiva del sismo del 19 de septiembre de 2017.</description>
     </item>
     
@@ -139,12 +175,21 @@
     </item>
     
     <item>
-      <title>Juguetes Y Libros Por México</title>
-      <link>http://iniciativas19.labcd.mx/iniciativas/juguetes-y-libros-por-mexico/</link>
+      <title>Juntos Sismo CDMX</title>
+      <link>http://iniciativas19.labcd.mx/iniciativas/juntos-sismo-cdmx/</link>
       <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/iniciativas/juguetes-y-libros-por-mexico/</guid>
-      <description>Brigada que convoca a cuentacuentos, payasos, actores, artistas plásticos, maquillistas, músicos y artistas que ayuden a alegrar a los niños en zonas de desastre.</description>
+      <guid>http://iniciativas19.labcd.mx/iniciativas/juntos-sismo-cdmx/</guid>
+      <description>Análisis de información de fuentes primarias sobre necesidades en zonas afectadas para canalizarlas con centros de acopio verificados, transportistas y brigadistas.</description>
+    </item>
+    
+    <item>
+      <title>Lago Tanganica 67</title>
+      <link>http://iniciativas19.labcd.mx/iniciativas/lago-tanganica-67/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/iniciativas/lago-tanganica-67/</guid>
+      <description>Iniciativa de ciudadanos creativos y solidarios, capacitados para coordinar el apoyo y las donaciones que se destinen a los damnificados del sismo del 19 de septiembre de 2017.</description>
     </item>
     
     <item>
@@ -157,20 +202,38 @@
     </item>
     
     <item>
-      <title>Mascotas Sismo</title>
-      <link>http://iniciativas19.labcd.mx/iniciativas/mascotassismo/</link>
+      <title>Mapeo Humanitario Mapillary</title>
+      <link>http://iniciativas19.labcd.mx/historias/videos/mapeo-humanitario-mapillary/</link>
       <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/iniciativas/mascotassismo/</guid>
+      <guid>http://iniciativas19.labcd.mx/historias/videos/mapeo-humanitario-mapillary/</guid>
+      <description>Mapeo humanitario para Chiapas, Oaxaca, Puebla, Edomex y CDMX que registra los daños que ocasionaron los sismos del 7 y 19 de septiembre con un teléfono inteligente y la app Mapillary.</description>
+    </item>
+    
+    <item>
+      <title>Mapeo Humanitario Mapillary</title>
+      <link>http://iniciativas19.labcd.mx/iniciativas/mapeo-humanitario-mapillary/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/iniciativas/mapeo-humanitario-mapillary/</guid>
+      <description>Mapeo humanitario para Chiapas, Oaxaca, Puebla, Edomex y CDMX que registra los daños que ocasionaron los sismos del 7 y 19 de septiembre con un teléfono inteligente y la app Mapillary.</description>
+    </item>
+    
+    <item>
+      <title>Mascotas Sismo</title>
+      <link>http://iniciativas19.labcd.mx/historias/videos/mascotas-sismo/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/historias/videos/mascotas-sismo/</guid>
       <description>Iniciativa para reportar animales y encontrar extraviados durante el sismo. También indica cuáles albergues animales y veterinarios hay disponibles en la CDMX.</description>
     </item>
     
     <item>
       <title>Mascotas Sismo</title>
-      <link>http://iniciativas19.labcd.mx/videos/mascotas-sismo/</link>
+      <link>http://iniciativas19.labcd.mx/iniciativas/mascotassismo/</link>
       <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/videos/mascotas-sismo/</guid>
+      <guid>http://iniciativas19.labcd.mx/iniciativas/mascotassismo/</guid>
       <description>Iniciativa para reportar animales y encontrar extraviados durante el sismo. También indica cuáles albergues animales y veterinarios hay disponibles en la CDMX.</description>
     </item>
     
@@ -184,12 +247,12 @@
     </item>
     
     <item>
-      <title>Mi Casa Es Tu Casa 2</title>
-      <link>http://iniciativas19.labcd.mx/iniciativas/mi-casa-es-tu-casa-2/</link>
+      <title>Minando Por México</title>
+      <link>http://iniciativas19.labcd.mx/historias/videos/minando-por-mexico/</link>
       <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/iniciativas/mi-casa-es-tu-casa-2/</guid>
-      <description>Plataforma de encuentro para intercambiar necesidades</description>
+      <guid>http://iniciativas19.labcd.mx/historias/videos/minando-por-mexico/</guid>
+      <description>Grupo de programadores que ayudan a recaudar fondos para las víctimas del sismo con criptomonedas.</description>
     </item>
     
     <item>
@@ -202,12 +265,12 @@
     </item>
     
     <item>
-      <title>Minando Por México</title>
-      <link>http://iniciativas19.labcd.mx/videos/minando-por-mexico/</link>
+      <title>Muebletón México </title>
+      <link>http://iniciativas19.labcd.mx/historias/videos/muebleton/</link>
       <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/videos/minando-por-mexico/</guid>
-      <description>Grupo de programadores que ayudan a recaudar fondos para las víctimas del sismo con criptomonedas.</description>
+      <guid>http://iniciativas19.labcd.mx/historias/videos/muebleton/</guid>
+      <description>Iniciativa que busca reunir a posibles donantes de muebles con aquellos que tengan que reconstruir su patrimonio desde cero.</description>
     </item>
     
     <item>
@@ -216,15 +279,6 @@
       <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
       
       <guid>http://iniciativas19.labcd.mx/iniciativas/muebleton/</guid>
-      <description>Iniciativa que busca reunir a posibles donantes de muebles con aquellos que tengan que reconstruir su patrimonio desde cero.</description>
-    </item>
-    
-    <item>
-      <title>Muebletón México </title>
-      <link>http://iniciativas19.labcd.mx/videos/muebleton/</link>
-      <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
-      
-      <guid>http://iniciativas19.labcd.mx/videos/muebleton/</guid>
       <description>Iniciativa que busca reunir a posibles donantes de muebles con aquellos que tengan que reconstruir su patrimonio desde cero.</description>
     </item>
     
@@ -257,6 +311,15 @@
     
     <item>
       <title>Salva Tu Casa</title>
+      <link>http://iniciativas19.labcd.mx/historias/videos/salva-tu-casa/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/historias/videos/salva-tu-casa/</guid>
+      <description>Plataforma colaborativa que contacta a arquitectos e ingenieros con ciudadanos afectados por el sismo del 19 de septembre de 2017.</description>
+    </item>
+    
+    <item>
+      <title>Salva Tu Casa</title>
       <link>http://iniciativas19.labcd.mx/iniciativas/salva-tu-casa/</link>
       <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
       
@@ -265,12 +328,12 @@
     </item>
     
     <item>
-      <title>Salva Tu Casa</title>
-      <link>http://iniciativas19.labcd.mx/videos/salva-tu-casa/</link>
-      <pubDate>Thu, 12 Oct 2017 01:47:57 -0500</pubDate>
+      <title>Acopio en Bici</title>
+      <link>http://iniciativas19.labcd.mx/historias/videos/acopio-en-bici/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/videos/salva-tu-casa/</guid>
-      <description>Plataforma colaborativa que contacta a arquitectos e ingenieros con ciudadanos afectados por el sismo del 19 de septembre de 2017.</description>
+      <guid>http://iniciativas19.labcd.mx/historias/videos/acopio-en-bici/</guid>
+      <description>Red de ciclistas en la CDMX para canalizar donativos en especie a los centros de acopio de manera gratuita y voluntaria.</description>
     </item>
     
     <item>
@@ -279,15 +342,6 @@
       <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
       
       <guid>http://iniciativas19.labcd.mx/iniciativas/acopio-en-bici/</guid>
-      <description>Red de ciclistas en la CDMX para canalizar donativos en especie a los centros de acopio de manera gratuita y voluntaria.</description>
-    </item>
-    
-    <item>
-      <title>Acopio en Bici</title>
-      <link>http://iniciativas19.labcd.mx/videos/acopio-en-bici/</link>
-      <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
-      
-      <guid>http://iniciativas19.labcd.mx/videos/acopio-en-bici/</guid>
       <description>Red de ciclistas en la CDMX para canalizar donativos en especie a los centros de acopio de manera gratuita y voluntaria.</description>
     </item>
     
@@ -328,6 +382,15 @@
     </item>
     
     <item>
+      <title>Brigadas Solidarias</title>
+      <link>http://iniciativas19.labcd.mx/iniciativas/brigadas-solidarias/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/iniciativas/brigadas-solidarias/</guid>
+      <description>Voluntarios organizados vía Telegram.</description>
+    </item>
+    
+    <item>
       <title>Cadena Humana </title>
       <link>http://iniciativas19.labcd.mx/iniciativas/cadena-humana-/</link>
       <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
@@ -338,11 +401,20 @@
     
     <item>
       <title>Cuéntanos Dónde Estabas</title>
-      <link>http://iniciativas19.labcd.mx/iniciativas/cuentanos-d%C3%B3nde-estabas/</link>
+      <link>http://iniciativas19.labcd.mx/iniciativas/cuentanos-donde-estabas/</link>
       <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/iniciativas/cuentanos-d%C3%B3nde-estabas/</guid>
+      <guid>http://iniciativas19.labcd.mx/iniciativas/cuentanos-donde-estabas/</guid>
       <description>Blog de historias sobre el terremoto que sucedió en la Ciudad de México, Estado de México, Puebla y Morelos el 19 de septiembre de 2017.</description>
+    </item>
+    
+    <item>
+      <title>Dime Qué Perdiste Y Yo Te Ayudo a Recuperarlo</title>
+      <link>http://iniciativas19.labcd.mx/iniciativas/dime-que-perdiste/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/iniciativas/dime-que-perdiste/</guid>
+      <description>Iniciativa que coordina donativos directamente con danmificados del sismo del 19 de septiembre de 2017.</description>
     </item>
     
     <item>
@@ -374,19 +446,19 @@
     
     <item>
       <title>Hogar 19Mx</title>
-      <link>http://iniciativas19.labcd.mx/iniciativas/hogar-19mx/</link>
+      <link>http://iniciativas19.labcd.mx/historias/videos/hogar-19s/</link>
       <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/iniciativas/hogar-19mx/</guid>
+      <guid>http://iniciativas19.labcd.mx/historias/videos/hogar-19s/</guid>
       <description>Mapa colaborativo para encontrar departamentos en renta solidaria en la Ciudad de México.</description>
     </item>
     
     <item>
       <title>Hogar 19Mx</title>
-      <link>http://iniciativas19.labcd.mx/videos/hogar-19s/</link>
+      <link>http://iniciativas19.labcd.mx/iniciativas/hogar-19mx/</link>
       <pubDate>Thu, 12 Oct 2017 01:47:56 -0500</pubDate>
       
-      <guid>http://iniciativas19.labcd.mx/videos/hogar-19s/</guid>
+      <guid>http://iniciativas19.labcd.mx/iniciativas/hogar-19mx/</guid>
       <description>Mapa colaborativo para encontrar departamentos en renta solidaria en la Ciudad de México.</description>
     </item>
     
@@ -406,6 +478,15 @@
       
       <guid>http://iniciativas19.labcd.mx/iniciativas/informacion-organizada/</guid>
       <description>Datos, noticias reales e información confirmada y en tiempo real sobre el sismo.</description>
+    </item>
+    
+    <item>
+      <title>RevisaMiGrieta</title>
+      <link>http://iniciativas19.labcd.mx/iniciativas/revisamigrieta/</link>
+      <pubDate>Thu, 12 Oct 2017 01:47:55 -0500</pubDate>
+      
+      <guid>http://iniciativas19.labcd.mx/iniciativas/revisamigrieta/</guid>
+      <description>Arquitectos e ingenieros voluntarios generan recomendaciones de seguridad a inmuebles por medio del hastag #RevisaMiGrieta en Twitter.</description>
     </item>
     
     <item>

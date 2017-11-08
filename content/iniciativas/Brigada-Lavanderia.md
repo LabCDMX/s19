@@ -8,7 +8,7 @@ participa: ""
 head_image: false
 sitio: "brigadalavanderia.com/"
 facebook: ""
-twitter: ""
+twitter: "BLavanderia"
 telefono: "27 2154 8771"
 ---
 Iniciativa que organiza brigadas para lavar la ropa de las personas que habitan albergues en la CDMX.

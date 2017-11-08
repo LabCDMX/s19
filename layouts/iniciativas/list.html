@@ -1,46 +1,61 @@
 {{ define "main" -}}
 <div class="headings">
-  <h1 class="big-text"> Estas son las iniciativas que hemos recibido hasta el momento.</h1>
-  <p class="contexts"> Propuestas</p>
-
+  <h1 class="big-text"> Te compartimos algunas de las iniciativas que se generaron durante la emergencia del 19S.
+</h1>
+  <p class="contexts">Contribuye a esta lista:
+    <a href="mailto:iniciativas19@labcd.mx"> iniciativas19@labcd.mx </a>
+  </p>
 </div>
 <!-- contenido de los post -->
 <ul class="posts container content">
   <!--  ciclo for que llena los posts-->
   {{ range .Data.Pages -}}
-  <div class="post">
+  <div class="post boxshadow">
     <h2 class="post-title">
       <!--
       🚨 Revisa si hay links a contactos, cuales, y como los agrega como iconos al principio del post.🚨
       -->
       {{ if .Params.vimeo}}
       <a href="http://vimeo.com/{{ .Params.vimeo }}">
-        <i class="fa fa-vimeo"></i>
+        <i class="fa fa-vimeo" aria-hidden="true"></i>
       </a>
+      {{ end }}
+      {{ if .Params.direccion}}
+      <a href="{{ .Permalink }}">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+      </a>
+
       {{ end }}
       {{ if .Params.facebook}}
       <a href="http://{{ .Params.facebook }}">
-        <i class="fa fa-facebook"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
       </a>
       {{ end }}
+
+      {{ if .Params.instagram}}
+      <a href="http://instagram.com/{{ .Params.instagram }}">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a>
+      {{ end }}
+
       {{ if .Params.twitter}}
       <a href="http://www.twitter.com/{{ .Params.twitter }}">
-        <i class="fa fa-twitter"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
       </a>
       {{ end }}
       {{ if .Params.sitio}}
       <a href="http://{{ .Params.sitio }}">
-        <i class="fa fa-globe"></i>
+        <i class="fa fa-globe" aria-hidden="true"></i>
       </a>
       {{ end }}
       {{ if .Params.correo}}
         <a href="{{ .Params.correo }}">
-          <i class="fa fa-envelope" ></i>
+          <i class="fa fa-envelope"  aria-hidden="true"></i>
         </a>
       {{ end }}
       {{ if .Params.telefono}}
         <a href="tel:{{ .Params.telefono }}">
-          <i class="fa fa-phone" ></i>
+          <i class="fa fa-phone"  aria-hidden="true"></i>
         </a>
       {{ end }}
       <!-- titulo del proyecto -->
@@ -48,8 +63,8 @@
         {{ .Title }}
       </a>
     </h2>
+    <p>    {{ .Summary }}</p>
 
-    {{ .Summary }}
     {{ if .Truncated }}
     <div class="read-more-link">
       <a href="{{ .RelPermalink }}">Read More…</a>

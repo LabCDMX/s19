@@ -7,7 +7,7 @@ propone: "LabCDMX"
 participa: ""
 head_image: false
 sitio: ""
-facebook: ""
+facebook: "https://www.facebook.com/Hogaresxmexico/?hc_ref=ARRsv-aQLRXPSch0BH4VxXgXuTWPBsSQrXkkHU9NNd8qR8_n1rmVWa62cRI1YW1SxwU"
 twitter: ""
 ---
 Recaudación de fondos para realizar proyectos de vivienda a través de micochinito.com. Este proyecto reúne arquitectos e ingenieros.

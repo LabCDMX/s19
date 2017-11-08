@@ -8,7 +8,7 @@ participa: ""
 head_image: false
 sitio: "donadora.mx/actuopormexico?ref=bh"
 facebook: ""
-twitter: ""
+twitter: "DonadoraMX"
 correo: "mailto:hola@donadora.mx"
 telefono: "5552072268"
 ---

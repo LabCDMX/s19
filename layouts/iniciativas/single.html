@@ -1,8 +1,6 @@
 {{ define "main" -}}
 <div class="headings">
-  <p class="contexts"> Nombre</p>
   <h1 class="big-text red">{{ .Title }}</h1>
-  <p class="contexts"> Propuesta</p>
 </div>
 
 {{ if .Params.vimeo }}
@@ -26,7 +24,10 @@
 *
 *
 -->
-<div class="post container content">
+<div class="historia container content">
+
+    <p class="contexts">  </p>
+
   {{ .Content }}
 
 </div>
@@ -41,7 +42,19 @@
 
 
 <!-- <h1>Contacto</h1> -->
-<div class="contacto ">
+<div class="contacto content">
+
+
+
+  {{ if .Params.numeralia }}
+    <p class="contexts"> </p>
+    {{ range .Params.numeralia}}
+      <p class="numeralia">
+        {{ . }}
+      </p>
+    {{ end }}
+  {{end}}
+  <p class="contexts"> </p>
   <!-- sitio web disponible -->
   {{ if .Params.sitio }}
   <a href="http://{{ .Params.sitio }}">
@@ -62,7 +75,14 @@
     </button>
   </a>
   {{ end }}
-
+  {{ if .Params.instagram }}
+  <a href="http://www.instagram.com/{{ .Params.instagram }}">
+    <button class="boxshadow">
+      <i class="fa fa-instagram" ></i>
+      <!-- {{ .Params.instagram }} -->
+    </button>
+  </a>
+  {{ end }}
   <!-- Facebook Disponible -->
 
   {{ if .Params.facebook }}
@@ -93,7 +113,6 @@
   <a href="tel:{{ .Params.telefono }}">
     <button class="boxshadow">
       <i class="fa fa-phone" ></i>
-      {{ .Params.telefono }}
     </button>
   </a>
   {{ end }}
@@ -102,11 +121,11 @@
   <!-- direccion disponible -->
 
   {{ if .Params.direccion }}
-    <button class="boxshadow">
-      <p class="direccion">
+    <i></i>
+    <p class="direccion">
+      <i class="fa fa-map-marker" aria-hidden="true"></i>
         {{ .Params.direccion }}
-      </p class="direccion">
-    </button>
+    </p>
 
   {{ end }}
 

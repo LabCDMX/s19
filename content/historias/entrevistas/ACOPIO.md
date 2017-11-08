@@ -4,6 +4,17 @@ date: 2017-10-27T13:47:23-05:00
 draft: false
 author: "Miguel Ángel Morales"
 propone: "LabCDMX"
+
+propuesta: "Brigada Lavandería"
+numeralia:
+  [
+  'Integrantes: 260',
+  'Asistencia durante el día del sismo',
+  'Tiempo : 14 horas',
+  'Distancia: 250Km',
+  'Peso de los transportes: 50 -120 Kg por viaje',
+  ]
+
 participa: ""
 head_image: "http://iniciativas19.labcd.mx/img/ACOPIO-PORTADA.jpg"
 sitio: ""

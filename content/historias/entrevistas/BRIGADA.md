@@ -4,6 +4,15 @@ date: 2017-10-27T13:56:36-05:00
 draft: false
 author: "Miguel Ángel Morales"
 propone: "LabCDMX"
+
+propuesta: "Brigada Lavandería"
+numeralia:
+  [
+  'Integrantes: 5',
+  'Delegacion: Benito Juárez',
+  'Voluntarios: 452',
+  'Toneladas de ropa lavada: 1.5.',
+  ]
 participa: ""
 head_image: "http://iniciativas19.labcd.mx/img/LAVANDERIA-PORTADA.jpg"
 sitio: ""

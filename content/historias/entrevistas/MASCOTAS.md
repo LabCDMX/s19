@@ -4,6 +4,17 @@ date: 2017-10-27T13:56:47-05:00
 draft: false
 author: "Miguel Ángel Morales"
 propone: "LabCDMX"
+
+propuesta: "Mascotas Sismo"
+numeralia:
+  [
+  'Integrantes: 1',
+  'Mascotas Extraviadas: 305',
+  'De las cuales: 419 reunidas con su familia',
+  'Perros: 1%',
+  'Gatos: 19%',
+  'Aves: menos del 1%'
+  ]
 participa: ""
 head_image: "http://iniciativas19.labcd.mx/img/MASCOTAS-PORTADA.jpg"
 sitio: ""

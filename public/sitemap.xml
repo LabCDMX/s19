@@ -3,22 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://iniciativas19.labcd.mx/historias/cuentanos/</loc>
+    <loc>http://iniciativas19.labcd.mx/historias/videos/sonidistas/</loc>
+    <lastmod>2017-11-02T12:16:33-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iniciativas19.labcd.mx/iniciativas/sonidistas/</loc>
+    <lastmod>2017-11-02T12:16:33-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iniciativas19.labcd.mx/historias/entrevistas/cuentanos/</loc>
     <lastmod>2017-10-27T13:56:58-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iniciativas19.labcd.mx/historias/mascotas/</loc>
+    <loc>http://iniciativas19.labcd.mx/historias/entrevistas/mascotas/</loc>
     <lastmod>2017-10-27T13:56:47-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iniciativas19.labcd.mx/historias/brigada/</loc>
+    <loc>http://iniciativas19.labcd.mx/historias/entrevistas/brigada/</loc>
     <lastmod>2017-10-27T13:56:36-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iniciativas19.labcd.mx/historias/acopio/</loc>
+    <loc>http://iniciativas19.labcd.mx/historias/entrevistas/acopio/</loc>
     <lastmod>2017-10-27T13:47:23-05:00</lastmod>
   </url>
   
@@ -53,12 +63,22 @@
   </url>
   
   <url>
-    <loc>http://iniciativas19.labcd.mx/iniciativas/voces-de-ciudad/</loc>
+    <loc>http://iniciativas19.labcd.mx/iniciativas/verificado-19s/</loc>
     <lastmod>2017-10-12T01:47:58-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iniciativas19.labcd.mx/videos/voces-de-ciudad/</loc>
+    <loc>http://iniciativas19.labcd.mx/iniciativas/vivienda-emergente/</loc>
+    <lastmod>2017-10-12T01:47:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iniciativas19.labcd.mx/historias/videos/voces-de-ciudad/</loc>
+    <lastmod>2017-10-12T01:47:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iniciativas19.labcd.mx/iniciativas/voces-de-ciudad/</loc>
     <lastmod>2017-10-12T01:47:58-05:00</lastmod>
   </url>
   
@@ -73,7 +93,12 @@
   </url>
   
   <url>
-    <loc>http://iniciativas19.labcd.mx/iniciativas/juguetes-y-libros-por-mexico/</loc>
+    <loc>http://iniciativas19.labcd.mx/iniciativas/juntos-sismo-cdmx/</loc>
+    <lastmod>2017-10-12T01:47:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iniciativas19.labcd.mx/iniciativas/lago-tanganica-67/</loc>
     <lastmod>2017-10-12T01:47:57-05:00</lastmod>
   </url>
   
@@ -83,12 +108,22 @@
   </url>
   
   <url>
-    <loc>http://iniciativas19.labcd.mx/iniciativas/mascotassismo/</loc>
+    <loc>http://iniciativas19.labcd.mx/historias/videos/mapeo-humanitario-mapillary/</loc>
     <lastmod>2017-10-12T01:47:57-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iniciativas19.labcd.mx/videos/mascotas-sismo/</loc>
+    <loc>http://iniciativas19.labcd.mx/iniciativas/mapeo-humanitario-mapillary/</loc>
+    <lastmod>2017-10-12T01:47:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iniciativas19.labcd.mx/historias/videos/mascotas-sismo/</loc>
+    <lastmod>2017-10-12T01:47:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iniciativas19.labcd.mx/iniciativas/mascotassismo/</loc>
     <lastmod>2017-10-12T01:47:57-05:00</lastmod>
   </url>
   
@@ -98,7 +133,7 @@
   </url>
   
   <url>
-    <loc>http://iniciativas19.labcd.mx/iniciativas/mi-casa-es-tu-casa-2/</loc>
+    <loc>http://iniciativas19.labcd.mx/historias/videos/minando-por-mexico/</loc>
     <lastmod>2017-10-12T01:47:57-05:00</lastmod>
   </url>
   
@@ -108,17 +143,12 @@
   </url>
   
   <url>
-    <loc>http://iniciativas19.labcd.mx/videos/minando-por-mexico/</loc>
+    <loc>http://iniciativas19.labcd.mx/historias/videos/muebleton/</loc>
     <lastmod>2017-10-12T01:47:57-05:00</lastmod>
   </url>
   
   <url>
     <loc>http://iniciativas19.labcd.mx/iniciativas/muebleton/</loc>
-    <lastmod>2017-10-12T01:47:57-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://iniciativas19.labcd.mx/videos/muebleton/</loc>
     <lastmod>2017-10-12T01:47:57-05:00</lastmod>
   </url>
   
@@ -138,22 +168,22 @@
   </url>
   
   <url>
+    <loc>http://iniciativas19.labcd.mx/historias/videos/salva-tu-casa/</loc>
+    <lastmod>2017-10-12T01:47:57-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iniciativas19.labcd.mx/iniciativas/salva-tu-casa/</loc>
     <lastmod>2017-10-12T01:47:57-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iniciativas19.labcd.mx/videos/salva-tu-casa/</loc>
-    <lastmod>2017-10-12T01:47:57-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://iniciativas19.labcd.mx/iniciativas/acopio-en-bici/</loc>
+    <loc>http://iniciativas19.labcd.mx/historias/videos/acopio-en-bici/</loc>
     <lastmod>2017-10-12T01:47:56-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iniciativas19.labcd.mx/videos/acopio-en-bici/</loc>
+    <loc>http://iniciativas19.labcd.mx/iniciativas/acopio-en-bici/</loc>
     <lastmod>2017-10-12T01:47:56-05:00</lastmod>
   </url>
   
@@ -178,12 +208,22 @@
   </url>
   
   <url>
+    <loc>http://iniciativas19.labcd.mx/iniciativas/brigadas-solidarias/</loc>
+    <lastmod>2017-10-12T01:47:56-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iniciativas19.labcd.mx/iniciativas/cadena-humana-/</loc>
     <lastmod>2017-10-12T01:47:56-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iniciativas19.labcd.mx/iniciativas/cuentanos-d%C3%B3nde-estabas/</loc>
+    <loc>http://iniciativas19.labcd.mx/iniciativas/cuentanos-donde-estabas/</loc>
+    <lastmod>2017-10-12T01:47:56-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iniciativas19.labcd.mx/iniciativas/dime-que-perdiste/</loc>
     <lastmod>2017-10-12T01:47:56-05:00</lastmod>
   </url>
   
@@ -203,12 +243,12 @@
   </url>
   
   <url>
-    <loc>http://iniciativas19.labcd.mx/iniciativas/hogar-19mx/</loc>
+    <loc>http://iniciativas19.labcd.mx/historias/videos/hogar-19s/</loc>
     <lastmod>2017-10-12T01:47:56-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iniciativas19.labcd.mx/videos/hogar-19s/</loc>
+    <loc>http://iniciativas19.labcd.mx/iniciativas/hogar-19mx/</loc>
     <lastmod>2017-10-12T01:47:56-05:00</lastmod>
   </url>
   
@@ -223,13 +263,18 @@
   </url>
   
   <url>
+    <loc>http://iniciativas19.labcd.mx/iniciativas/revisamigrieta/</loc>
+    <lastmod>2017-10-12T01:47:55-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iniciativas19.labcd.mx/iniciativas/19smasdemx/</loc>
     <lastmod>2017-10-12T00:33:23-05:00</lastmod>
   </url>
   
   <url>
     <loc>http://iniciativas19.labcd.mx/</loc>
-    <lastmod>2017-10-27T13:56:58-05:00</lastmod>
+    <lastmod>2017-11-02T12:16:33-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -240,24 +285,18 @@
   
   <url>
     <loc>http://iniciativas19.labcd.mx/historias/</loc>
-    <lastmod>2017-10-27T13:56:58-05:00</lastmod>
+    <lastmod>2017-11-02T12:16:33-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://iniciativas19.labcd.mx/iniciativas/</loc>
-    <lastmod>2017-10-25T12:19:51-05:00</lastmod>
+    <lastmod>2017-11-02T12:16:33-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://iniciativas19.labcd.mx/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://iniciativas19.labcd.mx/videos/</loc>
-    <lastmod>2017-10-12T01:47:58-05:00</lastmod>
     <priority>0</priority>
   </url>
   

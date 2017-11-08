@@ -7,7 +7,7 @@ participa: ""
 head_image: false
 sitio: "handcd.com/fuerza-mexico/"
 facebook: ""
-twitter: ""
+twitter: "HANDCreativeD"
 correo: "mailto:proyectos@handcd.com"
 telefono: "10000654"
 ---

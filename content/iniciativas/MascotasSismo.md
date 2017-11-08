@@ -8,7 +8,7 @@ participa: ""
 head_image: false
 sitio: ""
 facebook: ""
-twitter: "nell"
+twitter: "MascotasSismo"
 vimeo: /237615954
 ---
 

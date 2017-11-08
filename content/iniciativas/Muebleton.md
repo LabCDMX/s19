@@ -9,6 +9,6 @@ head_image: false
 sitio: "www.muebleton.mx/"
 facebook: ""
 twitter: "MuebletonMexico"
-vimeo: /239022042  #necesita ser codigo de origen de vimeo (el chiquito)
+vimeo: /239022042 
 ---
 Iniciativa que busca reunir a posibles donantes de muebles con aquellos que tengan que reconstruir su patrimonio desde cero.

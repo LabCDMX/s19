@@ -5,7 +5,7 @@ author: "LabCDMX"
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: ""
+sitio: "https://docs.google.com/forms/d/e/1FAIpQLSfMniXakMnMmH41E7LuNjHk0SCbpkQTed0gfXdYqxCnvn2f4A/viewform"
 facebook: "www.facebook.com/brigadasculturalesmx/"
 twitter: ""
 direccion: Progreso 30, San Lucas, Coyoacán

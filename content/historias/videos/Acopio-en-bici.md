@@ -2,7 +2,7 @@
 title: "Acopio en Bici"
 date: 2017-10-12T01:47:56-05:00
 draft: false
-author: "LabCDMX"
+author: ""
 propone: "LabCDMX"
 participa: ""
 head_image: false

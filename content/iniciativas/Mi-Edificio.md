@@ -1,12 +1,12 @@
 ---
-title: "Mi Edificio (Mexicanos contra la corrupcion)"
+title: "Mi Edificio (Mexicanos contra la corrupción)"
 date: 2017-10-23T17:11:23-05:00
 draft: false
 author: ""
 propone: "LabCDMX"
 participa: ""
 head_image: false
-sitio: "contralacorrupcion.mx"
+sitio: "contralacorrupcion.mx/web/mi-edificio/"
 facebook: ""
 twitter: "MXvsCORRUPCION"
 correo: ""
