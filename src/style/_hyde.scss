@@ -64,118 +64,6 @@ body {
 }
 
 
-/*
- * Sidebar
- *
- * Flexible banner for housing site name, intro, and "footer" content. Starts
- * out above content in mobile and later moves to the side with wider viewports.
- *
- */
-
-.sidebar {
-    text-align: center;
-    padding: 1rem 1rem;
-    color: #FCFDF3;
-    background-color: #F92648;
-    text-align: left;
-    /*just for the heck of it*/
-    height: 4em;
-    overflow: hidden;
-    transition: height .5s, grid-template-columns .5s cubic-bezier(.46, .03, .52, .96);
-}
-
-.sidebar:hover,
-.sidebar:active,
-.sidebar:focus {
-    height: 80vh
-}
-
-@media (min-width: 48em) {
-    .sidebar {
-        padding: 0;
-        grid-column: 1 /-1;
-        grid-row: 1;
-        /* css grids inside */
-        display: grid;
-        grid-gap: 20px;
-        align-items: flex-start;
-        justify-content: flex-start;
-        grid-template-columns: 2fr repeat(8, 1fr);
-        grid-template-rows: 4rem auto;
-    }
-    .sidebar:hover,
-    .sidebar:active,
-    .sidebar:focus {
-        height: 60vh;
-    }
-}
-
-
-/* Sidebar links */
-
-.sidebar a {
-    color: #FCFDF3;
-    font-size: .7em;
-    line-height: 1.2;
-}
-
-.sidebar a:hover {
-    color: #FCFDF3;
-}
-
-
-/* About section */
-
-.sidebar-about h1 {
-    color: #fff;
-    margin-top: 0;
-    font-size: 2.25rem;
-}
-
-.sidebar-about h3 {
-    color: #fff;
-    margin-top: 0;
-    font-size: 1.5rem;
-}
-
-
-/* Sidebar nav */
-
-.sidebar-nav {
-    padding-left: 0;
-    list-style: none;
-}
-
-.sidebar-nav-item {
-    display: block;
-}
-
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-    text-decoration: underline;
-}
-
-
-/* Sticky sidebar
- *
- * Add the `sidebar-sticky` class to the sidebar's container to affix it the
- * contents to the bottom of the sidebar in tablets and up.
- */
-
-.sidebar-sticky a:hover {
-    text-decoration: underline;
-    opacity: 0.3;
-}
-
-@media (min-width: 48em) {
-    .sidebar-sticky {
-        grid-column: 4 / 6;
-        grid-row: 2;
-    }
-    .sidebar-form {}
-}
-
-
 /* Container
  *
  * Align the contents of the site above the proper threshold with some margin-fu
@@ -268,12 +156,14 @@ h1 {
 .logos {
     width: 8rem;
     padding-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 @media (min-width:48rem) {
     .logos {
         grid-column: 2/4;
         grid-row: 1;
+        margin-left: none;
     }
 }
 
@@ -330,7 +220,9 @@ h1 {
     }
 }
 
-.container {}
+.container {
+    margin-bottom: 4em;
+}
 
 .headings {
     min-height: 120%;
@@ -398,11 +290,13 @@ li a:focus {
 
 button {
     border: none;
-    padding: .8em 2.2em;
+    padding: .7em .8em;
     margin-top: 1px;
     margin-bottom: 1px;
     background-color: #F92648;
-    width: 100%
+    text-align: center;
+    width: 2.5em;
+    border-radius: 50%;
 }
 
 button .direccion {
@@ -412,8 +306,8 @@ button .direccion {
 }
 
 .boxshadow {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-    transition: opacity 1s cubic-bezier(.46, .03, .52, .96);
+    box-shadow: 0;
+    transition: box-shadow 1s cubic-bezier(.46, .03, .52, .96);
 }
 
 .button2 {
@@ -469,13 +363,17 @@ button .direccion {
     border-bottom: 2px solid;
 }
 
+.post {
+    padding: .8rem .8rem .8rem .8rem;
+    border-radius: 5px;
+}
+
 .post,
 .post-grid {
     grid-column: 2 span 3;
 }
 
 .post p,
-h1,
 .post-grid p {
     font-size: .8rem;
     line-height: 130%
@@ -484,7 +382,7 @@ h1,
 @media (min-width:48rem) {
     .post p,
     h1 {
-        font-size: 2rem;
+        font-size: 1rem;
         line-height: 110%
     }
     .post-grid {
