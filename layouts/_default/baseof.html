@@ -3,9 +3,15 @@
 
 {{ partial "head.html" . }}
 
-<body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
-    {{ partial "sidebar.html" . }} {{ block "main" . -}}{{- end }} {{ template "_internal/google_analytics_async.html" . }}
+<body class = "{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
+<div  class = "main">
+    {{ partial "sidebar.html" . }} 
+    {{ block "main" . -}}{{- end }} 
+    {{ template "_internal/google_analytics_async.html" . }}
+</div>
 </body>
-{{ partial "chatbot.html" . }}
+<div class = "main-chatbot">
+    {{ partial "chatbot.html" . }}
+</div>
 
 </html>

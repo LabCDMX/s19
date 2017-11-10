@@ -33,8 +33,9 @@ e
  */
 
 html {
-    font-family:               "Work Sans", Helvetica, Arial, sans-serif;
-    background-color:          #FCFDF3;
+    font-family     : "Work Sans", Helvetica, Arial, sans-serif;
+    background-color: #FCFDF3;
+    overflow: hidden;
 }
 
 @media (min-width:             48em) {
@@ -49,12 +50,12 @@ html {
     }
 }
 
-body {
+.main {
     background-color:          #FCFDF3;
 }
 
 @media (min-width:             48em) {
-    body {
+    .main {
         display:               grid;
         grid-template-columns: 2fr repeat(8, 1fr);
         grid-template-rows:    auto;
@@ -300,7 +301,7 @@ button .direccion {
 
 .boxshadow {
     box-shadow:       0;
-    transition:       box-shadow 1s cubic-bezier(.46, .03, .52, .96);
+    transition:       box-shadow .3s cubic-bezier(.46, .03, .52, .96);
 }
 
 .button2 {
