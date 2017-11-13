@@ -1,61 +1,85 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="mx-es" lang="mx-es">
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="mx-es" lang="mx-es" >
+
+
 <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
+    <link href="http://gmpg.org/xfn/11" rel="profile">
 
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"> <meta name="generator" content="Hugo 0.30.2" />
 
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.29" />
+    
 
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"> <title>Hand Creative Design &middot;  Iniciativas 19</title>
 
-  <title>Hand Creative Design &middot;  Iniciativas 19</title>
+    
+    
+    <link rel="stylesheet" href="http://iniciativas19.labcd.mx/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="http://iniciativas19.labcd.mx/css/font-awesome.min.css">
 
-  
-  <link rel="stylesheet" href="http://iniciativas19.labcd.mx/css/print.css" media="print">
-  <link rel="stylesheet" href="http://iniciativas19.labcd.mx/css/poole.css">
-  <link rel="stylesheet" href="http://iniciativas19.labcd.mx/css/syntax.css">
-  <link rel="stylesheet" href="http://iniciativas19.labcd.mx/css/hyde.css">
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="http://iniciativas19.labcd.mx/css/font-awesome.min.css">
+    
+<script type="text/javascript" src="https://cf-4053.kxcdn.com/conversational-form/0.9.6/conversational-form.min.js?v=1.0.0"
+    crossorigin=""></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue"></script>
 
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
 
-  
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/favicon.png">
-
-  
-  <link href="" rel="alternate" type="application/rss+xml" title=" Iniciativas 19" />
+    
+    <link href="" rel="alternate" type="application/rss+xml" title=" Iniciativas 19"/>
 </head>
 
-  <body class="theme-base-09 ">
-  <div class="sidebar">
-  <div class="logos">
-    <a href="http://iniciativas19.labcd.mx/">
-      <img  src="http://iniciativas19.labcd.mx/img/logo-w.png" alt=" iniciativas19">
-    </a>
-  </div>
-      <i class="fa fa-bars fa-lg hamburguer"></i>
-  <p class="lead hide-me hr-white">
-     Ciudad Creativa y Resiliente 
-  </p>
+<body  class = "theme-base-09 ">
+<div class = "main">
+    <div id='sidebar' 
+     class="sidebar"
+     @click="active=!active"
+     @mouseover="active=!active"
+     @mouseleave="active=!active"
+    >
+    <div class="logos">
+        <a href="http://iniciativas19.labcd.mx/">
+            <img src="http://iniciativas19.labcd.mx/img/logo-w.png" alt=" iniciativas19">
+        </a>
+    </div>
+    <div class="hamburguer">
+ 
+            <i v-if="active" class="fa fa-times  fa-lg"></i>
+            <i v-else        class="fa fa-bars   fa-lg"></i>
 
-  <div class="sidebar-sticky hide-me hr-white">
-    <div class="sidebar-nav">
-      <a href="/"> Inicio </a>
-    </div><div class="sidebar-nav">
-      <a href="/iniciativas/"> Iniciativas  </a>
-    </div><div class="sidebar-nav">
-      <a href="/historias/"> Historias </a>
+    </div>
+
+
+    <p class="lead hide-me hr-white">
+         Ciudad Creativa y Resiliente 
+    </p>
+
+    <div class="sidebar-sticky hide-me hr-white">
+        <div class="sidebar-nav">
+            <a href="/"> Inicio </a>
+        </div><div class="sidebar-nav">
+            <a href="/iniciativas/"> Iniciativas  </a>
+        </div><div class="sidebar-nav">
+            <a href="/fondo/"> Fondo </a>
+        </div><div class="sidebar-nav">
+            <a href="/historias/"> Historias </a>
+        </div>
+
+        
     </div>
     
     
-  </div>
 </div>
-</div>
-
-  <div class="headings">
+<script>
+    var sidebar = new Vue ({
+        el: '#sidebar',
+        data: {
+            active: false    
+        }
+    })
+</script> 
+    <div class="headings">
   <h1 class="big-text red">Hand Creative Design</h1>
 </div>
 
@@ -100,14 +124,14 @@
     </button>
   </a>
   
-  
-  
 
   
 
+  
 
   
 
+  
 
   
   <a href="mailto:proyectos@handcd.com">
@@ -134,8 +158,144 @@
   
 
 </div>
+ 
+    
+</div>
+</body>
+<div class = "main-chatbot">
+    
+
+<div class = "chatbot" id = "chatbot" >
+<transition name="slide-fade">
+
+    <div cf-context id = "cf-form" v-show = "seen"> 
+            <form cf-form id="form" action="index.html" method="post" target="_blank">
+            
+                
+            
+                
+                <div>
+                    <label for="firstname">
+                        Hola! Gracias por tu interés en Iniciativas 19. Dinos cmo te llamas
+                    </label>
+                    <input type="text" cf-questions="Gracias por tu interes en Iniciativas 19&&¿Cuál es tu nombre?" name="firstname" id="firstname"
+                        cf-input-placeholder="Solo tu primer nombre">
+                </div>
+                <div>
+                    <label for="lastname">
+                        ¿Cómo te appellidas?
+                    </label>
+                    <input type="text" cf-questions="  ¿Cuál es tu apilldo, {firstname}? || ¿Cómo te apellidas, {firstname} ?" name="lastname"
+                        id="lastname" cf-input-placeholder="pueden ser uno o dos apellidos">
+                </div>
+            
+                <div cf-questions="Perfecto {firstname}. Ahora dinos que operacion te gustaria realziar 🤔 || ¿Qué operacion deseas realizar, {firstname} ?">
+            
+                    <input type="radio" name="cfc-path" value="a" id="path-a">
+                    <label for="path-a">
+                        Recomendar a una iniciativa para participar por el Fondo Iniciativas 19.
+                    </label>
+            
+                    <input type="radio" name="cfc-path" value="b" id="path-b">
+                    <label for="path-b">
+                        Registrarte para obtener el Fondo Iniciativas 19
+                    </label>
+            
+                    <input type="radio" name="cfc-path" value="b" id="path-c">
+                    <label for="path-c">
+                        Registrarte para obtener un espacio de trabajo gratis durante 3 meses.
+                    </label>
+                </div>
+            
+                
+            
+                <div>
+                    <input cf-questions="Cual es tu correo electronico, {firstname}?" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" cf-error="Esto no parece ser un correo 🤔 ."
+                        type="email" id="e-mail" name="email" cf-conditional-cfc-path="a">
+                </div>
+            
+            
+                <div>
+                    <label for="nombre-iniciativa">
+                        Nombre de la iniciativa
+                    </label>
+                    <input type="text" name="nombre-iniciativa" id="nombre-iniciativa" cf-questions=" Perfecto && ¿Cómo se llama la iniciativa que quieres recomendar?"
+                        cf-input-placeholder=" Solo texto plz." cf-conditional-cfc-path="a">
+                </div>
+            
+                <select cf-questions=" Genial && oye && Donde podemos encontralos?" cf-input-placeholder=" Solo una via de contacto. Nosotros les haremos saber que ya estan registrados :)."
+                    cf-conditional-cfc-path="a">
+                    <option value="facebook"> Facebook</option>
+                    <option value="twitter"> twitter</option>
+                    <option value="instagram"> instagram</option>
+                    <option value="correo-electronico"> correo electronico</option>
+                </select>
+            
+                <div>
+                    <label for="contacto-iniciativa">
+                        Cual es el contacto de la iniciativa
+                    </label>
+                    <input type="text" name="contacto-iniciativa" id="contacto-iniciativa" cf-questions="¿y cual es?" cf-input-placeholder="Escribelo como tu lo conozocas. nosotros los buscamos"
+                        cf-conditional-cfc-path="a">
+                </div>
+            
+                <div>
+                    <input cf-questions="Eso sería todo && Quieres mandar la información ya {firstname}? && Solo necesitas escribir 'enviar'"
+                        pattern="[E,e]nviar" cf-conditional-cfc-path="a" cf-input-placeholder="SI lo deseas, puedes cambiar tus respuestas anteriores."
+                        name="end" type="text" id="end">
+                </div>
+            
+                
+            
+                <div>
+                    <input cf-questions=" perfecto && Si aun no sabes que es , entra en http://iniciativas19.labcd.mx/fono && Si ya sabes, solo sigue la liga :)"
+                        pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" cf-input-placeholder="Este es el final :)." cf-error="Este es el final :)."
+                        type="text" id="path-b-1" name="path-b-1" cf-conditional-cfc-path="b">
+                </div>
+            
+                <div>
+                    <input cf-questions=" {firstname}, Sigue esta liga para participar por el espacio de trabajo && Si aun no sabes que es , entra en http://iniciativas19.labcd.mx/cowork && 😄 "
+                        pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" cf-input-placeholder="Si lo deseas, puedes cambiar tu respuesta anterior para ver mas opciones"
+                        type="text" id="path-c-1" name="path-c-1" cf-conditional-cfc-path="c">
+                </div>
+            </form>
+    </div>
+</transition>
+    <button v-if='seen' class="boxshadow" v-on:click="createChatbot();">
+        <i class="fa fa-times "></i>
+        Regresa al sitio
+    </button>
+    <button v-else
+        class = "boxshadow" 
+        v-on:click = "seen = !seen">
+        Realiza tu propuesta!
+    </button>
+
+</div>
+
+<script> 
+
+    var context = document.getElementById("cf-form");   
+    var form = document.getElementById("form");
+    var cfForm = document.getElementById('#conversational-form');
+
+    
+    var app = new Vue({
+        el  : '#chatbot',
+        data: {
+            seen: true
+        }
+    })
+
+    function createChatbot(){
+        app.seen = !app.seen; 
+    }
 
 
     
-  </body>
+
+    
+</script>
+</div>
+
 </html>
