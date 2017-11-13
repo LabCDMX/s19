@@ -5,6 +5,28 @@
  * out above content in mobile and later moves to the side with wider viewports.
  *
  */
+ 
+.logos {
+    width        : 8rem;
+    margin-bottom: 2em;
+
+    @media (min-width: 48rem) {
+        padding-top: 1em;
+        grid-column: 2/4;
+        grid-row   : 1;
+        margin-left: none;
+
+}
+}
+
+
+
+.logos img {
+    max-width:         6rem;
+    @media (min-width: 24em) {
+        max-width:     9rem;
+    }
+}
 
 .sidebar {
     text-align: center;
@@ -13,7 +35,7 @@
     background-color: #F92648;
     text-align: left;
     /*just for the heck of it*/
-    height: 5em;
+    height: 3em;
     overflow: hidden;
     transition: height .5s, grid-template-columns .5s cubic-bezier(.46, .03, .52, .96);
 }
@@ -21,7 +43,7 @@
 .sidebar:hover,
 .sidebar:active,
 .sidebar:focus {
-    height: 80vh
+    height: 40vh
 }
 
 @media (min-width: 48em) {
@@ -41,8 +63,9 @@
     .sidebar:hover,
     .sidebar:active,
     .sidebar:focus {
-        height: 60vh;
+        height: 30vh;
     }
+
 }
 
 
@@ -107,7 +130,6 @@ a.sidebar-nav-item:focus {
         grid-column: 4 / 6;
         grid-row: 2;
     }
-    .sidebar-form {}
 }
 
 
@@ -126,7 +148,6 @@ a.sidebar-nav-item:focus {
 }
 
 .sidebar:hover .hide-me,
-.sidebar:active .hide-me,
 .sidebar:focus .hide-me {
     visibility: visible;
     opacity: 1;
@@ -135,17 +156,15 @@ a.sidebar-nav-item:focus {
 
 .hamburguer {
     position: absolute;
-    right: 2rem;
-    top: 2.5rem;
-}
+    right: 2em;
+    top: .8em;
 
-@media (min-width: 48em) {
-    .hamburguer {
+    @media (min-width: 48em) {
+
         position: inherit;
-        visibility: none;
-        display: none;
         grid-column: -3;
         align-self: center;
         justify-self: center;
+
     }
 }

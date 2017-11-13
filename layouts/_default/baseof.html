@@ -3,8 +3,8 @@
 
 {{ partial "head.html" . }}
 
-<body class = "{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
-<div  class = "main">
+<body  class = "{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
+<div class = "main">
     {{ partial "sidebar.html" . }} 
     {{ block "main" . -}}{{- end }} 
     {{ template "_internal/google_analytics_async.html" . }}

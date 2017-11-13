@@ -10,12 +10,12 @@ subtitle = "Ciudad Creativa y resiliente"
     identifier = "inicio"
     url = "/"
 
-# [[menu.main]]
-#     name = "Fondo"
-#     weight = -110
-#     identifier = "about"
-#     url = "/fondo/"
-#
+ [[menu.main]]
+    name = "Fondo"
+    weight = -110
+    identifier = "about"
+    url = "/fondo/"
+
 [[menu.main]]
     name = "Historias"
     weight = -110

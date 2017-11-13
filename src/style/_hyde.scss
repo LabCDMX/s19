@@ -72,12 +72,12 @@ html {
  */
 
 .content {
-    padding:                   1em .8em
+    padding: 1em .8em
 }
 
-@media (min-width:             48em) {
+@media (min-width:48em) {
     .content {
-        padding:               0;
+        padding: 0;
     }
 }
 
@@ -89,21 +89,21 @@ html {
  * Flip the orientation of the page by placing the `.sidebar` on the right.
  */
 
-@media (min-width:             48em) {
+@media (min-width: 48em) {
     .layout-reverse .sidebar {
-        left:                  auto;
-        right:                 0;
+        left : auto;
+        right: 0;
     }
     .layout-reverse .content {
-        margin-left:           2rem;
-        margin-right:          20rem;
+        margin-left : 2rem;
+        margin-right: 20rem;
     }
 }
 
-@media (min-width:             64em) {
+@media (min-width:    64em) {
     .layout-reverse .content {
-        margin-left:           4rem;
-        margin-right:          22rem;
+        margin-left : 4rem;
+        margin-right: 22rem;
     }
 }
 
@@ -151,23 +151,6 @@ h1 {
     letter-spacing:  -1px;
 }
 
-.logos {
-    width:           8rem;
-    padding-top:     1rem;
-    margin-bottom:   1rem;
-}
-
-@media (min-width:   48rem) {
-    .logos {
-        grid-column: 2/4;
-        grid-row:    1;
-        margin-left: none;
-    }
-}
-
-.logos img {
-    max-width:       9rem;
-}
 
 .big-text {
     font-size:       2em;
