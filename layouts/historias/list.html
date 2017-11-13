@@ -1,111 +1,103 @@
 {{ define "main" -}}
 <div class="headings">
-  <h1 class="big-text"> Historias del 19s.</h1>
-  <p class="contexts"> Entrevistas</p>
+    <h1 class="big-text"> Historias del 19s.</h1>
+    <h1 class="red"> Entrevistas</h1>
+    <p class="contexts"></p>
 </div>
 <!-- contenido de los post -->
 <ul class="post-grid content">
-  <!--  ciclo for que llena los posts-->
-  {{ range .Data.Pages -}}
-    {{ if .Params.head_image}}
-  <div class="post">
-    <h2 class="post-title">
-      <!--
+    <!--  ciclo for que llena los posts-->
+    {{ range .Data.Pages -}} {{ if .Params.head_image}}
+    <div class="post boxshadow">
+        <!-- imagen principal -->
+        <div class="align-end">
+            <a href="{{ .Permalink }}">
+                <img src="{{ .Params.head_image }}" alt="{{ .Title }}">
+            </a>
+        </div>
+        <h3 class="post-title">
+            <!--
       🚨 Revisa si hay links a contactos, cuales, y como los agrega como iconos al principio del post.🚨
       -->
-      {{ if .Params.facebook}}
-      <a href="http://{{ .Params.facebook }}">
-        <i class="fa fa-facebook"></i>
-      </a>
-      {{ end }}
-      {{ if .Params.twitter}}
-      <a href="http://www.twitter.com/{{ .Params.twitter }}">
-        <i class="fa fa-twitter"></i>
-      </a>
-      {{ end }}
-      {{ if .Params.sitio}}
-      <a href="http://{{ .Params.sitio }}">
-        <i class="fa fa-globe"></i>
-      </a>
-      {{ end }}
-      {{ if .Params.correo}}
-        <a href="{{ .Params.correo }}">
-          <i class="fa fa-envelope" ></i>
-        </a>
-      {{ end }}
-      {{ if .Params.telefono}}
-        <a href="tel:{{ .Params.telefono }}">
-          <i class="fa fa-phone" ></i>
-        </a>
-      {{ end }}
-      <!-- titulo del proyecto -->
-      <a href="{{ .Permalink }}" class="post-title">
+            {{ if .Params.facebook}}
+            <a href="http://{{ .Params.facebook }}">
+                <i class="fa fa-facebook"></i>
+            </a>
+            {{ end }} {{ if .Params.twitter}}
+            <a href="http://www.twitter.com/{{ .Params.twitter }}">
+                <i class="fa fa-twitter"></i>
+            </a>
+            {{ end }} {{ if .Params.sitio}}
+            <a href="http://{{ .Params.sitio }}">
+                <i class="fa fa-globe"></i>
+            </a>
+            {{ end }} {{ if .Params.correo}}
+            <a href="{{ .Params.correo }}">
+                <i class="fa fa-envelope"></i>
+            </a>
+            {{ end }} {{ if .Params.telefono}}
+            <a href="tel:{{ .Params.telefono }}">
+                <i class="fa fa-phone"></i>
+            </a>
+            {{ end }}
+            <!-- titulo del proyecto -->
+            <a href="{{ .Permalink }}" class="post-title">
         {{ .Title }}
       </a>
-      <!-- imagen del proyecto --> </h2>
-    <!-- imagen principal -->
-    <div class="align-end">
-      <a href="{{ .Permalink }}">
-        <img src="{{ .Params.head_image }}" alt="{{ .Title }}">
-      </a>
+            <!-- imagen del proyecto -->
+        </h3>
     </div>
-
-  </div>
-    {{ end }}
-  {{- end }}
+    {{ end }} {{- end }}
 </ul>
 <div class="headings">
-  <p class="contexts"> Videos</p>
+    <h1 class="red"> Videos</h1>
+    <p class="contexts"></p>
 </div>
-    <!-- para videos -->
+<!-- para videos -->
 <ul class="post-grid content">
 
-  {{ range .Data.Pages -}}
-    {{ if .Params.vimeo}}
-  <div class="post">
-    <h2 class="post-title">
-      <!--
+    {{ range .Data.Pages -}} {{ if .Params.vimeo}}
+    <div class="post boxshadow">
+
+        <!-- video excerpt -->
+        <div class="video-list fit ">
+            <iframe width="100%" height="100%" src="https://player.vimeo.com/video{{  .Params.vimeo}}?title=0&byline=0&portrait=0" frameborder="0">
+      </iframe>
+        </div>
+        <h3 class="post-title">
+            <!--
       🚨 Revisa si hay links a contactos, cuales, y como los agrega como iconos al principio del post.🚨
       -->
 
-      {{ if .Params.facebook}}
-      <a href="http://{{ .Params.facebook }}">
-        <i class="fa fa-facebook"></i>
-      </a>
-      {{ end }}
-      {{ if .Params.twitter}}
-      <a href="http://www.twitter.com/{{ .Params.twitter }}">
-        <i class="fa fa-twitter"></i>
-      </a>
-      {{ end }}
-      {{ if .Params.sitio}}
-      <a href="http://{{ .Params.sitio }}">
-        <i class="fa fa-globe"></i>
-      </a>
-      {{ end }}
-      {{ if .Params.correo}}
-        <a href="{{ .Params.correo }}">
-          <i class="fa fa-envelope" ></i>
-        </a>
-      {{ end }}
-      {{ if .Params.telefono}}
-        <a href="tel:{{ .Params.telefono }}">
-          <i class="fa fa-phone" ></i>
-        </a>
-      {{ end }}
-      <!-- titulo del proyecto -->
-      <a href="{{ .Permalink }}" class="post-title">
+            {{ if .Params.facebook}}
+            <a href="http://{{ .Params.facebook }}">
+                <i class="fa fa-facebook"></i>
+            </a>
+            {{ end }} {{ if .Params.twitter}}
+            <a href="http://www.twitter.com/{{ .Params.twitter }}">
+                <i class="fa fa-twitter"></i>
+            </a>
+            {{ end }} {{ if .Params.sitio}}
+            <a href="http://{{ .Params.sitio }}">
+                <i class="fa fa-globe"></i>
+            </a>
+            {{ end }} {{ if .Params.correo}}
+            <a href="{{ .Params.correo }}">
+                <i class="fa fa-envelope"></i>
+            </a>
+            {{ end }} {{ if .Params.telefono}}
+            <a href="tel:{{ .Params.telefono }}">
+                <i class="fa fa-phone"></i>
+            </a>
+            {{ end }}
+            <!-- titulo del proyecto -->
+            <a href="{{ .Permalink }}" class="post-title">
         {{ .Title }}
       </a>
-      <!-- imagen del proyecto --> </h2>
-    <!-- video excerpt -->
-    <div class="video-list fit ">
-      <iframe width="100%" height="100%" src="https://player.vimeo.com/video{{  .Params.vimeo}}?title=0&byline=0&portrait=0" frameborder="0">
-      </iframe>
-    </div>
+            <!-- imagen del proyecto -->
+        </h3>
 
-  </div>
-    {{ end }}
-  {{- end }}
+    </div>
+    {{ end }} {{- end }}
 </ul>
 {{- end }}

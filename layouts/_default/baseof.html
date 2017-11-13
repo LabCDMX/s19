@@ -1,8 +1,17 @@
-{{ partial "head.html" . }}
-  <body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
-  {{ partial "sidebar.html" . }}
-  {{ block "main" . -}}{{- end }}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" {{with .Site.LanguageCode}} xml:lang="{{.}}" lang="{{.}}" {{end}}>
 
+{{ partial "head.html" . }}
+
+<body  class = "{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
+<div class = "main">
+    {{ partial "sidebar.html" . }} 
+    {{ block "main" . -}}{{- end }} 
     {{ template "_internal/google_analytics_async.html" . }}
-  </body>
+</div>
+</body>
+<div class = "main-chatbot">
+    {{ partial "chatbot.html" . }}
+</div>
+
 </html>

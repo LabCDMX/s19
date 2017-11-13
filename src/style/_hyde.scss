@@ -1,0 +1,448 @@
+/*
+ *  __                  __
+ * /\ \                /\ \
+ * \ \ \___   __  __   \_\ \     __
+ *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
+ *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
+ *    \ \_\ \_\/`____ \ \___,_\ \____\
+ *     \/_/\/_/`/___/> \/__,_ /\/____/
+ *                /\___/
+ *                \/__/
+ *
+ * Designed, built, and released under MIT license by @mdo. Learn more at
+ * https:                      //github.com/poole/hyde.
+ */
+
+
+/*
+         * Contents
+         *
+         * Global resets
+         * Sidebar
+         * Container
+         * Reverse layout
+         * Themes
+         * Custom changes
+         */
+
+e
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+html {
+    font-family     : "Work Sans", Helvetica, Arial, sans-serif;
+    background-color: #FCFDF3;
+    overflow: hidden;
+}
+
+@media (min-width:             48em) {
+    html {
+        font-size:             16px;
+    }
+}
+
+@media (min-width:             58em) {
+    html {
+        font-size:             20px;
+    }
+}
+
+.main {
+    background-color:          #FCFDF3;
+}
+
+@media (min-width:             48em) {
+    .main {
+        display:               grid;
+        grid-template-columns: 2fr repeat(8, 1fr);
+        grid-template-rows:    auto;
+        grid-gap:              20px;
+        justify-items:         stretch;
+    }
+}
+
+
+/* Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.sidebar`.
+ */
+
+.content {
+    padding: 1em .8em
+}
+
+@media (min-width:48em) {
+    .content {
+        padding: 0;
+    }
+}
+
+
+
+/*
+ * Reverse layout
+ *
+ * Flip the orientation of the page by placing the `.sidebar` on the right.
+ */
+
+@media (min-width: 48em) {
+    .layout-reverse .sidebar {
+        left : auto;
+        right: 0;
+    }
+    .layout-reverse .content {
+        margin-left : 2rem;
+        margin-right: 20rem;
+    }
+}
+
+@media (min-width:    64em) {
+    .layout-reverse .content {
+        margin-left : 4rem;
+        margin-right: 22rem;
+    }
+}
+
+
+/*
+ * Themes
+ *
+ * As of v1.1, Hyde includes optional themes to color the sidebar and links
+ * within blog posts. To use, add the class of your choosing to the `body`.
+ */
+
+
+/* Base16 (http:               //chriskempson.github.io/base16/#default) */
+
+
+/* Red */
+
+
+/* Orange */
+
+.theme-base-09 .sidebar {
+    background-color: #F92648;
+}
+
+.theme-base-09 .content a,
+.theme-base-09 .related-posts {
+    color:            #F92648;
+}
+
+.theme-base-09 .content .container {
+    background-color: #F9F9EF;
+}
+
+
+/* Custom changes
+*
+*added after the fact.
+*
+*/
+
+
+/*text*/
+
+h1 {
+    letter-spacing:  -1px;
+}
+
+
+.big-text {
+    font-size:       2em;
+    padding-bottom:  3rem
+}
+
+@media (min-width:   48em) {
+    .big-text {
+        font-size:   3.5rem;
+        line-height: 95%;
+    }
+}
+
+@media (min-width:   64em) {
+    .big-text {
+        font-size:   4.2rem;
+    }
+}
+
+.red {
+    color:                     #F92648;
+}
+
+
+/*
+  ⚾️  STRUCTURE
+  ⚾️  1. Conainers
+  ⚾️  2. headings
+  ⚾️  3. limiters
+  ⚾️
+*/
+
+.hr-white {
+    border-top:    2px solid #FCFDF3;
+    margin-bottom: 1rem;
+}
+
+.row-2 {
+    grid-row:      2;
+}
+
+@media (min-widht: 48em) {
+    .row-1 {
+        grid-row:  1;
+    }
+    .row-2 {
+        grid-row:  2;
+    }
+}
+
+
+.headings {
+    min-height: 120%;
+    margin: 1rem 1rem;
+}
+
+@media (min-width: 48em) {
+    .headings {
+        margin:      0;
+        min-height:  10vh;
+        grid-column: 2/9;
+    }
+    .container {
+        display:     grid;
+        grid-column: 3 / 9;
+        grid-row:    4;
+        padding:     0;
+    }
+    .container-2 {
+        display:     grid;
+        grid-column: 3 / 9;
+        grid-row:    4;
+        padding:     0;
+    }
+}
+
+@media (min-width: 64em) {
+    .headings {
+        grid-column: 2/8;
+    }
+    .container {
+        grid-column: 4/8;
+    }
+    .container-2 {
+        grid-column: 4/8;
+    }
+}
+
+
+/*links*/
+
+a button {
+    letter-spacing: 1.2px;
+    font-size:      .7em;
+    text-align:     left;
+    color:          #FCFDF3;
+}
+
+@media (min-width:48em) {
+    a button {
+        letter-spacing: 1.2px;
+        font-size:      .7em;
+        text-align:     left;
+        color:          #FCFDF3;
+    }
+}
+
+a:hover,
+a:focus,
+li a:hover,
+li a:focus {
+    color:            #313131;
+}
+
+button {
+    border:           none;
+    padding:          .7em .8em;
+    margin-top:       1px;
+    margin-bottom:    1px;
+    background-color: #F92648;
+    text-align:       center;
+    width:            2.5em;
+    border-radius:    50%;
+}
+
+button .direccion {
+    text-align:       left;
+    font-size:        1rem;
+    color:            #FCFDF3;
+}
+
+.boxshadow {
+    box-shadow:       0;
+    transition:       box-shadow .3s cubic-bezier(.46, .03, .52, .96);
+}
+
+.button2 {
+    height:           3em;
+    width:            3em;
+    border-radius:    50%;
+}
+
+.boxshadow:hover {
+    box-shadow:       0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity:          1;
+}
+
+
+/*limiters*/
+
+.fit {
+    width:           auto;
+}
+
+@media (min-width:   48em) {
+    .fit {
+        grid-column: 2 / 9
+    }
+}
+
+@media (min-width:   64em) {
+    .fit {
+        grid-column: 2 / 8
+    }
+}
+
+
+/*
+🏀   CONTENT AND MEDIA
+🏀  1 .Posts
+🏀  2 .imgages
+🏀  3. Video
+🏀
+🏀
+🏀
+🏀  En general se definenen las posiciones en la reticula de Css
+🏀  pero no se mete en temas de estilos .
+*/
+
+
+/*posts*/ 
+.contexts {
+    /*son los textos chicos a lo largo de los posts*/
+    color: #F92648;
+    line-height: 200%;
+    border-bottom: 2px solid;
+}
+
+.post {
+    padding: .8rem .8rem .8rem .8rem;
+    border-radius: 5px;
+}
+
+.post,
+.post-grid {
+    grid-column: 2 span 3;
+}
+
+.post p,
+.post-grid p {
+    font-size: .8rem;
+    line-height: 130%
+}
+
+@media (min-width:48rem) {
+    .post p,
+    h1 {
+        font-size: 1rem;
+        line-height: 110%
+    }
+    .post-grid {
+        grid-column: 2/-2;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(1, 1fr)
+    }
+    .post-grid .post-title {
+        min-height: 2rem;
+    }
+}
+
+@media (min-width:64em) {
+    .post-grid {
+        grid-column: 2/-3;
+        grid-template-columns: repeat(2, 1fr)
+    }
+    .post-grid .post-title {
+        min-height: 2rem;
+    }
+}
+
+@media (min-width:220em) {
+    .post-grid {
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+.post-title a {
+    color: #F92648;
+}
+
+.contacto {
+    grid-row: 4;
+}
+
+@media (min-width:48em) {
+    .contacto {
+        grid-row: 4;
+        grid-column: 1 / 3;
+        padding-left: 20px;
+    }
+}
+
+@media (min-width:64em) {
+    .contacto {
+        grid-row: 4;
+        grid-column: 2 / 4;
+        padding-left: 0;
+    }
+}
+
+.numeralia {
+    font-size: .7em;
+    color: #F72647;
+}
+
+/*images*/
+
+.head-img {
+    height:                    80vh;
+}
+
+.hero,
+.wide {
+    display:                   flex;
+    align-items:               center;
+    justify-content:           center;
+    width:                     100%;
+    overflow:                  hidden;
+    background-color:          black;
+    min-height:                10vh;
+}
+
+@media (min-width:             48em) {
+    .hero,
+    .wide {
+        grid-column:           1 / -1;
+        grid-row:              3
+    }
+    .hero img,
+    .wide img {
+        width:                 100%;
+        margin:                auto;
+    }
+}

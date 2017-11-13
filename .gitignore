@@ -1,5 +1,7 @@
 # Hugo default output directory
-/public/
+
+/public
+.sass-cache/
 
 ## OS Files
 # Windows
