@@ -22,9 +22,9 @@
 
 
 .logos img {
-    max-width:         6rem;
-    @media (min-width: 24em) {
-        max-width:     9rem;
+    max-width         : 6rem;
+    @media (min-width : 24em) {
+    max-width         : 9rem;
     }
 }
 
@@ -43,27 +43,27 @@
 .sidebar:hover,
 .sidebar:active,
 .sidebar:focus {
-    height: 40vh
+    height: 50vh
 }
 
 @media (min-width: 48em) {
     .sidebar {
-        height: 4em;
-        padding: 0;
-        grid-column: 1 /-1;
-        grid-row: 1;
+        height                 : 4em;
+        padding                : 0;
+        grid-column            : 1 /-1;
+        grid-row               : 1;
         /* css grids inside */
-        display: grid;
-        grid-gap: 20px;
-        align-items: flex-start;
-        justify-content: flex-start;
-        grid-template-columns: 2fr repeat(8, 1fr);
-        grid-template-rows: 4rem auto;
-    }
+        display                : grid;
+        grid-gap               : 20px;
+        align-items            : flex-start;
+        justify-content        : flex-start;
+        grid-template-columns  : 2fr repeat(8, 1fr);
+        grid-template-rows     : 4rem auto;
+        }
     .sidebar:hover,
     .sidebar:active,
     .sidebar:focus {
-        height: 30vh;
+        height: 40vh;
     }
 
 }
@@ -85,15 +85,15 @@
 /* About section */
 
 .sidebar-about h1 {
-    color: #fff;
-    margin-top: 0;
-    font-size: 2.25rem;
+    color      : #fff;
+    margin-top : 0;
+    font-size  : 2.25rem;
 }
 
 .sidebar-about h3 {
-    color: #fff;
-    margin-top: 0;
-    font-size: 1.5rem;
+    color      : #fff;
+    margin-top : 0;
+    font-size  : 1.5rem;
 }
 
 
@@ -142,17 +142,17 @@ a.sidebar-nav-item:focus {
 }
 
 .hide-me {
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.5s, visibility 1s cubic-bezier(.46, .03, .52, .96);
-}
+    visibility : hidden;
+    opacity    : 0;
+    transition : opacity 0.5s, visibility 1s cubic-bezier(.46, .03, .52, .96);
+    }
 
 .sidebar:hover .hide-me,
 .sidebar:focus .hide-me {
-    visibility: visible;
-    opacity: 1;
-    transition: opacity 0.5s, visibility 1s cubic-bezier(.46, .03, .52, .96);
-}
+    visibility : visible;
+    opacity    : 1;
+    transition : opacity 0.5s, visibility 1s cubic-bezier(.46, .03, .52, .96);
+    }
 
 .hamburguer {
     position: absolute;
@@ -161,10 +161,10 @@ a.sidebar-nav-item:focus {
 
     @media (min-width: 48em) {
 
-        position: inherit;
-        grid-column: -3;
-        align-self: center;
-        justify-self: center;
+        position     : inherit;
+        grid-column  : -3;
+        align-self   : center;
+        justify-self : center;
 
     }
 }
