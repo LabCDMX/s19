@@ -3,100 +3,134 @@
 <div class = "chatbot" id = "chatbot" >
 <transition name="slide-fade">
 
-    <div cf-context id = "cf-form" v-show = "seen"> 
+    <div cf-context id="cf-form" v-show="seen">
             <form cf-form id="form" action="index.html" method="post" target="_blank">
                 <!-- Tipo de formulario   -->
                 <!-- Nombres -->
                 <div>
                     <label for="firstname">
-                        Hola! Gracias por tu interés en Iniciativas 19. Dinos cmo te llamas
+                        Hola! Gracias por tu interés en Iniciativas 19. Dinos como te llamas
                     </label>
-                    <input type="text" cf-questions="Gracias por tu interes en Iniciativas 19&&¿Cuál es tu nombre?" name="firstname" id="firstname"
-                        cf-input-placeholder="Solo tu primer nombre">
+                    <input
+                       type="text"
+                       cf-questions="!Hola¡&&¿Cuál es tu nombre?"
+                       name="firstname"
+                       id="firstname"
+                       cf-input-placeholder="Tu primer nombre aqui">
                 </div>
                 <div>
                     <label for="lastname">
                         ¿Cómo te appellidas?
                     </label>
-                    <input type="text" cf-questions="  ¿Cuál es tu apilldo, {firstname}? || ¿Cómo te apellidas, {firstname} ?" name="lastname"
-                        id="lastname" cf-input-placeholder="pueden ser uno o dos apellidos">
+                    <input
+                       type="text"
+                       cf-questions="¡Genial! && Gracias por visitar Iniciativas 19 &&
+                       ¿como te apellidas {firstname}?"
+                       cf-input-placeholder="Tu primer nombre aqui"
+                       name="lastname"
+                       id="lastname" 
+                       cf-input-placeholder="pueden ser uno o dos apellidos">
                 </div>
-                <div cf-questions="Perfecto {firstname}. Ahora dinos que operacion te gustaria realziar 🤔 || ¿Qué operacion deseas realizar, {firstname} ?">
-                    <input type="radio" name="cfc-path" value="a" id="path-a">
-                    <label for="path-a">
-                        Recomendar a una iniciativa para participar por el Fondo Iniciativas 19.
+                <div
+                  cf-questions="Ahora escoge una opción. || ¿Qué operacion deseas realizar, {firstname} ?"
+                  cf-input-placeholder="Si aún no conoces el fondo o el espacio de trabajo, sigue la
+                  liga en el menu superior.">
+
+                    <input type="radio" name="multi-1" value="a" id="multi-1-a">
+                    <label for="multi-1-a">
+                       Recomienda una Iniciativa
                     </label>
-                    <input type="radio" name="cfc-path" value="b" id="path-b">
-                    <label for="path-b">
-                        Registrarte para obtener el Fondo Iniciativas 19
+                  
+                    <input type="radio" name="multi-1" value="b"
+                    id="multi-1-b" @click="location.href='iniciativas19.labcd.mx/fondo'">
+                    <label for="multi-1-b">
+                       Participa por el Fondo Iniciativas 19
                     </label>
-                    <input type="radio" name="cfc-path" value="b" id="path-c">
-                    <label for="path-c">
-                        Registrarte para obtener un espacio de trabajo gratis durante 3 meses.
+                    
+                    <input type="radio" name="multi-1" value="c" id="multi-1-c"
+                    @click="location.href='iniciativas19.labcd.mx/fondo'">
+                    <label for="multi-1-c">
+                        Participa por un espacio de trabajo Gratis
                     </label>
                 </div>
                 <!--🚨  path a 🚨 -->
                 <div>
-                    <input cf-questions="Cual es tu correo electronico, {firstname}?" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" cf-error="Esto no parece ser un correo 🤔 ."
-                        type="email" id="e-mail" name="email" cf-conditional-cfc-path="a">
+                    <input 
+                        cf-questions="Perfecto && ¿Cuál es tu correo electrónico, {firstname}?" 
+                        pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" 
+                        cf-error="Esto no parece ser un correo electrónico 🤔 ."
+                        type="e-mail" id="e-mail" name="e-mail" 
+                        cf-input-placeholder="Usaremos este correo para compartirte actualizaciones"
+                        cf-conditional-multi-1="a">
                 </div>
                 <div>
                     <label for="nombre-iniciativa">
                         Nombre de la iniciativa
                     </label>
-                    <input type="text" name="nombre-iniciativa" id="nombre-iniciativa" cf-questions=" Perfecto && ¿Cómo se llama la iniciativa que quieres recomendar?"
-                        cf-input-placeholder=" Solo texto plz." cf-conditional-cfc-path="a">
+                    <input 
+                       type="text"
+                       name="iniciativa"
+                       id="iniciativa"
+                       cf-questions=" Perfecto && ¿Cómo se llama la Iniciativa?"
+                       cf-input-placeholder=""
+                       cf-conditional-multi-1="a">
                 </div>
-                <select cf-questions=" Genial && oye && Donde podemos encontralos?" cf-input-placeholder=" Solo una via de contacto. Nosotros les haremos saber que ya estan registrados :)."
+                <select 
+                    cf-questions="¿{iniciativa}? && ¿Dónde podemos encontralos?" 
+                    cf-input-placeholder="Selecciona la red por la que conociste a la iniciativa"
                     cf-conditional-cfc-path="a">
-                    <option value="facebook"> Facebook</option>
+                    <option value="face"> Facebook</option>
                     <option value="twitter"> twitter</option>
-                    <option value="instagram"> instagram</option>
-                    <option value="correo-electronico"> correo electronico</option>
+                    <option value="insta"> instagram</option>
                 </select>
                 <div>
                     <label for="contacto-iniciativa">
                         Cual es el contacto de la iniciativa
                     </label>
-                    <input type="text" name="contacto-iniciativa" id="contacto-iniciativa" cf-questions="¿y cual es?" cf-input-placeholder="Escribelo como tu lo conozocas. nosotros los buscamos"
-                        cf-conditional-cfc-path="a">
+                    <input
+                       type="text"
+                       name="contacto-iniciativa"
+                       id="contacto-iniciativa"
+                       cf-questions="¿y cual es?"
+                       cf-input-placeholder="Escribelo como tu lo conozocas. nosotros los buscamos"
+                       cf-conditional-multi-1="a">
                 </div>
                 <div>
-                    <input cf-questions="Eso sería todo && Quieres mandar la información ya {firstname}? && Solo necesitas escribir 'enviar'"
-                        pattern="[E,e]nviar" cf-conditional-cfc-path="a" cf-input-placeholder="SI lo deseas, puedes cambiar tus respuestas anteriores."
-                        name="end" type="text" id="end">
+                        <input 
+                        cf-questions="Eso sería todo 
+                        && Quieres mandar la información ya {firstname}?
+                        && Solo necesitas escribir 'enviar'"
+                        pattern="[E,e]nviar"
+                        name="end"
+                        type="text"
+                        id="end"
+                        cf-input-placeholder="SI lo deseas, puedes cambiar tus respuestas anteriores."
+                        cf-conditional-multi-1="a"
+                        >
                 </div>
                 <!--🚨  path b 🚨 -->
-                <div>
-                    <input cf-questions=" perfecto && Si aun no sabes que es , entra en http://iniciativas19.labcd.mx/fono && Si ya sabes, solo sigue la liga :)"
-                        pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" cf-input-placeholder="Este es el final :)." cf-error="Este es el final :)."
-                        type="text" id="path-b-1" name="path-b-1" cf-conditional-cfc-path="b">
-                </div>
-                <div>
-                    <input cf-questions=" {firstname}, Sigue esta liga para participar por el espacio de trabajo && Si aun no sabes que es , entra en http://iniciativas19.labcd.mx/cowork && 😄 "
-                        pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" cf-input-placeholder="Si lo deseas, puedes cambiar tu respuesta anterior para ver mas opciones"
-                        type="text" id="path-c-1" name="path-c-1" cf-conditional-cfc-path="c">
-                </div>
-            </form>
-    </div>
-</transition>
+          </form>
+       </div>
+    </transition>
+
     <button v-if='seen' class="boxshadow" v-on:click="createChatbot();">
         <i class="fa fa-times "></i>
         Regresa al sitio
     </button>
+
     <button v-else
         class = "boxshadow" 
         v-on:click = "seen = !seen">
         Realiza tu propuesta!
     </button>
 
-</div>
+    </div>
 
 <script> 
 
-  var context = document.getElementById("cf-form");   
-    var form = document.getElementById("form");
-    var cfForm = document.getElementById('#conversational-form');
+    var context = document.getElementById("cf-form");
+    var form    = document.getElementById("form");
+    var cfForm  = document.getElementById('#conversational-form');
 
     // Script para hacer aparecer el archivo con VUE JS
     var app = new Vue({
