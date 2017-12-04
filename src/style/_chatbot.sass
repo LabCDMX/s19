@@ -6,7 +6,7 @@ $cf-color-black: black
 $cf-color-red  : #f92648
 $fonts         : 'Work Sans', 'Helvetica', sans-serif, helvetica
 
-#form 
+#gform 
     visibility: hidden
 
 .conversational-forms
@@ -21,9 +21,10 @@ $fonts         : 'Work Sans', 'Helvetica', sans-serif, helvetica
         width   : 300px
         z-index : 20
         @media (min-width: 48em)
-            width: 600px
+            width: 500px
             right: 1em
-    
+            height: 50vh
+
     button
         border-radius: 0px
         width        : auto
@@ -49,10 +50,10 @@ $fonts         : 'Work Sans', 'Helvetica', sans-serif, helvetica
 // animations
 
 .slide-fade-enter-active 
-    transition: all .3s ease
+    transition: all .2s ease
 
 .slide-fade-leave-active 
-    transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0)
+    transition: all .2s cubic-bezier(1.0, 0.5, 0.8, 1.0)
 
 .slide-fade-enter, .slide-fade-leave-to
     transform: translateX(10px)

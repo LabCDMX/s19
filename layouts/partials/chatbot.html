@@ -3,8 +3,14 @@
 <div class = "chatbot" id = "chatbot" >
 <transition name="slide-fade">
 
-    <div cf-context id="cf-form" v-show="seen">
-            <form cf-form id="form" action="index.html" method="post" target="_blank">
+    <div cf-context
+      id="cf-form" v-show="seen">
+            <form
+              cf-form
+              id="gform"
+              action="https://script.google.com/macros/s/AKfycbwe467S-ZTXv7t_2OocuJ1rL7CBDroc-lVp5kpsgVGZbaASYoQ/exec"
+              method="POST"
+              >
                 <!-- Tipo de formulario   -->
                 <!-- Nombres -->
                 <div>
@@ -13,7 +19,7 @@
                     </label>
                     <input
                        type="text"
-                       cf-questions="!Hola¡&&¿Cuál es tu nombre?"
+                       cf-questions="¡Hola!&& Gracias por visitar Iniciativas 19&&¿Cuál es tu nombre?"
                        name="firstname"
                        id="firstname"
                        cf-input-placeholder="Tu primer nombre aqui">
@@ -24,8 +30,7 @@
                     </label>
                     <input
                        type="text"
-                       cf-questions="¡Genial! && Gracias por visitar Iniciativas 19 &&
-                       ¿como te apellidas {firstname}?"
+                       cf-questions="¡Genial!  && ¿como te apellidas {firstname}?"
                        cf-input-placeholder="Tu primer nombre aqui"
                        name="lastname"
                        id="lastname" 
@@ -40,9 +45,9 @@
                     <label for="multi-1-a">
                        Recomienda una Iniciativa
                     </label>
-                  
+                  <!-- 
                     <input type="radio" name="multi-1" value="b"
-                    id="multi-1-b" @click="location.href='iniciativas19.labcd.mx/fondo'">
+                    id="multi-1-b" onclick="location.href='iniciativas19.labcd.mx/fondo'">
                     <label for="multi-1-b">
                        Participa por el Fondo Iniciativas 19
                     </label>
@@ -50,8 +55,8 @@
                     <input type="radio" name="multi-1" value="c" id="multi-1-c"
                     @click="location.href='iniciativas19.labcd.mx/fondo'">
                     <label for="multi-1-c">
-                        Participa por un espacio de trabajo Gratis
-                    </label>
+                        Participa por un espacio de trabajo gratis
+                    </label>   --->
                 </div>
                 <!--🚨  path a 🚨 -->
                 <div>
@@ -59,12 +64,12 @@
                         cf-questions="Perfecto && ¿Cuál es tu correo electrónico, {firstname}?" 
                         pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" 
                         cf-error="Esto no parece ser un correo electrónico 🤔 ."
-                        type="e-mail" id="e-mail" name="e-mail" 
+                        type="e-mail" id="email" name="email" 
                         cf-input-placeholder="Usaremos este correo para compartirte actualizaciones"
                         cf-conditional-multi-1="a">
                 </div>
                 <div>
-                    <label for="nombre-iniciativa">
+                    <label for="iniciativa">
                         Nombre de la iniciativa
                     </label>
                     <input 
@@ -75,38 +80,28 @@
                        cf-input-placeholder=""
                        cf-conditional-multi-1="a">
                 </div>
-                <select 
+                <div
                     cf-questions="¿{iniciativa}? && ¿Dónde podemos encontralos?" 
                     cf-input-placeholder="Selecciona la red por la que conociste a la iniciativa"
-                    cf-conditional-cfc-path="a">
-                    <option value="face"> Facebook</option>
-                    <option value="twitter"> twitter</option>
-                    <option value="insta"> instagram</option>
-                </select>
+                    cf-conditional-multi-1="a">
+                    < input type="radio" name="red" value="face"> Facebook</option>
+                    < input type="radio" name="red" value="twitter"> twitter</option>
+                    < input type="radio" name="red" value="insta"> instagram</option>
+                </div>
                 <div>
-                    <label for="contacto-iniciativa">
+                    <label for="contacto">
                         Cual es el contacto de la iniciativa
                     </label>
                     <input
                        type="text"
-                       name="contacto-iniciativa"
-                       id="contacto-iniciativa"
+                       name="contacto"
+                       id="contacto"
                        cf-questions="¿y cual es?"
                        cf-input-placeholder="Escribelo como tu lo conozocas. nosotros los buscamos"
                        cf-conditional-multi-1="a">
                 </div>
                 <div>
-                        <input 
-                        cf-questions="Eso sería todo 
-                        && Quieres mandar la información ya {firstname}?
-                        && Solo necesitas escribir 'enviar'"
-                        pattern="[E,e]nviar"
-                        name="end"
-                        type="text"
-                        id="end"
-                        cf-input-placeholder="SI lo deseas, puedes cambiar tus respuestas anteriores."
-                        cf-conditional-multi-1="a"
-                        >
+                  <input este es el final type="submit" value="aprieta el botton" >Enviar</input>
                 </div>
                 <!--🚨  path b 🚨 -->
           </form>
@@ -128,9 +123,7 @@
 
 <script> 
 
-    var context = document.getElementById("cf-form");
-    var form    = document.getElementById("form");
-    var cfForm  = document.getElementById('#conversational-form');
+
 
     // Script para hacer aparecer el archivo con VUE JS
     var app = new Vue({

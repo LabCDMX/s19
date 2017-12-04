@@ -8,9 +8,9 @@
 <ul class="post-grid content">
     <!--  ciclo for que llena los posts-->
     {{ range .Data.Pages -}} {{ if .Params.head_image}}
-    <div class="post boxshadow">
+    <div class="post ">
         <!-- imagen principal -->
-        <div class="align-end">
+        <div class="boxshadow">
             <a href="{{ .Permalink }}">
                 <img src="{{ .Params.head_image }}" alt="{{ .Title }}">
             </a>
@@ -21,7 +21,8 @@
       -->
             {{ if .Params.facebook}}
             <a href="http://{{ .Params.facebook }}">
-                <i class="fa fa-facebook"></i>
+              <i class="fa fa-facebook"></i>
+
             </a>
             {{ end }} {{ if .Params.twitter}}
             <a href="http://www.twitter.com/{{ .Params.twitter }}">
@@ -43,7 +44,7 @@
             <!-- titulo del proyecto -->
             <a href="{{ .Permalink }}" class="post-title">
         {{ .Title }}
-      </a>
+            </a>
             <!-- imagen del proyecto -->
         </h3>
     </div>
@@ -57,10 +58,10 @@
 <ul class="post-grid content">
 
     {{ range .Data.Pages -}} {{ if .Params.vimeo}}
-    <div class="post boxshadow">
+    <div class="post ">
 
         <!-- video excerpt -->
-        <div class="video-list fit ">
+        <div class="video-list fit boxshadow">
             <iframe width="100%" height="100%" src="https://player.vimeo.com/video{{  .Params.vimeo}}?title=0&byline=0&portrait=0" frameborder="0">
       </iframe>
         </div>

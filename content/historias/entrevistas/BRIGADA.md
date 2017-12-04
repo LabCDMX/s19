@@ -1,5 +1,6 @@
 ---
-title: "Brigada Lavandería"
+title: "
+«La ropa te ayuda a contar la historia de una persona»: Brigada Lavandería
 date: 2017-10-27T13:56:36-05:00
 draft: false
 author: "Miguel Ángel Morales"
@@ -28,8 +29,6 @@ vimeo: false
 #necesita ser codigo de origen de youtube (el chiquito)
 ---
 
-> «La ropa te ayuda a contar la historia de una persona»
-> Brigada Lavandería
 
 
 

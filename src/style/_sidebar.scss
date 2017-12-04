@@ -6,9 +6,13 @@
  *
  */
  
+
+$color-white: #FCFDF3;
+$color-red: #F92648;
+
 .logos {
-    width        : 8rem;
-    margin-bottom: 2em;
+    width        : 5rem;
+    margin-bottom: 1em;
 
     @media (min-width: 48rem) {
         padding-top: 1em;
@@ -16,39 +20,39 @@
         grid-row   : 1;
         margin-left: none;
 
-}
+    }
 }
 
 
 
 .logos img {
-    max-width         : 6rem;
+    max-width         : 5rem;
     @media (min-width : 24em) {
-    max-width         : 9rem;
+        max-width: 6rem;
     }
 }
 
 .sidebar {
-    text-align: center;
-    padding: 1rem 1rem;
-    color: #FCFDF3;
-    background-color: #F92648;
-    text-align: left;
-    /*just for the heck of it*/
-    height: 3em;
-    overflow: hidden;
-    transition: height .5s, grid-template-columns .5s cubic-bezier(.46, .03, .52, .96);
+    padding          : .6rem 1rem;
+    color            : $color-white;
+    background-color : #F92648;
+
+    text-align       : left;
+    height           : 2.55em;
+    overflow         : hidden;
+    transition       : all .5s, grid-template-columns .5s cubic-bezier(.46, .03, .52, .96);
 }
 
 .sidebar:hover,
 .sidebar:active,
 .sidebar:focus {
-    height: 50vh
+    height: 15em;
+    padding-bottom: 2em;
 }
 
 @media (min-width: 48em) {
     .sidebar {
-        height                 : 4em;
+        height                 : 3em;
         padding                : 0;
         grid-column            : 1 /-1;
         grid-row               : 1;
@@ -58,12 +62,12 @@
         align-items            : flex-start;
         justify-content        : flex-start;
         grid-template-columns  : 2fr repeat(8, 1fr);
-        grid-template-rows     : 4rem auto;
+        grid-template-rows     : 3rem auto;
         }
     .sidebar:hover,
     .sidebar:active,
     .sidebar:focus {
-        height: 40vh;
+        height: 25vh;
     }
 
 }
@@ -72,13 +76,13 @@
 /* Sidebar links */
 
 .sidebar a {
-    color: #FCFDF3;
-    font-size: .7em;
-    line-height: 1.2;
+    color     : $color-white;
+    font-size : .8em;
+
 }
 
 .sidebar a:hover {
-    color: #FCFDF3;
+    color: #F8F8F8;
 }
 
 
@@ -121,8 +125,6 @@ a.sidebar-nav-item:focus {
  */
 
 .sidebar-sticky a:hover {
-    text-decoration: underline;
-    opacity: 0.3;
 }
 
 @media (min-width: 48em) {
@@ -136,9 +138,10 @@ a.sidebar-nav-item:focus {
 /*sidebar*/
 
 .lead {
-    padding-top: .5rem;
+    padding-top: .3rem;
     grid-column: 2 /4;
     grid-row: 2;
+    font-size: .8em;
 }
 
 .hide-me {
@@ -157,7 +160,7 @@ a.sidebar-nav-item:focus {
 .hamburguer {
     position: absolute;
     right: 2em;
-    top: .8em;
+    top: .6em;
 
     @media (min-width: 48em) {
 
